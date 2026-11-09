@@ -31,6 +31,10 @@ make candidates FIELD=ownership
 
 `candidates` prints Markdown; add `--json` to the CLI to print the full JSON.
 
+## Daily schedule
+
+`.github/workflows/daily.yml` runs at 07:00 Asia/Seoul (22:00 UTC) and on manual dispatch. It runs `make daily` for `labor`, `ownership`, and `policy`, then commits `data/`, `digests/`, and `state/` to `main`.
+
 ## Environment
 
 - Python 3.14 via `.venv`
@@ -41,6 +45,7 @@ make candidates FIELD=ownership
 ## Layout
 
 ```
+.github/workflows/daily.yml  daily schedule, setup, and commit
 config/fields.yaml        field definitions (sources, keywords, limits)
 src/intellectism_news/    Python engine
 crates/inews-core/        Rust validator + URL normalizer
@@ -52,7 +57,7 @@ state/<field>/seen.json   per-field dedup state
 
 ## Milestones
 
-See [MILESTONES.md](MILESTONES.md). M0–M3 are complete; M4 is next.
+See [MILESTONES.md](MILESTONES.md). M0–M4 are complete; M5 is next.
 
 ## TDD
 

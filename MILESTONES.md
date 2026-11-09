@@ -67,12 +67,12 @@ Tests first:
 ## M4 — GitHub Actions
 
 Acceptance:
-- `.github/workflows/daily.yml` runs `make daily` for each field on a schedule.
-- It commits `data/` and `digests/`.
-- Free tier only.
+- [x] `.github/workflows/daily.yml` runs `make daily` for each field on a schedule.
+- [x] It commits `data/`, `digests/`, and `state/`.
+- [x] Free tier only (`ubuntu-latest`, `setup-uv`, `rustup`).
 
 Tests first:
-- [ ] `test_workflow.py` — workflow YAML has three fields and a schedule.
+- [x] `test_workflow.py` — workflow YAML has three fields and a schedule.
 
 ## M5 — Rust core expansion
 
