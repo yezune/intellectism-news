@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-10",
+ "field": "ownership",
+ "generated_at": "2026-11-09T22:06:05+00:00",
+ "fetched": 44,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:5d57e1aa081717ba",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Introducing Control Room: Human control over AI workloads",
+   "url": "https://openai.com/index/introducing-control-room",
+   "published": "2026-11-09T13:00:00+00:00",
+   "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://openai.com/index/introducing-control-room",
+   "candidate": true
+  },
+  {
+   "id": "url:057e22ab69c04fb1",
+   "field": "ownership",
+   "source": "rss:Hugging Face",
+   "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+   "published": "2026-11-09T15:05:57+00:00",
+   "summary": "",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+   "candidate": true
+  },
+  {
+   "id": "url:23b94c697622500f",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "CodeRabbit scales agentic software development and ships 20x more",
+   "url": "https://openai.com/index/coderabbit-codex-daybreak",
+   "published": "2026-11-09T08:00:00+00:00",
+   "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/coderabbit-codex-daybreak",
+   "candidate": true
+  },
+  {
+   "id": "url:361a5028adc5b8fe",
+   "field": "ownership",
+   "source": "rss:EFF",
+   "title": "Why Fewer People Are Challenging Bad Patents",
+   "url": "https://www.eff.org/deeplinks/2026/11/why-fewer-people-are-challenging-bad-patents",
+   "published": "2026-11-09T21:40:14+00:00",
+   "summary": "The number of petitions being filed at the Patent Trial and Appeal Board (PTAB) has collapsed. That’s not reason for celebration. The PTAB is an important line of defense against low-quality software patents being used in lawsuits against people and companies. The drop didn’t happen because suddenly patents have become higher quality. It’s simply because USPTO leadership is increasingly refusing to consider good challenges to patents, for reasons unrelated to the merits. The process has become so unreliable that many would-be patent challengers aren’t even trying. Inter partes review (IPR) is a process that allows people to challenge patents at the Patent Office, rather than having to fight an expensive lawsuit in federal court. It’s one of the most important ways to get bad patents out of the system. In the third quarter of 2026, July through September, only 97 IPR petitions were filed at the PTAB, compared to 327 petitions during the same period in 2025. Similarly, only 37 IPR petitions were filed in September 2026, compared to 129 petitions in December 2024—the last full month before the current USPTO leadership began reshaping how the Board handles patent challenges. This drama",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/why-fewer-people-are-challenging-bad-patents",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:5d57e1aa081717ba",
+  "url:057e22ab69c04fb1",
+  "url:23b94c697622500f",
+  "url:361a5028adc5b8fe"
+ ],
+ "retries": []
+}

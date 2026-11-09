@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-10",
+ "field": "labor",
+ "generated_at": "2026-11-09T22:05:58+00:00",
+ "fetched": 14,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:f9c025f8c54606c6",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "US Department of Labor publishes proposed rule setting national minimum weekly work search requirement for unemployment insurance",
+   "url": "http://www.dol.gov/newsroom/releases/eta/eta20261109",
+   "published": "2026-11-09T12:00:00+00:00",
+   "summary": "WASHINGTON – The U.S. Department of Labor’s&nbsp;Employment and Training Administration today announced a proposed rule designed to improve the integrity and accountability of the Federal-State Unemployment Insurance Program by establishing a national minimum weekly work search standard for individuals claiming unemployment insurance benefits.&nbsp;Under the proposed rule, individuals claiming unemployment insurance benefits would be required to complete at least five qualifying work-search activities each week and to report those activities before payment is issued.&nbsp;“The purpose of unemployment insurance is to provide temporary support while people proactively search for a new job or upskill to meet the needs of employers restoring critical supply chains,” said U.S. Secretary of Labor Keith Sonderling. “This proposed rule helps jobseekers find work faster and ensures efficient use of taxpayer resources while improving the overall integrity of our unemployment system.”The proposal would also identify a range of modern job search activities beyond employer contacts, including registration and ongoing contact with placement agencies and unions that are specific, identifiable, an",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "http://www.dol.gov/newsroom/releases/eta/eta20261109",
+   "candidate": true
+  },
+  {
+   "id": "url:44e8d14439c6cc4b",
+   "field": "labor",
+   "source": "rss:ILO Jobs",
+   "title": "National Project Coordinator - NOA (DC) (Freetown, SL)",
+   "url": "https://jobs.ilo.org/job/Freetown-National-Project-Coordinator-NOA-%28DC%29/1455676033/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "published": "2026-11-09T00:00:00+00:00",
+   "summary": "Grade: NOA Vacancy no.: DC/ABUJA/NO/2026/04 Publication date: 09 November 2026 Application deadline (midnight local time): 16 November 2026 Job ID: 13932 Department: RO-Africa Organization Unit: CO-Abuja Location: Freetown Contract type: Fixed Term Contract duration: Under article 4.2, paragraph (e) of the Staff Regulations, the filling of vacancies in technical cooperation projects does not fall under Annex I of the Staff Regulations and is made by direct selection by the Director-General. In order to support the best informed process in the filling of the above-mentioned vacancy by direct selection, the ILO invites interested candidates to submit their application online by the above date. The following are eligible to apply: ILO Internal candidates in accordance with paragraphs 31 and 32 of Annex I of the Staff Regulations. External candidates* *The recruitment process for National Officer positions is subject to specific local recruitment and eligibility criteria. The ILO values diversity among its staff and welcomes applications from qualified female candidates. We also encourage applicants with disabilities. If you are unable to complete our online application form due to a d",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://jobs.ilo.org/job/Freetown-National-Project-Coordinator-NOA-%28DC%29/1455676033/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "candidate": true
+  },
+  {
+   "id": "url:b07bfa633778cc6c",
+   "field": "labor",
+   "source": "api:Federal Register",
+   "title": "Post-Employment Conflict of Interest Restrictions; Revision of Departmental Component Designations",
+   "url": "https://www.federalregister.gov/documents/2026/10/15/2026-21059/post-employment-conflict-of-interest-restrictions-revision-of-departmental-component-designations",
+   "published": "2026-10-15T00:00:00+00:00",
+   "summary": "The U.S. Office of Government Ethics (OGE) is issuing this final rule to update the name of an existing departmental component that was previously designated for purposes of the one-year post- employment conflict of interest restriction for senior employees.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/15/2026-21059/post-employment-conflict-of-interest-restrictions-revision-of-departmental-component-designations",
+   "candidate": true
+  },
+  {
+   "id": "url:dae18c5c3a9cb1af",
+   "field": "labor",
+   "source": "api:Federal Register",
+   "title": "Powers of Federal Credit Unions",
+   "url": "https://www.federalregister.gov/documents/2026/10/15/2026-21088/powers-of-federal-credit-unions",
+   "published": "2026-10-15T00:00:00+00:00",
+   "summary": "The NCUA Board (Board) is proposing to amend the NCUA's regulations regarding incidental powers to clarify that federal credit unions (FCUs) are not required to seek an advisory opinion from the NCUA's Office of General Counsel before petitioning the Board to engage in an activity that does not fall within an FCU's preapproved incidental powers.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/15/2026-21088/powers-of-federal-credit-unions",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:f9c025f8c54606c6",
+  "url:44e8d14439c6cc4b",
+  "url:b07bfa633778cc6c",
+  "url:dae18c5c3a9cb1af"
+ ],
+ "retries": []
+}
