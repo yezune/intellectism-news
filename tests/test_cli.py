@@ -71,3 +71,48 @@ def test_check_missing(tmp_path):
         cli.main(["--root", str(tmp_path), "check", "--field", "labor", "--date", "2026-11-10"])
         == 1
     )
+
+
+def test_candidates(tmp_path, monkeypatch, capsys):
+    write_config(tmp_path)
+    monkeypatch.setattr(pipeline, "fetch_all", lambda field, run_date: ([make_item()], {}))
+    assert (
+        cli.main(["--root", str(tmp_path), "daily", "--field", "labor", "--date", "2026-11-10"])
+        == 0
+    )
+    assert (
+        cli.main(
+            ["--root", str(tmp_path), "candidates", "--field", "labor", "--date", "2026-11-10"]
+        )
+        == 0
+    )
+    out = capsys.readouterr().out
+    assert "Layoffs" in out
+    assert "score" in out
+
+
+def test_candidates_json(tmp_path, monkeypatch, capsys):
+    write_config(tmp_path)
+    monkeypatch.setattr(pipeline, "fetch_all", lambda field, run_date: ([make_item()], {}))
+    assert (
+        cli.main(["--root", str(tmp_path), "daily", "--field", "labor", "--date", "2026-11-10"])
+        == 0
+    )
+    assert (
+        cli.main(
+            [
+                "--root",
+                str(tmp_path),
+                "candidates",
+                "--field",
+                "labor",
+                "--date",
+                "2026-11-10",
+                "--json",
+            ]
+        )
+        == 0
+    )
+    out = capsys.readouterr().out
+    assert '"candidates"' in out
+    assert '"id": "x"' in out

@@ -142,3 +142,18 @@ def test_run_daily_policy(tmp_path, monkeypatch):
     assert all(item["field"] == "policy" for item in data["items"])
     assert (tmp_path / "state" / "policy" / "seen.json").exists()
     assert (tmp_path / "digests" / "policy" / "2026" / "2026-11-10.md").exists()
+
+
+def test_candidates_sorted_and_primary(tmp_path, monkeypatch):
+    write_config(tmp_path)
+    items = [
+        make_item("rss", title="Layoffs", source="rss:Feed0"),
+        make_item("arxiv", title="Layoffs", source="arxiv"),
+    ]
+    monkeypatch.setattr(pipeline, "fetch_all", lambda field, run_date: (items, {}))
+    pipeline.run_daily(tmp_path, "labor", date(2026, 11, 10))
+    data = json.loads((tmp_path / "data" / "labor" / "2026" / "2026-11-10.json").read_text())
+    assert [item["id"] for item in data["items"]] == ["rss", "arxiv"]
+    assert all(item["candidate"] for item in data["items"])
+    assert all(item["primary_source"] for item in data["items"])
+    assert data["candidates"] == ["rss", "arxiv"]

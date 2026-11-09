@@ -77,6 +77,12 @@ def test_curate_filters_low_relevance():
     assert out == []
 
 
+def test_curate_filters_negative_keywords():
+    items = [make_item("x", "Layoffs and drug crime")]
+    out = curate(items, cfg(negative_keywords=["crime"]), {}, "2026-11-10")
+    assert out == []
+
+
 def test_curate_per_source_cap():
     items = [make_item(f"x{i}", "Layoffs") for i in range(5)]
     out = curate(items, cfg(), {}, "2026-11-10")

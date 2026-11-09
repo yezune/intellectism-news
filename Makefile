@@ -4,10 +4,11 @@ CARGO ?= cargo
 INEWS_CORE ?= crates/inews-core/target/debug/inews-core
 CARGO_MANIFEST ?= crates/inews-core/Cargo.toml
 
-.PHONY: setup test lint check daily clean
+.PHONY: setup test lint check daily candidates clean
 
 FIELD ?= labor
 FORCE ?=
+DATE ?=
 
 setup:
 	$(UV) venv --python 3.14
@@ -29,6 +30,9 @@ check: test lint
 
 daily:
 	$(PYTHON) -m intellectism_news.cli daily --field $(FIELD) $(if $(FORCE),--force)
+
+candidates:
+	$(PYTHON) -m intellectism_news.cli candidates --field $(FIELD) $(if $(DATE),--date $(DATE))
 
 clean:
 	rm -rf .venv .pytest_cache .ruff_cache

@@ -1,21 +1,21 @@
 {
  "date": "2026-11-09",
  "field": "ownership",
- "generated_at": "2026-11-09T11:34:22+00:00",
+ "generated_at": "2026-11-09T12:07:52+00:00",
  "fetched": 29,
  "errors": {},
  "items": [
   {
-   "id": "url:9ccbb86689dfdc5c",
+   "id": "url:438f92a11f7caaff",
    "field": "ownership",
    "source": "rss:DOJ",
-   "title": "Justice Department Awards Jacksonville More Than $73M to Combat Violent Crime and Restore Law and Order Through Model Cities Initiative",
-   "url": "https://www.justice.gov/opa/pr/justice-department-awards-jacksonville-more-73m-combat-violent-crime-and-restore-law-and",
+   "title": "Statement of the Department of Justice Antitrust Division on the Closing of Its Investigation of the Merger of FOX and Roku",
+   "url": "https://www.justice.gov/opa/pr/statement-department-justice-antitrust-division-closing-its-investigation-merger-fox-and",
    "published": "2026-11-06T12:00:00+00:00",
-   "summary": "Today, the Justice Department awarded Jacksonville, Florida, more than $73 Million through its Model Cities Initiative (MCI), a flagship effort to reduce violent crime, restore law and order, and strengthen public safety in communities across the country. &nbsp;",
+   "summary": "The U.S. Department of Justice issued the following statement today in connection with the closing of the Antitrust Division’s investigation into the proposed acquisition of Roku Inc. (Roku) by FOX Corporation (FOX) (together, the “Parties”).",
    "tags": [],
-   "score": 3.0,
-   "primary_source": null,
+   "score": 6.0,
+   "primary_source": "https://www.justice.gov/opa/pr/statement-department-justice-antitrust-division-closing-its-investigation-merger-fox-and",
    "candidate": true
   },
   {
@@ -28,12 +28,12 @@
    "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
    "tags": [],
    "score": 3.0,
-   "primary_source": null,
+   "primary_source": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
    "candidate": true
   }
  ],
  "candidates": [
-  "url:9ccbb86689dfdc5c",
+  "url:438f92a11f7caaff",
   "url:cfd4354afa14004f"
  ]
 }

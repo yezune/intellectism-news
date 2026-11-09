@@ -1,53 +1,25 @@
 {
  "date": "2026-11-09",
  "field": "policy",
- "generated_at": "2026-11-09T11:35:42+00:00",
+ "generated_at": "2026-11-09T12:08:39+00:00",
  "fetched": 25,
  "errors": {},
  "items": [
   {
-   "id": "url:1d6a265e96df5c5b",
+   "id": "url:438f92a11f7caaff",
    "field": "policy",
    "source": "rss:DOJ",
-   "title": "Armed Schenectady Drug Dealer Sentenced to 180 Months",
-   "url": "https://www.justice.gov/usao-ndny/pr/armed-schenectady-drug-dealer-sentenced-180-months",
+   "title": "Statement of the Department of Justice Antitrust Division on the Closing of Its Investigation of the Merger of FOX and Roku",
+   "url": "https://www.justice.gov/opa/pr/statement-department-justice-antitrust-division-closing-its-investigation-merger-fox-and",
    "published": "2026-11-06T12:00:00+00:00",
-   "summary": "On November 4, 2026, Emery Moore, age 57, of Schenectady, New York, was sentenced to 180 months in federal prison for distributing methamphetamine, possessing a firearm in furtherance of a drug trafficking crime, and possession of a firearm as a felon. First Assistant United States Attorney John A. Sarcone III, Drug Enforcement Administration (DEA) Special Agent in Charge Farhana Islam, and Schenectady Police Chief Brian Whipple made the announcement.",
+   "summary": "The U.S. Department of Justice issued the following statement today in connection with the closing of the Antitrust Division’s investigation into the proposed acquisition of Roku Inc. (Roku) by FOX Corporation (FOX) (together, the “Parties”).",
    "tags": [],
-   "score": 6.0,
-   "primary_source": null,
-   "candidate": true
-  },
-  {
-   "id": "url:8d5bb3dfe5e359e0",
-   "field": "policy",
-   "source": "rss:DOJ",
-   "title": "Watervliet Fentanyl Dealer Sentenced to 120 Months",
-   "url": "https://www.justice.gov/usao-ndny/pr/watervliet-fentanyl-dealer-sentenced-120-months",
-   "published": "2026-11-06T12:00:00+00:00",
-   "summary": "On November 4, 2026, Eric Hines, age 28, of Watervliet, New York, was sentenced to 120 months in federal prison for possessing fentanyl with the intention to distribute. U.S. District Judge Anne M. Nardacci also imposed an 8-year term of supervised release to follow his release from prison. First Assistant United States Attorney John A. Sarcone III, and Drug Enforcement Administration (DEA) Special Agent in Charge Farhana Islam made the announcement.&nbsp;",
-   "tags": [],
-   "score": 6.0,
-   "primary_source": null,
-   "candidate": true
-  },
-  {
-   "id": "url:9bc9e9499bbea370",
-   "field": "policy",
-   "source": "rss:DOJ",
-   "title": "Pair Plead Guilty in Federal Unemployment Scheme that Defrauded U.S. Taxpayers",
-   "url": "https://www.justice.gov/usao-wdva/pr/pair-plead-guilty-federal-unemployment-scheme-defrauded-us-taxpayers",
-   "published": "2026-11-06T12:00:00+00:00",
-   "summary": "ABINGDON, Va. – A pair of Virginia residents pleaded guilty recently to filing false claims for pandemic unemployment benefits authorized by the CARES Act. The CARES Act is a federal law, enacted in March of 2020, that was designed to provide emergency financial assistance to people affected by the COVID-19 pandemic.&nbsp;Thonton Snapp, 50, of Bristol, Virginia, and Jacob Michael Testerman, 36, of Abingdon, Virginia, both pleaded guilty to one count of conspiring to defraud the United States and commit an offense against the United States by filing fraudulent claims for pandemic unemployment benefits authorized by federal law.&nbsp;",
-   "tags": [],
-   "score": 6.0,
-   "primary_source": null,
+   "score": 3.0,
+   "primary_source": "https://www.justice.gov/opa/pr/statement-department-justice-antitrust-division-closing-its-investigation-merger-fox-and",
    "candidate": true
   }
  ],
  "candidates": [
-  "url:1d6a265e96df5c5b",
-  "url:8d5bb3dfe5e359e0",
-  "url:9bc9e9499bbea370"
+  "url:438f92a11f7caaff"
  ]
 }

@@ -98,6 +98,31 @@ fields:
       "shareholder": 2
       "dividend": 2
       "buyback": 2
+    negative_keywords:
+      - crime
+      - sentenced
+      - sentence
+      - drug
+      - fentanyl
+      - "plead guilty"
+      - "pleads guilty"
+      - murder
+      - charged
+      - prison
+      - inmate
+      - embezzlement
+      - payroll
+      - "wire-fraud"
+      - defrauded
+      - "violent crime"
+      - "child pornography"
+      - sexual
+      - firearm
+      - shooting
+      - methamphetamine
+      - narcotraficantes
+      - foia
+      - "model cities"
     min_relevance: 2.0
     sources:
       rss:
@@ -171,6 +196,31 @@ fields:
       lawsuit: 2
       settlement: 2
       consent: 2
+    negative_keywords:
+      - crime
+      - sentenced
+      - sentence
+      - drug
+      - fentanyl
+      - "plead guilty"
+      - "pleads guilty"
+      - murder
+      - charged
+      - prison
+      - inmate
+      - embezzlement
+      - payroll
+      - "wire-fraud"
+      - defrauded
+      - "violent crime"
+      - "child pornography"
+      - sexual
+      - firearm
+      - shooting
+      - methamphetamine
+      - narcotraficantes
+      - foia
+      - "model cities"
     min_relevance: 2.0
     sources:
       rss:

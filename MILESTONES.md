@@ -52,13 +52,17 @@ Tests first:
 ## M3 — Candidate integration
 
 Acceptance:
-- `make daily --field labor` writes `candidates.json`? No — the JSON is the candidate file.
-- The channel's `MAKE.md` §1 can read the top 10 with `score` and `primary_source`.
-- `make check` validates the JSON.
+- [x] The daily JSON is the candidate file: `items` is sorted by score, and `candidates` lists the top IDs in the same order.
+- [x] Every candidate has `candidate: true` and `primary_source` set to its URL.
+- [x] `make check` validates the JSON.
+- [x] `intellectism-news candidates --field <field> [--date]` prints the top candidates as Markdown; `--json` prints the full JSON.
+- [x] `negative_keywords` filters crime and enforcement noise from `ownership` and `policy`.
 
 Tests first:
-- [ ] `test_pipeline.py` — candidates are sorted by score, `candidate` is true, `primary_source` is set.
-- [ ] `test_validate.py` — Python validator mirrors the Rust validator.
+- [x] `test_pipeline.py` — candidates are sorted by score, `candidate` is true, `primary_source` is set.
+- [x] `test_cli.py` — `candidates` prints Markdown and `candidates --json` prints the JSON.
+- [x] `test_curate.py` — negative keywords are excluded.
+- [x] `test_validate.py` — Python validator mirrors the Rust validator.
 
 ## M4 — GitHub Actions
 

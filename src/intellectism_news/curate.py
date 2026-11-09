@@ -9,9 +9,18 @@ from .models import Item
 RELEVANCE_CAP = 6.0
 
 
+def _text(item: Item) -> str:
+    return f"{item.title} {item.summary} {' '.join(item.tags)}".lower()
+
+
 def relevance(item: Item, keywords: dict[str, float]) -> float:
-    text = f"{item.title} {item.summary} {' '.join(item.tags)}".lower()
+    text = _text(item)
     return sum(weight for keyword, weight in keywords.items() if keyword in text)
+
+
+def has_negative_keyword(item: Item, keywords: list[str]) -> bool:
+    text = _text(item)
+    return any(keyword in text for keyword in keywords)
 
 
 def requires_keywords(item: Item, config: dict[str, Any]) -> bool:
@@ -71,11 +80,14 @@ def curate(
     items: list[Item], config: dict[str, Any], seen: dict[str, str], run_date: str
 ) -> list[Item]:
     keywords = config.get("keywords", {})
+    negative_keywords = config.get("negative_keywords", [])
     min_relevance = float(config.get("min_relevance", 0))
     pool: list[Item] = []
     for item in merge_duplicates(items):
         first = seen.get(item.id)
         if first is not None and first != run_date:
+            continue
+        if has_negative_keyword(item, negative_keywords):
             continue
         if requires_keywords(item, config) and relevance(item, keywords) < min_relevance:
             continue

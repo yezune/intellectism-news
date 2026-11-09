@@ -22,6 +22,15 @@ make daily
 
 `make daily` runs `intellectism-news daily --field labor`.
 
+Show the latest candidates:
+
+```sh
+make daily FIELD=ownership
+make candidates FIELD=ownership
+```
+
+`candidates` prints Markdown; add `--json` to the CLI to print the full JSON.
+
 ## Environment
 
 - Python 3.14 via `.venv`
@@ -43,7 +52,7 @@ state/<field>/seen.json   per-field dedup state
 
 ## Milestones
 
-See [MILESTONES.md](MILESTONES.md). M0–M2 are complete; M3 is next.
+See [MILESTONES.md](MILESTONES.md). M0–M3 are complete; M4 is next.
 
 ## TDD
 
@@ -62,7 +71,7 @@ APIs: arXiv, OpenAlex, Crossref, SEC EDGAR, Federal Register, BLS, Eurostat, Wor
 No paid APIs, no scraping.
 
 <!-- LATEST:START -->
-**최신 policy 다이제스트: [2026-11-09](digests/policy/2026/2026-11-09.md)** — 후보 3건 · 오류 0건
+**최신 policy 다이제스트: [2026-11-09](digests/policy/2026/2026-11-09.md)** — 후보 1건 · 오류 0건
 
 최근 14일:
 

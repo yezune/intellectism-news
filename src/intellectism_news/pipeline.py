@@ -82,6 +82,9 @@ def run_daily(
 
     raw, errors = fetch_all(field, run_date)
     items = curate(raw, field, seen, d)
+    for item in items:
+        if item.primary_source is None:
+            item.primary_source = item.url
     generated_at = http.now_iso()
     result = RunResult(
         date=d,
