@@ -91,6 +91,86 @@ fn validate_rejects_too_many_candidates() {
 }
 
 #[test]
+fn validate_rejects_missing_generated_at() {
+    let mut value = valid();
+    value.as_object_mut().unwrap().remove("generated_at");
+    assert!(validate(&value).is_err());
+}
+
+#[test]
+fn validate_rejects_bad_generated_at() {
+    let mut value = valid();
+    value["generated_at"] = json!("not-a-date");
+    assert!(validate(&value).is_err());
+}
+
+#[test]
+fn validate_rejects_invalid_primary_source() {
+    let mut value = valid();
+    value["items"][0]["primary_source"] = json!("not-a-url");
+    assert!(validate(&value).is_err());
+}
+
+#[test]
+fn validate_rejects_tags_not_strings() {
+    let mut value = valid();
+    value["items"][0]["tags"] = json!([1]);
+    assert!(validate(&value).is_err());
+}
+
+#[test]
+fn validate_rejects_candidate_not_bool() {
+    let mut value = valid();
+    value["items"][0]["candidate"] = json!("yes");
+    assert!(validate(&value).is_err());
+}
+
+#[test]
+fn validate_rejects_field_mismatch() {
+    let mut value = valid();
+    value["items"][0]["field"] = json!("ownership");
+    assert!(validate(&value).is_err());
+}
+
+#[test]
+fn validate_rejects_too_many_items() {
+    let mut value = valid();
+    let item = value["items"][0].clone();
+    for _ in 0..20 {
+        value["items"].as_array_mut().unwrap().push(item.clone());
+    }
+    assert!(validate(&value).is_err());
+}
+
+#[test]
+fn validate_rejects_fetched_not_integer() {
+    let mut value = valid();
+    value["fetched"] = json!("many");
+    assert!(validate(&value).is_err());
+}
+
+#[test]
+fn validate_rejects_errors_not_object() {
+    let mut value = valid();
+    value["errors"] = json!([]);
+    assert!(validate(&value).is_err());
+}
+
+#[test]
+fn validate_rejects_items_not_array() {
+    let mut value = valid();
+    value["items"] = json!({});
+    assert!(validate(&value).is_err());
+}
+
+#[test]
+fn validate_rejects_candidates_not_array() {
+    let mut value = valid();
+    value["candidates"] = json!({});
+    assert!(validate(&value).is_err());
+}
+
+#[test]
 fn normalize_url_removes_tracking_and_fragment() {
     let got = normalize_url("https://Example.COM:443/path/?utm_source=x&b=2&a=1#frag");
     assert_eq!(got, "https://example.com/path?a=1&b=2");

@@ -9,6 +9,8 @@ CARGO_MANIFEST ?= crates/inews-core/Cargo.toml
 FIELD ?= labor
 FORCE ?=
 DATE ?=
+NORMALIZE_URL ?= https://Example.COM:443/path/?utm_source=x&b=2&a=1\#frag
+NORMALIZE_EXPECTED ?= https://example.com/path?a=1&b=2
 
 setup:
 	$(UV) venv --python 3.14
@@ -27,6 +29,10 @@ lint:
 
 check: test lint
 	$(INEWS_CORE) validate tests/fixtures/labor.json
+	@test "$$($(INEWS_CORE) normalize '$(NORMALIZE_URL)')" = "$(NORMALIZE_EXPECTED)"
+	@for file in $$(find data -name '*.json' 2>/dev/null); do \
+		$(INEWS_CORE) validate "$$file"; \
+	done
 
 daily:
 	$(PYTHON) -m intellectism_news.cli daily --field $(FIELD) $(if $(FORCE),--force)

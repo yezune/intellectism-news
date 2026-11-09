@@ -42,6 +42,10 @@ make candidates FIELD=ownership
 - `uv` for the Python environment
 - `make` for the entry points
 
+## Rust core
+
+`make check` runs `inews-core normalize` on a tracking URL and `inews-core validate` on the fixture and every real `data/**/*.json`. The Python collector stays because collection takes about 9 seconds for all three fields.
+
 ## Layout
 
 ```
@@ -57,7 +61,7 @@ state/<field>/seen.json   per-field dedup state
 
 ## Milestones
 
-See [MILESTONES.md](MILESTONES.md). M0–M4 are complete; M5 is next.
+See [MILESTONES.md](MILESTONES.md). M0–M5 are complete; M6 is next.
 
 ## TDD
 

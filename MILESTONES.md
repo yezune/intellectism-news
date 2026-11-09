@@ -77,12 +77,15 @@ Tests first:
 ## M5 — Rust core expansion
 
 Acceptance:
-- `inews-core normalize` and `validate` are used by `make check`.
-- If collection is slow, a Rust collector replaces Python; otherwise Python stays.
+- [x] `inews-core normalize` and `validate` are used by `make check`.
+- [x] `make check` validates the fixture and every real `data/**/*.json`.
+- [x] Python stays the collector: 3 fields collect in about 9 seconds, so a Rust collector is not needed.
+- [x] Rust tests cover normalize (tracking, default port, fragment, trailing slash) and validate schema cases.
 
 Tests first:
-- [ ] Rust `normalize` — tracking, default port, fragment, trailing slash.
-- [ ] Rust `validate` — all schema cases.
+- [x] Rust `normalize` — tracking, default port, fragment, trailing slash.
+- [x] Rust `validate` — all schema cases.
+- [x] `test_makefile.py` — `make check` runs `normalize` and `validate`.
 
 ## M6 — Stability
 
