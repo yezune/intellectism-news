@@ -1,0 +1,66 @@
+timezone: Asia/Seoul
+
+fields:
+  labor:
+    name: 노동
+    question: 누가 일하고, 무엇이 대체되는가
+    keywords:
+      layoff: 3
+      layoffs: 3
+      automation: 3
+      "artificial intelligence": 2
+      "ai": 1
+      worker: 1
+      workers: 1
+      labor: 2
+      labour: 2
+      employment: 2
+      unemployment: 2
+      wage: 2
+      wages: 2
+      union: 2
+      "collective bargaining": 3
+      gig: 2
+      platform: 1
+      surveillance: 2
+      task: 2
+      jobs: 2
+      job: 2
+      redundancy: 2
+      strike: 2
+      reskilling: 2
+      "warn": 2
+    min_relevance: 2.0
+    sources:
+      rss:
+        enabled: true
+        weight: 1.5
+        window_days: 3
+        feeds:
+          - name: ILO Jobs
+            url: https://jobs.ilo.org/services/rss/category/?catid=2842101
+            require_keywords: true
+          - name: US DOL
+            url: https://www.dol.gov/rss/releases.xml
+            headers:
+              User-Agent: curl/8.7.1
+            require_keywords: true
+          - name: EPI
+            url: https://www.epi.org/feed/
+            require_keywords: true
+          - name: UNI Global Union
+            url: https://uniglobalunion.org/news/feed/
+            require_keywords: true
+          - name: NBER
+            url: https://www.nber.org/rss/new.xml
+            require_keywords: true
+      arxiv:
+        enabled: true
+        weight: 1.0
+        query: 'cat:econ.GN AND (abs:"labor" OR abs:"employment" OR abs:"automation" OR abs:"wage")'
+        max_results: 100
+        window_days: 2
+    limits:
+      candidates: 10
+      max_items: 20
+      max_per_source: 3

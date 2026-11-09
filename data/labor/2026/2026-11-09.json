@@ -1,0 +1,67 @@
+{
+ "date": "2026-11-09",
+ "field": "labor",
+ "generated_at": "2026-11-09T11:12:44+00:00",
+ "fetched": 4,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:39a18d19de4195b3",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "Secretary Sonderling statement on October jobs report",
+   "url": "http://www.dol.gov/newsroom/releases/osec/osec20261106",
+   "published": "2026-11-06T12:00:00+00:00",
+   "summary": "WASHINGTON – Secretary of Labor Keith Sonderling issued the following statement regarding the October 2026 Employment Situation Report:“The American labor market is the strongest it has been in more than half a century, and President Trump’s leadership continues to drive job growth in the United States as the unemployment rate dropped to 4.1% and we added 165,000 new jobs. Since the President took office, we have surpassed 1.25 million new private sector jobs and doubled the monthly breakeven rate.The manufacturing sector has added more than 100,000 jobs in 2026, including 19,000 in October. This historic growth is driven by trillions of dollars of domestic investment that President Trump has secured.&nbsp;Initial jobless claims fell to 189,000 last week, matching the lowest level recorded since 1969. We are now in the 10th consecutive month of manufacturing expansion, and the combination of reshored production, record investment, and the Working Families Tax Cuts is delivering economic security for the nation.”",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": null,
+   "candidate": true
+  },
+  {
+   "id": "url:3e31812e1b413e4e",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "UNI stands with IKEA workers in New Zealand as they strike for fair pay",
+   "url": "https://uniglobalunion.org/news/ikea-strike-new-zealand/",
+   "published": "2026-11-06T08:19:44+00:00",
+   "summary": "UNI Global Union stands in solidarity with Workers First Union members at IKEA in New Zealand as they fight for fair pay, recognition for weekend work and a collective agreement that values their contribution. Workers at IKEA’s Auckland store took four-hour strike action on Saturday 24 October. Workers First subsequently held a second, full-day strike The post UNI stands with IKEA workers in New Zealand as they strike for fair pay appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": null,
+   "candidate": true
+  },
+  {
+   "id": "url:96eb75725b5c2527",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "US secures labor victory in Alimentos Grole case in Mexico, advancing fair competition for American workers",
+   "url": "http://www.dol.gov/newsroom/releases/ilab/ilab20261106",
+   "published": "2026-11-06T12:00:00+00:00",
+   "summary": "WASHINGTON – The United States today announced the successful resolution of the United States-Mexico-Canada Agreement (USMCA) facility-specific Rapid Response Labor Mechanism (RRM) matter regarding the Alimentos Grole, S.A. de C.V. (Alimentos Grole or the company) facility in Ciudad Obregón, Sonora, Mexico, where workers alleged they were previously denied their freedom of association and collective bargaining rights.&nbsp;The resolution is another win for the Trump Administration, whose America First approach ensures our trade partners do not undermine worker protections to gain an unfair trade advantage or attract investment.The United States and Mexico agreed on a course of remediation to address labor violations occurring at the facility, including the formation of a company-aligned internal labor committee and retaliatory dismissals of workers. That plan has now been implemented, and the denial of rights concerns raised in our request for review have been remediated. As a result, the Office of the United States Trade Representative (USTR) has directed the Secretary of the Treasury to resume liquidation of unliquidated entries of goods from the facility.The U.S. Department of L",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": null,
+   "candidate": true
+  },
+  {
+   "id": "url:a79b933937e23a9f",
+   "field": "labor",
+   "source": "rss:ILO Jobs",
+   "title": "Resource Mobilization Officer P2 (DC) (Geneva, CH)",
+   "url": "https://jobs.ilo.org/job/Geneva-Resource-Mobilization-Officer-P2-%28DC%29/1455098833/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "published": "2026-11-06T00:00:00+00:00",
+   "summary": "Grade: P2 Vacancy no.: DC/ PARTNERSHIPS /P/2026/01 Publication date: 06 November 2026 Application deadline (midnight loc al time): 20 November 2026 Job ID: 13936 Department: PARTNERSHIPS Organization Unit: DPRU Location: Geneva Contract type: Fixed Term Contract duration: One year Under article 4.2, paragraph (e) of the Staff Regulations, the filling of vacancies in technical cooperation projects does not fall under Annex I of the Staff Regulations and is made by direct selection by the Director-General. In order to support the best informed process in the filling of the present vacancy by direct selection, the ILO invites interested candidates to submit their candidature online by the above date. Technical cooperation appointments are not expected to lead to a career in the ILO and they do not carry any expectation of renewal or conversion to any other type of appointment in the Organization. A one-year fixed-term contract will be given. Extensions of technical cooperation contracts are subject to various elements including the following: availability of funds, continuing need of the functions and satisfactor y conduct and performance. The following are eligible to apply: ILO Inte",
+   "tags": [],
+   "score": 3.75,
+   "primary_source": null,
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:39a18d19de4195b3",
+  "url:3e31812e1b413e4e",
+  "url:96eb75725b5c2527",
+  "url:a79b933937e23a9f"
+ ]
+}
