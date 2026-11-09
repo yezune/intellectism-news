@@ -112,6 +112,33 @@ def test_run_daily_records_errors(tmp_path, monkeypatch):
     assert "boom" in (tmp_path / "digests" / "labor" / "2026" / "2026-11-10.md").read_text()
 
 
+def test_run_daily_one_dead_feed_does_not_stop_run(tmp_path, monkeypatch):
+    write_config(tmp_path)
+    items = [make_item("x")]
+    monkeypatch.setattr(
+        pipeline, "fetch_all", lambda field, run_date: (items, {"rss:ILO": "boom"})
+    )
+    out = pipeline.run_daily(tmp_path, "labor", date(2026, 11, 10))
+    assert out is not None
+    data = json.loads((tmp_path / "data" / "labor" / "2026" / "2026-11-10.json").read_text())
+    assert len(data["items"]) == 1
+    assert data["items"][0]["id"] == "x"
+    assert data["errors"] == {"rss:ILO": "boom"}
+    assert "boom" in (tmp_path / "digests" / "labor" / "2026" / "2026-11-10.md").read_text()
+
+
+def test_run_daily_records_retries(tmp_path, monkeypatch):
+    write_config(tmp_path)
+    events = [{"url": "https://example.com", "attempt": 1, "status": 429, "wait": 1}]
+    monkeypatch.setattr(pipeline, "fetch_all", lambda field, run_date: ([make_item("x")], {}))
+    monkeypatch.setattr(pipeline.http, "retry_events", lambda: events)
+    out = pipeline.run_daily(tmp_path, "labor", date(2026, 11, 10))
+    assert out is not None
+    data = json.loads((tmp_path / "data" / "labor" / "2026" / "2026-11-10.json").read_text())
+    assert data["retries"] == events
+    assert "재시도" in (tmp_path / "digests" / "labor" / "2026" / "2026-11-10.md").read_text()
+
+
 def test_run_daily_ownership(tmp_path, monkeypatch):
     write_config(tmp_path)
     items = [

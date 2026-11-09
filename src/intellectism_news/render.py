@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from typing import Any
+
 from .models import Item
 
 
@@ -15,17 +17,28 @@ def render_digest(
     generated_at: str,
     items: list[Item],
     errors: dict[str, str],
+    retries: list[dict[str, Any]] | None = None,
 ) -> str:
+    retries = retries or []
     lines = [
         f"# {field} 후보 — {run_date}",
         "",
-        f"생성 {generated_at} · 후보 {len(items)}건 · 오류 {len(errors)}건",
+        f"생성 {generated_at} · 후보 {len(items)}건 · 오류 {len(errors)}건 "
+        f"· 재시도 {len(retries)}건",
         "",
     ]
     if errors:
         lines += ["## 오류", ""]
         for source, message in sorted(errors.items()):
             lines.append(f"- `{source}`: {message}")
+        lines.append("")
+    if retries:
+        lines += ["## 재시도", ""]
+        for event in retries:
+            lines.append(
+                f"- `{event.get('url', '')}`: {event.get('status', 'timeout')} "
+                f"· {event.get('wait', 0)}초"
+            )
         lines.append("")
     if not items:
         lines += ["오늘은 후보가 없습니다.", ""]

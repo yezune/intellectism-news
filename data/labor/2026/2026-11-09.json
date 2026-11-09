@@ -1,8 +1,8 @@
 {
  "date": "2026-11-09",
  "field": "labor",
- "generated_at": "2026-11-09T12:07:56+00:00",
- "fetched": 4,
+ "generated_at": "2026-11-09T13:44:55+00:00",
+ "fetched": 16,
  "errors": {},
  "items": [
   {
@@ -45,6 +45,45 @@
    "candidate": true
   },
   {
+   "id": "url:ea8759a7b70ffd0f",
+   "field": "labor",
+   "source": "api:Federal Register",
+   "title": "New Collection; Older Workers Study Impact Evaluation",
+   "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22019/new-collection-older-workers-study-impact-evaluation",
+   "published": "2026-10-29T00:00:00+00:00",
+   "summary": "The Department of Labor (DOL), as part of its continuing effort to reduce paperwork and respondent burden, conducts a pre- clearance request for comment to provide the general public and Federal agencies with an opportunity to comment on proposed collections of information in accordance with the Paperwork Reduction Act of 1995. This request helps to ensure that: requested data can be provided in the desired format; reporting burden (time and financial resources) is minimized; collection instruments are clearly understood; and the impact of collection requirements on respondents can be properly assessed. Currently, the DOL Chief Evaluation Office (CEO) is soliciting comments on the information collection for Senior Community Service Employment Program Older Workers Study Impact Evaluation.",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/29/2026-22019/new-collection-older-workers-study-impact-evaluation",
+   "candidate": true
+  },
+  {
+   "id": "url:a9b8f26c55d400e5",
+   "field": "labor",
+   "source": "api:Federal Register",
+   "title": "Notice Regarding the Uyghur Forced Labor Prevention Act Entity List",
+   "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22094/notice-regarding-the-uyghur-forced-labor-prevention-act-entity-list",
+   "published": "2026-10-29T00:00:00+00:00",
+   "summary": "The U.S. Department of Homeland Security (DHS), as the Chair of the Forced Labor Enforcement Task Force (FLETF), announces the publication and availability of the updated Uyghur Forced Labor Prevention Act (UFLPA) Entity List, a consolidated register of the four lists required to be developed and maintained pursuant to the UFLPA, on the DHS UFLPA website. The updated UFLPA Entity List is also published as an appendix to this notice. This update adds three new entities to the UFLPA Entity List, two of which appear on two separate sub-lists.",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/29/2026-22094/notice-regarding-the-uyghur-forced-labor-prevention-act-entity-list",
+   "candidate": true
+  },
+  {
+   "id": "url:902ea095a1893d87",
+   "field": "labor",
+   "source": "api:Federal Register",
+   "title": "Removal of Automatic Extensions for Certain Employment Authorization Documents",
+   "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents",
+   "published": "2026-10-14T00:00:00+00:00",
+   "summary": "On October 30, 2025, DHS published an interim final rule (IFR) that amended DHS regulations to end the practice of automatically extending the validity of employment authorization documents (Forms I- 766 or EADs) for aliens who have timely filed an application to renew their EAD in certain employment authorization categories. This final rule responds to comments received on the IFR and reaffirms and finalizes the provisions of the IFR. Ending the automatic extension of EADs enhances benefit integrity and prioritizes the proper vetting and screening of aliens before granting a new period of employment authorization and/or a new EAD.",
+   "tags": [],
+   "score": 3.75,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents",
+   "candidate": true
+  },
+  {
    "id": "url:a79b933937e23a9f",
    "field": "labor",
    "source": "rss:ILO Jobs",
@@ -56,12 +95,58 @@
    "score": 3.75,
    "primary_source": "https://jobs.ilo.org/job/Geneva-Resource-Mobilization-Officer-P2-%28DC%29/1455098833/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
    "candidate": true
+  },
+  {
+   "id": "url:e719e0fed5e765c2",
+   "field": "labor",
+   "source": "api:Federal Register",
+   "title": "Corporate Credit Unions; Fidelity Bond and Insurance Coverage for Federally Insured Credit Unions",
+   "url": "https://www.federalregister.gov/documents/2026/10/15/2026-21087/corporate-credit-unions-fidelity-bond-and-insurance-coverage-for-federally-insured-credit-unions",
+   "published": "2026-10-15T00:00:00+00:00",
+   "summary": "The NCUA Board (Board) seeks comment on proposed amendments to its regulations governing fidelity bond and insurance coverage for federally insured credit unions (FICUs). The proposed rule would eliminate certain prescriptive procedural mandates and simplify requirements for coverage amounts and deductibles. The intended effect is greater flexibility for FICUs, simplified compliance, and reduced administrative costs without compromising safety and soundness.",
+   "tags": [],
+   "score": 3.75,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/15/2026-21087/corporate-credit-unions-fidelity-bond-and-insurance-coverage-for-federally-insured-credit-unions",
+   "candidate": true
+  },
+  {
+   "id": "url:eca7335e0b1c829c",
+   "field": "labor",
+   "source": "api:Federal Register",
+   "title": "Conversion to State-Chartered Credit Union",
+   "url": "https://www.federalregister.gov/documents/2026/10/21/2026-21508/conversion-to-state-chartered-credit-union",
+   "published": "2026-10-21T00:00:00+00:00",
+   "summary": "The NCUA Board (Board) solicits public comment on a proposal to remove a regulatory provision regarding the process for maintaining federal share insurance following the conversion of a federal credit union (FCU) to a state charter. The provision is unnecessarily duplicative of a similar provision contained in NCUA's Chartering and Field of Membership Manual (Manual), and is outdated, having been superseded by amendments to the Manual.",
+   "tags": [],
+   "score": 3.75,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/21/2026-21508/conversion-to-state-chartered-credit-union",
+   "candidate": true
+  },
+  {
+   "id": "url:4ad0eea0601a0109",
+   "field": "labor",
+   "source": "api:Federal Register",
+   "title": "Fire Protection in Shipyard Employment Standard; Extension of the Office of Management and Budget's (OMB) Approval of Information Collection (Paperwork) Requirements",
+   "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22014/fire-protection-in-shipyard-employment-standard-extension-of-the-office-of-management-and-budgets",
+   "published": "2026-10-29T00:00:00+00:00",
+   "summary": "OSHA solicits public comments concerning the proposal to extend the Office of Management and Budget's (OMB) approval of the information collection requirements specified in the Fire Protection in Shipyard Employment Standard.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/29/2026-22014/fire-protection-in-shipyard-employment-standard-extension-of-the-office-of-management-and-budgets",
+   "candidate": true
   }
  ],
  "candidates": [
   "url:39a18d19de4195b3",
   "url:3e31812e1b413e4e",
   "url:96eb75725b5c2527",
-  "url:a79b933937e23a9f"
- ]
+  "url:ea8759a7b70ffd0f",
+  "url:a9b8f26c55d400e5",
+  "url:902ea095a1893d87",
+  "url:a79b933937e23a9f",
+  "url:e719e0fed5e765c2",
+  "url:eca7335e0b1c829c",
+  "url:4ad0eea0601a0109"
+ ],
+ "retries": []
 }

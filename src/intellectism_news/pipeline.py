@@ -80,11 +80,13 @@ def run_daily(
     state_path = paths.state_path(field_id)
     seen: dict[str, str] = json.loads(state_path.read_text()) if state_path.exists() else {}
 
+    http.reset_retry_events()
     raw, errors = fetch_all(field, run_date)
     items = curate(raw, field, seen, d)
     for item in items:
         if item.primary_source is None:
             item.primary_source = item.url
+    retries = http.retry_events()
     generated_at = http.now_iso()
     result = RunResult(
         date=d,
@@ -94,6 +96,7 @@ def run_daily(
         errors=errors,
         items=items,
         candidates=[item.id for item in items],
+        retries=retries,
     )
 
     data_path = paths.data_path(field_id, d)
@@ -104,7 +107,7 @@ def run_daily(
 
     digest_path.parent.mkdir(parents=True, exist_ok=True)
     digest_path.write_text(
-        render_digest(d, field_id, generated_at, items, errors), encoding="utf-8"
+        render_digest(d, field_id, generated_at, items, errors, retries), encoding="utf-8"
     )
 
     for item in items:

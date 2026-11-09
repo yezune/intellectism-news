@@ -33,6 +33,7 @@ class RunResult:
     errors: dict[str, str]
     items: list[Item]
     candidates: list[str]
+    retries: list[dict[str, Any]] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -43,4 +44,5 @@ class RunResult:
             "errors": self.errors,
             "items": [item.to_dict() for item in self.items],
             "candidates": self.candidates,
+            "retries": self.retries,
         }

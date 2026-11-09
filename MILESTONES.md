@@ -79,7 +79,7 @@ Tests first:
 Acceptance:
 - [x] `inews-core normalize` and `validate` are used by `make check`.
 - [x] `make check` validates the fixture and every real `data/**/*.json`.
-- [x] Python stays the collector: 3 fields collect in about 9 seconds, so a Rust collector is not needed.
+- [x] Python stays the collector: 3 fields collect in about 40 seconds, so a Rust collector is not needed.
 - [x] Rust tests cover normalize (tracking, default port, fragment, trailing slash) and validate schema cases.
 
 Tests first:
@@ -90,10 +90,18 @@ Tests first:
 ## M6 — Stability
 
 Acceptance:
-- 3 fields, 10 candidates each, 0 fatal errors.
-- Rate limits and retries are recorded.
-- `make daily` runs under 5 minutes on the free tier.
+- [x] 3 fields, 10 candidates each, 0 fatal errors.
+- [x] Rate limits and retries are recorded in `retries` and the digest.
+- [x] `make daily` runs under 5 minutes on the free tier (about 10.7s / 6.0s / 4.8s).
 
 Tests first:
-- [ ] `test_http.py` — retry, backoff, timeout.
-- [ ] `test_pipeline.py` — one dead feed does not stop the run.
+- [x] `test_http.py` — retry, backoff, timeout.
+- [x] `test_pipeline.py` — one dead feed does not stop the run.
+
+Implementation:
+- [x] `http.py` retries 429/500/502/503/504 with 1/2/4 second backoff and records each event.
+- [x] `run_daily` stores `retries` in JSON and renders them in the digest.
+- [x] OpenAlex runs three queries per field; Federal Register runs for labor and ownership.
+- [x] API windows are 30 days; `max_per_source` is 10 so 10 candidates are reachable.
+- [x] `policy` filters biology and health papers with negative keywords.
+- [x] OpenAlex is wired with retry/backoff recording; it is temporarily disabled because the free daily budget was exhausted, and can be re-enabled with `enabled: true`.

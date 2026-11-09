@@ -57,3 +57,12 @@ def test_get_field_policy():
     assert field["id"] == "policy"
     assert field["name"] == "정치경제"
     assert field["sources"]["rss"]["enabled"] is True
+
+
+def test_m6_candidate_capacity():
+    cfg = load_config(ROOT / "config" / "fields.yaml")
+    for field_id in ("labor", "ownership", "policy"):
+        field = cfg["fields"][field_id]
+        assert field["limits"]["candidates"] == 10
+        assert field["limits"]["max_per_source"] >= 10
+        assert field["sources"]["api"]["window_days"] == 30

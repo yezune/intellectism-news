@@ -1,8 +1,8 @@
 {
  "date": "2026-11-09",
  "field": "ownership",
- "generated_at": "2026-11-09T12:07:52+00:00",
- "fetched": 29,
+ "generated_at": "2026-11-09T13:45:06+00:00",
+ "fetched": 45,
  "errors": {},
  "items": [
   {
@@ -19,6 +19,97 @@
    "candidate": true
   },
   {
+   "id": "url:010cb5d0fcf452e2",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "Privacy Act of 1974; System of Records",
+   "url": "https://www.federalregister.gov/documents/2026/10/23/2026-21697/privacy-act-of-1974-system-of-records",
+   "published": "2026-10-23T00:00:00+00:00",
+   "summary": "As required by the Privacy Act of 1974, notice is hereby given that VA is modifying an existing system of records titled, \"Veterans and Uniformed Services Personnel Programs of U.S. Government Life Insurance--VA\" (36VA29). This system is housed within a cloud-based computer system called \"Life Insurance Policy Administration Solution\" (LIPAS), which is a managed service solution leveraging commercial off-the-shelf (COTS) software applications hosted in the VA Enterprise Cloud Amazon Web Services GovCloud (VAEC-AWS) High environment. LIPAS replaced the retired Insurance Payment System mainframe and Veterans Insurance Claim Tracking and Response System (VICTARS). By using LIPAS to integrate with VA Enterprise shared services, LIPAS provides the components necessary for VA Insurance policy administration and management.",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/23/2026-21697/privacy-act-of-1974-system-of-records",
+   "candidate": true
+  },
+  {
+   "id": "url:0f3075ee5c3769e8",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "Formations of, Acquisitions by, and Mergers of Bank Holding Companies",
+   "url": "https://www.federalregister.gov/documents/2026/10/28/2026-21970/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies",
+   "published": "2026-10-28T00:00:00+00:00",
+   "summary": "",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/28/2026-21970/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies",
+   "candidate": true
+  },
+  {
+   "id": "url:3906834653aa3d67",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "Exemptions To Permit Circumvention of Access Controls on Copyrighted Works; Correction",
+   "url": "https://www.federalregister.gov/documents/2026/11/02/2026-22274/exemptions-to-permit-circumvention-of-access-controls-on-copyrighted-works-correction",
+   "published": "2026-11-02T00:00:00+00:00",
+   "summary": "This document corrects the preamble to a proposed rule published in the Federal Register on October 28, 2026, regarding Exemptions to Permit Circumvention of Access Controls on Copyrighted Works. The correction fixes a typographical error within a subsection discussing a petition to renew a current exemption.",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.federalregister.gov/documents/2026/11/02/2026-22274/exemptions-to-permit-circumvention-of-access-controls-on-copyrighted-works-correction",
+   "candidate": true
+  },
+  {
+   "id": "url:376cc85d8a4e9519",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "Music Streaming Fraud",
+   "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22602/music-streaming-fraud",
+   "published": "2026-11-05T00:00:00+00:00",
+   "summary": "The United States Copyright Office is extending the deadline for the submission of written comments in response to its October 7, 2026, notice of inquiry in connection with an inquiry regarding issues related to music streaming fraud.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.federalregister.gov/documents/2026/11/05/2026-22602/music-streaming-fraud",
+   "candidate": true
+  },
+  {
+   "id": "url:97a7b3203904720e",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "Exemptions To Permit Circumvention of Access Controls on Copyrighted Works",
+   "url": "https://www.federalregister.gov/documents/2026/10/28/2026-21939/exemptions-to-permit-circumvention-of-access-controls-on-copyrighted-works",
+   "published": "2026-10-28T00:00:00+00:00",
+   "summary": "The United States Copyright Office is conducting the tenth triennial rulemaking proceeding under the Digital Millennium Copyright Act (\"DMCA\"), concerning temporary exemptions to the DMCA's prohibition against circumvention of technological measures that control access to copyrighted works. Having carefully considered the petitions for new and renewal exemptions and comments received in response to the June 9, 2026 Notification of Inquiry, the Office announces the Register's intention to recommend all but one of the existing exemptions for renewal, and initiates three rounds of public comment on newly proposed exemptions. Comments submitted may not exceed twenty-five pages per class, excluding documentary evidence.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/28/2026-21939/exemptions-to-permit-circumvention-of-access-controls-on-copyrighted-works",
+   "candidate": true
+  },
+  {
+   "id": "url:a9247e536bae72db",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "Privacy Act of 1974; System of Records",
+   "url": "https://www.federalregister.gov/documents/2026/10/21/2026-21511/privacy-act-of-1974-system-of-records",
+   "published": "2026-10-21T00:00:00+00:00",
+   "summary": "In accordance with the Privacy Act of 1974, as amended, the Consumer Financial Protection Bureau (CFPB or Bureau) proposes to modify a current Privacy Act System of Records Notice (SORN) titled, \"CFPB.001--Freedom of Information Act/Privacy Act System.\" This modification clarifies the purpose of the SORN, the categories of records and individuals, the legal authorities, the system manager, the system location address, and the records retention schedule, and introduces a new routine use to permit the disclosure of records to the National Archives and Records Administration (NARA) or other Federal agencies for records inspection purposes.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/21/2026-21511/privacy-act-of-1974-system-of-records",
+   "candidate": true
+  },
+  {
+   "id": "url:abf790dc991f4cda",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "Implementation of Electronic Submission of Mariner Course Completion Data",
+   "url": "https://www.federalregister.gov/documents/2026/10/16/2026-21146/implementation-of-electronic-submission-of-mariner-course-completion-data",
+   "published": "2026-10-16T00:00:00+00:00",
+   "summary": "This document announces that the Coast Guard will not require the electronic submission requirement for mariner course completion data until at least November 25, 2028, because the system for providing the electronic submission is not yet fully operational. The Coast Guard will notify the public through the Federal Register before requiring the electronic submission of course completion data.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.federalregister.gov/documents/2026/10/16/2026-21146/implementation-of-electronic-submission-of-mariner-course-completion-data",
+   "candidate": true
+  },
+  {
    "id": "url:cfd4354afa14004f",
    "field": "ownership",
    "source": "rss:OpenAI",
@@ -30,10 +121,32 @@
    "score": 3.0,
    "primary_source": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
    "candidate": true
+  },
+  {
+   "id": "url:fd313b2abd4d6b81",
+   "field": "ownership",
+   "source": "rss:EFF",
+   "title": "Google Forcing AI on Students Is BS",
+   "url": "https://www.eff.org/deeplinks/2026/11/google-forcing-ai-students-bs",
+   "published": "2026-11-06T19:14:22+00:00",
+   "summary": "Google is rightfully facing blowback for forcing K-12 schools to enable AI if they wanted to keep using Google search. The company quickly backtracked and decoupled and turned off the services by default, but made it clear search will continue to be just another AI chatbot. This mandate forces an ultimatum on educators: accept generative AI or de-google your school. Students, teachers, and parents across the U.S. are now years into an argument about how schools should respond to the growth of AI-enabled tools. Google decided to skip this debate and take this choice from schools. In August it activated AI chatbot Gemini for 150 million K-12 students on Google Classroom, leaving educators scrambling to respond . A few months later, Google introduced a new way to turn it off — but now administrators would also be turning off Google search . Google walked this back somewhat, clarifying that Gemini, Gemini notebook, and Search will have their own controls and will be off by default. But because of Google’s broader approach to force AI on all search users, this change is still an example of a tech monopolist pushing unwanted changes into the classroom. Tying AI to Search It’s no secret t",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/google-forcing-ai-students-bs",
+   "candidate": true
   }
  ],
  "candidates": [
   "url:438f92a11f7caaff",
-  "url:cfd4354afa14004f"
- ]
+  "url:010cb5d0fcf452e2",
+  "url:0f3075ee5c3769e8",
+  "url:3906834653aa3d67",
+  "url:376cc85d8a4e9519",
+  "url:97a7b3203904720e",
+  "url:a9247e536bae72db",
+  "url:abf790dc991f4cda",
+  "url:cfd4354afa14004f",
+  "url:fd313b2abd4d6b81"
+ ],
+ "retries": []
 }

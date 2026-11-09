@@ -54,6 +54,60 @@ fields:
           - name: NBER
             url: https://www.nber.org/rss/new.xml
             require_keywords: true
+          - name: CEPR
+            url: https://www.cepr.org/rss/news
+            require_keywords: true
+      api:
+        enabled: true
+        weight: 1.5
+        window_days: 30
+        delay: 0.5
+        sources:
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=labor&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=automation&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=employment&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=labor&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=employment&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=workers&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=wage&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=union&per_page=20
+            require_keywords: true
       arxiv:
         enabled: true
         weight: 1.0
@@ -63,7 +117,7 @@ fields:
     limits:
       candidates: 10
       max_items: 20
-      max_per_source: 3
+      max_per_source: 10
 
   ownership:
     name: 소유
@@ -147,6 +201,69 @@ fields:
           - name: Hugging Face
             url: https://huggingface.co/blog/feed.xml
             require_keywords: true
+          - name: EFF
+            url: https://www.eff.org/rss/updates.xml
+            require_keywords: true
+      api:
+        enabled: true
+        weight: 1.5
+        window_days: 30
+        delay: 0.5
+        sources:
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=ownership&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=antitrust&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=cloud&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=ownership&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=artificial+intelligence&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=data&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=privacy&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=antitrust&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=merger&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=copyright&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=cloud&per_page=20
+            require_keywords: true
       arxiv:
         enabled: true
         weight: 1.0
@@ -156,7 +273,7 @@ fields:
     limits:
       candidates: 10
       max_items: 20
-      max_per_source: 3
+      max_per_source: 10
 
   policy:
     name: 정치경제
@@ -221,6 +338,32 @@ fields:
       - narcotraficantes
       - foia
       - "model cities"
+      - viral
+      - virus
+      - "stem cell"
+      - "stem cells"
+      - protein
+      - membrane
+      - receptor
+      - immunity
+      - transcriptional
+      - kinase
+      - molecular
+      - clinical
+      - cancer
+      - tumor
+      - tumour
+      - neuronal
+      - synaptic
+      - bacterial
+      - enzyme
+      - metabolic
+      - chromatin
+      - "in vitro"
+      - "in vivo"
+      - mice
+      - mouse
+      - cohort
     min_relevance: 2.0
     sources:
       rss:
@@ -236,13 +379,102 @@ fields:
           - name: DOJ
             url: https://www.justice.gov/news/rss
             require_keywords: true
+          - name: EFF
+            url: https://www.eff.org/rss/updates.xml
+            require_keywords: true
+          - name: European Commission
+            url: https://ec.europa.eu/commission/presscorner/api/rss?language=en
+            require_keywords: true
       api:
         enabled: true
         weight: 1.5
-        window_days: 3
+        window_days: 30
+        delay: 0.5
         sources:
           - name: Federal Register
             url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=artificial+intelligence&per_page=20
+            require_keywords: true
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=policy&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=regulation&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=governance&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=ai%20policy&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=data%20protection&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=competition%20policy&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: OpenAlex
+            enabled: false
+            url: https://api.openalex.org/works?search=consumer%20protection&per-page=20&sort=publication_date:desc
+            date_filter: "from_publication_date:{since},to_publication_date:{until}"
+            fields:
+              title: title
+              url: doi
+              published: publication_date
+              summary: ""
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=data+protection&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=privacy&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=antitrust&per_page=20
+            require_keywords: true
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=competition&per_page=20
             require_keywords: true
       arxiv:
         enabled: true
@@ -253,4 +485,4 @@ fields:
     limits:
       candidates: 10
       max_items: 20
-      max_per_source: 3
+      max_per_source: 10

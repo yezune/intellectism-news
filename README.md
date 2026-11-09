@@ -10,6 +10,7 @@ One engine, eight field configurations. The first three fields are **labor**, **
 - Scores items by relevance, source weight, and freshness.
 - Deduplicates by canonical URL.
 - Writes up to 10 candidates per day as JSON and a Markdown digest.
+- Retries 429/5xx responses with backoff and records retries in the JSON and digest.
 - Keeps a per-field seen state so the same item is not repeated.
 
 ## Quick start
@@ -44,7 +45,7 @@ make candidates FIELD=ownership
 
 ## Rust core
 
-`make check` runs `inews-core normalize` on a tracking URL and `inews-core validate` on the fixture and every real `data/**/*.json`. The Python collector stays because collection takes about 9 seconds for all three fields.
+`make check` runs `inews-core normalize` on a tracking URL and `inews-core validate` on the fixture and every real `data/**/*.json`. The Python collector stays because collection takes about 40 seconds for all three fields.
 
 ## Layout
 
@@ -61,7 +62,7 @@ state/<field>/seen.json   per-field dedup state
 
 ## Milestones
 
-See [MILESTONES.md](MILESTONES.md). M0–M5 are complete; M6 is next.
+See [MILESTONES.md](MILESTONES.md). M0–M6 are complete.
 
 ## TDD
 
@@ -73,14 +74,14 @@ See [MILESTONES.md](MILESTONES.md). M0–M5 are complete; M6 is next.
 
 ## Free sources
 
-RSS: ILO Jobs, US DOL, EPI, UNI, NBER, SEC, FTC, Federal Register, EUR-Lex, World Bank, IMF, UNCTAD.
+RSS: ILO Jobs, US DOL, EPI, UNI, NBER, CEPR, SEC, DOJ, OpenAI, DeepMind, Hugging Face, EFF, European Commission, Federal Register.
 
 APIs: arXiv, OpenAlex, Crossref, SEC EDGAR, Federal Register, BLS, Eurostat, World Bank, GitHub, Hugging Face.
 
 No paid APIs, no scraping.
 
 <!-- LATEST:START -->
-**최신 policy 다이제스트: [2026-11-09](digests/policy/2026/2026-11-09.md)** — 후보 1건 · 오류 0건
+**최신 policy 다이제스트: [2026-11-09](digests/policy/2026/2026-11-09.md)** — 후보 10건 · 오류 0건
 
 최근 14일:
 

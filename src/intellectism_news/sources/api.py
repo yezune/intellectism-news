@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import time as _time
 from datetime import UTC, date, datetime, time, timedelta
 from typing import Any
 
@@ -23,19 +24,30 @@ def fetch(
     since = datetime.combine(
         run_date - timedelta(days=cfg.get("window_days", 3)), time.min, UTC
     )
+    until = datetime.combine(run_date, time.max, UTC)
     items: list[Item] = []
     errors: dict[str, str] = {}
     for source in cfg.get("sources", []):
+        if not source.get("enabled", True):
+            continue
+        url = source["url"]
+        date_filter = source.get("date_filter")
+        if date_filter:
+            formatted = date_filter.format(
+                since=since.date().isoformat(), until=run_date.isoformat()
+            )
+            url = f"{url}&filter={formatted}"
+        _time.sleep(cfg.get("delay", 0))
         try:
-            data = http.get_json(source["url"], source.get("headers"))
+            data = http.get_json(url, source.get("headers"))
         except Exception as exc:
             errors[f"api:{source['name']}"] = f"{type(exc).__name__}: {exc}"
             continue
         fields = {**DEFAULT_FIELDS, **source.get("fields", {})}
         for row in data.get("results", []):
-            title = row.get(fields["title"], "")
-            link = row.get(fields["url"], "")
-            published = row.get(fields["published"], "")
+            title = row.get(fields["title"]) or ""
+            link = row.get(fields["url"]) or ""
+            published = row.get(fields["published"]) or ""
             if not link or not published:
                 continue
             try:
@@ -44,7 +56,7 @@ def fetch(
                 continue
             if stamp.tzinfo is None:
                 stamp = stamp.replace(tzinfo=UTC)
-            if stamp < since:
+            if stamp < since or stamp > until:
                 continue
             items.append(
                 Item(

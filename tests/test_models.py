@@ -53,3 +53,20 @@ def test_run_result_to_dict():
     assert d["date"] == "2026-11-10"
     assert d["candidates"] == ["x"]
     assert d["items"][0]["id"] == "x"
+    assert d["retries"] == []
+
+
+def test_run_result_to_dict_includes_retries():
+    result = RunResult(
+        date="2026-11-10",
+        field="labor",
+        generated_at="2026-11-10T07:17:00+09:00",
+        fetched=1,
+        errors={},
+        items=[],
+        candidates=[],
+        retries=[{"url": "https://e.com", "attempt": 1, "status": 429, "wait": 1}],
+    )
+    assert result.to_dict()["retries"] == [
+        {"url": "https://e.com", "attempt": 1, "status": 429, "wait": 1}
+    ]
