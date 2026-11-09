@@ -92,16 +92,28 @@ Tests first:
 Acceptance:
 - [x] 3 fields, 10 candidates each, 0 fatal errors.
 - [x] Rate limits and retries are recorded in `retries` and the digest.
-- [x] `make daily` runs under 5 minutes on the free tier (about 10.7s / 6.0s / 4.8s).
+- [x] `make daily` runs under 5 minutes on the free tier (about 12.3s / 10.7s / 14.6s).
 
 Tests first:
 - [x] `test_http.py` — retry, backoff, timeout.
 - [x] `test_pipeline.py` — one dead feed does not stop the run.
 
 Implementation:
-- [x] `http.py` retries 429/500/502/503/504 with 1/2/4 second backoff and records each event.
+- [x] `http.py` retries 429/500/502/503/504 with 2/5/10 second backoff and records each event.
 - [x] `run_daily` stores `retries` in JSON and renders them in the digest.
-- [x] OpenAlex runs three queries per field; Federal Register runs for labor and ownership.
+- [x] OpenAlex runs three queries per field; Federal Register runs for all three fields.
 - [x] API windows are 30 days; `max_per_source` is 10 so 10 candidates are reachable.
 - [x] `policy` filters biology and health papers with negative keywords.
 - [x] OpenAlex is wired with retry/backoff recording; it is temporarily disabled because the free daily budget was exhausted, and can be re-enabled with `enabled: true`.
+
+## M7 — E2E and free CI
+
+Acceptance:
+- [x] `make e2e` runs the real collector in a temp root and validates all three fields.
+- [x] `.github/workflows/e2e.yml` runs on a schedule and manual dispatch.
+- [x] `.github/workflows/ci.yml` runs `make check` on PR and push.
+- [x] The collector stops at JSON + digest; no LLM, video, or upload.
+
+Tests first:
+- [x] `scripts/e2e.sh` — real collection, 10/10/10 candidates, 0 errors.
+- [x] `test_workflow.py` — CI and E2E workflows exist.

@@ -2,6 +2,8 @@
 
 Field-specific news collectors for the intellectism channel.
 
+**This repository is the collector.** It fetches public news, curates it, and writes validated JSON. Editing, review, broadcast, and publishing live in [`../intellectism/`](../intellectism/). The collector never calls LLMs, renders video, or uploads to YouTube.
+
 One engine, eight field configurations. The first three fields are **labor**, **ownership**, and **policy**.
 
 ## What it does
@@ -62,7 +64,7 @@ state/<field>/seen.json   per-field dedup state
 
 ## Milestones
 
-See [MILESTONES.md](MILESTONES.md). M0–M6 are complete.
+See [MILESTONES.md](MILESTONES.md). M0–M7 are complete.
 
 ## TDD
 

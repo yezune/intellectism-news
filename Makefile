@@ -4,7 +4,7 @@ CARGO ?= cargo
 INEWS_CORE ?= crates/inews-core/target/debug/inews-core
 CARGO_MANIFEST ?= crates/inews-core/Cargo.toml
 
-.PHONY: setup test lint check daily candidates clean
+.PHONY: setup test lint check daily candidates e2e clean
 
 FIELD ?= labor
 FORCE ?=
@@ -23,7 +23,7 @@ test:
 	$(CARGO) test --manifest-path $(CARGO_MANIFEST)
 
 lint:
-	$(PYTHON) -m ruff check src tests
+	$(PYTHON) -m ruff check src tests scripts
 	$(CARGO) fmt --manifest-path $(CARGO_MANIFEST) --check
 	$(CARGO) clippy --manifest-path $(CARGO_MANIFEST) -- -D warnings
 
@@ -39,6 +39,9 @@ daily:
 
 candidates:
 	$(PYTHON) -m intellectism_news.cli candidates --field $(FIELD) $(if $(DATE),--date $(DATE))
+
+e2e:
+	$(PYTHON) scripts/e2e.py
 
 clean:
 	rm -rf .venv .pytest_cache .ruff_cache
