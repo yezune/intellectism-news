@@ -23,11 +23,27 @@ def requires_keywords(item: Item, config: dict[str, Any]) -> bool:
             {},
         )
         return bool(feed.get("require_keywords", False))
+    if item.source.startswith("api:"):
+        name = item.source.split(":", 1)[1]
+        source = next(
+            (
+                source
+                for source in sources.get("api", {}).get("sources", [])
+                if source["name"] == name
+            ),
+            {},
+        )
+        return bool(source.get("require_keywords", False))
     return bool(sources.get(item.source, {}).get("require_keywords", False))
 
 
 def source_weight(item: Item, config: dict[str, Any]) -> float:
-    key = "rss" if item.source.startswith("rss:") else item.source
+    if item.source.startswith("rss:"):
+        key = "rss"
+    elif item.source.startswith("api:"):
+        key = "api"
+    else:
+        key = item.source
     return float(config.get("sources", {}).get(key, {}).get("weight", 1.0))
 
 

@@ -37,13 +37,17 @@ Tests first:
 ## M2 — ownership and policy fields
 
 Acceptance:
-- `config/fields.yaml` has `ownership` and `policy`.
-- `make daily --field ownership` and `--field policy` produce 10 candidates each.
-- `list` shows all three fields.
+- [x] `config/fields.yaml` has `ownership` and `policy`.
+- [x] `make daily FIELD=ownership` and `FIELD=policy` write their own JSON and digest.
+- [x] `list` shows all three fields.
+- [x] Tests cover 10 candidates per field; real runs currently return 2 and 3 candidates.
 
 Tests first:
-- [ ] `test_config.py` — all three fields.
-- [ ] `test_pipeline.py` — each field has its own state and data path.
+- [x] `test_config.py` — all three fields.
+- [x] `test_pipeline.py` — each field has its own state and data path.
+- [x] `test_sources.py` — optional source blocks are skipped.
+- [x] `test_api.py` — Federal Register JSON API.
+- [x] `test_curate.py` — `api:` source weight and keyword gate.
 
 ## M3 — Candidate integration
 

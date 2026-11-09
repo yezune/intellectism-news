@@ -64,3 +64,143 @@ fields:
       candidates: 10
       max_items: 20
       max_per_source: 3
+
+  ownership:
+    name: 소유
+    question: 누가 데이터·모델·컴퓨트를 소유하는가
+    keywords:
+      ownership: 3
+      "data": 2
+      "model": 2
+      "compute": 2
+      "cloud": 2
+      "acquisition": 2
+      "merger": 2
+      "antitrust": 2
+      "copyright": 2
+      "license": 2
+      "open source": 2
+      "open weights": 2
+      "proprietary": 2
+      "infrastructure": 2
+      "chip": 2
+      "gpu": 2
+      "nvidia": 2
+      "export controls": 3
+      "national security": 2
+      "data center": 2
+      "hyperscaler": 2
+      "subscription": 2
+      "pricing": 2
+      "rent": 2
+      "asset": 2
+      "capital": 2
+      "shareholder": 2
+      "dividend": 2
+      "buyback": 2
+    min_relevance: 2.0
+    sources:
+      rss:
+        enabled: true
+        weight: 1.5
+        window_days: 3
+        feeds:
+          - name: SEC
+            url: https://www.sec.gov/news/pressreleases.rss
+            headers:
+              User-Agent: intellectism-news/0.1 (contact@example.com)
+            require_keywords: true
+          - name: DOJ
+            url: https://www.justice.gov/news/rss
+            require_keywords: true
+          - name: OpenAI
+            url: https://openai.com/news/rss.xml
+            require_keywords: true
+          - name: DeepMind
+            url: https://deepmind.google/blog/rss.xml
+            require_keywords: true
+          - name: Hugging Face
+            url: https://huggingface.co/blog/feed.xml
+            require_keywords: true
+      arxiv:
+        enabled: true
+        weight: 1.0
+        query: 'cat:cs.CY AND (abs:"ownership" OR abs:"data" OR abs:"platform" OR abs:"antitrust")'
+        max_results: 100
+        window_days: 2
+    limits:
+      candidates: 10
+      max_items: 20
+      max_per_source: 3
+
+  policy:
+    name: 정치경제
+    question: 누가 규칙을 정하고, 누구에게 비용을 넘기는가
+    keywords:
+      regulation: 3
+      regulatory: 3
+      legislation: 3
+      law: 2
+      bill: 2
+      congress: 2
+      parliament: 2
+      eu: 2
+      "ai act": 3
+      "executive order": 3
+      federal: 2
+      state: 2
+      agency: 2
+      ftc: 2
+      doj: 2
+      sec: 2
+      copyright: 2
+      liability: 2
+      privacy: 2
+      "data protection": 2
+      "export controls": 3
+      sanctions: 2
+      tariff: 2
+      procurement: 2
+      subsidy: 2
+      public: 2
+      governance: 2
+      standards: 2
+      compliance: 2
+      enforcement: 2
+      court: 2
+      lawsuit: 2
+      settlement: 2
+      consent: 2
+    min_relevance: 2.0
+    sources:
+      rss:
+        enabled: true
+        weight: 1.5
+        window_days: 3
+        feeds:
+          - name: SEC
+            url: https://www.sec.gov/news/pressreleases.rss
+            headers:
+              User-Agent: intellectism-news/0.1 (contact@example.com)
+            require_keywords: true
+          - name: DOJ
+            url: https://www.justice.gov/news/rss
+            require_keywords: true
+      api:
+        enabled: true
+        weight: 1.5
+        window_days: 3
+        sources:
+          - name: Federal Register
+            url: https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=artificial+intelligence&per_page=20
+            require_keywords: true
+      arxiv:
+        enabled: true
+        weight: 1.0
+        query: 'cat:cs.CY AND (abs:"policy" OR abs:"regulation" OR abs:"governance" OR abs:"law")'
+        max_results: 100
+        window_days: 2
+    limits:
+      candidates: 10
+      max_items: 20
+      max_per_source: 3

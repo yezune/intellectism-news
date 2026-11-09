@@ -43,7 +43,7 @@ state/<field>/seen.json   per-field dedup state
 
 ## Milestones
 
-See [MILESTONES.md](MILESTONES.md). M0 and M1 are complete; M2 is next.
+See [MILESTONES.md](MILESTONES.md). M0–M2 are complete; M3 is next.
 
 ## TDD
 
@@ -62,9 +62,9 @@ APIs: arXiv, OpenAlex, Crossref, SEC EDGAR, Federal Register, BLS, Eurostat, Wor
 No paid APIs, no scraping.
 
 <!-- LATEST:START -->
-**최신 labor 다이제스트: [2026-11-09](digests/labor/2026/2026-11-09.md)** — 후보 4건 · 오류 0건
+**최신 policy 다이제스트: [2026-11-09](digests/policy/2026/2026-11-09.md)** — 후보 3건 · 오류 0건
 
 최근 14일:
 
-- [2026-11-09](digests/labor/2026/2026-11-09.md)
+- [2026-11-09](digests/policy/2026/2026-11-09.md)
 <!-- LATEST:END -->

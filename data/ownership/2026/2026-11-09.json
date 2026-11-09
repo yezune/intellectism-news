@@ -1,0 +1,39 @@
+{
+ "date": "2026-11-09",
+ "field": "ownership",
+ "generated_at": "2026-11-09T11:34:22+00:00",
+ "fetched": 29,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:9ccbb86689dfdc5c",
+   "field": "ownership",
+   "source": "rss:DOJ",
+   "title": "Justice Department Awards Jacksonville More Than $73M to Combat Violent Crime and Restore Law and Order Through Model Cities Initiative",
+   "url": "https://www.justice.gov/opa/pr/justice-department-awards-jacksonville-more-73m-combat-violent-crime-and-restore-law-and",
+   "published": "2026-11-06T12:00:00+00:00",
+   "summary": "Today, the Justice Department awarded Jacksonville, Florida, more than $73 Million through its Model Cities Initiative (MCI), a flagship effort to reduce violent crime, restore law and order, and strengthen public safety in communities across the country. &nbsp;",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": null,
+   "candidate": true
+  },
+  {
+   "id": "url:cfd4354afa14004f",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Measuring how AI agents handle everyday wet-lab science",
+   "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+   "published": "2026-11-06T00:00:00+00:00",
+   "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": null,
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:9ccbb86689dfdc5c",
+  "url:cfd4354afa14004f"
+ ]
+}

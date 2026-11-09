@@ -1,4 +1,10 @@
-from intellectism_news.curate import curate, merge_duplicates, relevance, score
+from intellectism_news.curate import (
+    curate,
+    merge_duplicates,
+    relevance,
+    requires_keywords,
+    score,
+)
 from intellectism_news.models import Item
 
 
@@ -29,6 +35,10 @@ def cfg(**overrides):
         "sources": {
             "rss": {"weight": 1.5, "feeds": [{"name": "ILO", "require_keywords": True}]},
             "arxiv": {"weight": 1.0},
+            "api": {
+                "weight": 1.5,
+                "sources": [{"name": "Federal Register", "require_keywords": True}],
+            },
         },
         "limits": {"candidates": 10, "max_items": 20, "max_per_source": 3},
     }
@@ -92,3 +102,13 @@ def test_curate_sets_candidate():
 def test_score():
     item = make_item("x", "Layoffs")
     assert score(item, cfg()) == 3.75
+
+
+def test_source_weight_api():
+    item = make_item("x", "Regulation", source="api:Federal Register")
+    assert score(item, cfg()) == 1.5
+
+
+def test_requires_keywords_api():
+    item = make_item("x", "Regulation", source="api:Federal Register")
+    assert requires_keywords(item, cfg()) is True

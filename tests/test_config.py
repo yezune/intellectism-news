@@ -40,4 +40,20 @@ def test_validate_config_rejects_missing_key():
 
 def test_list_fields():
     cfg = load_config(ROOT / "config" / "fields.yaml")
-    assert list_fields(cfg) == ["labor"]
+    assert list_fields(cfg) == ["labor", "ownership", "policy"]
+
+
+def test_get_field_ownership():
+    cfg = load_config(ROOT / "config" / "fields.yaml")
+    field = get_field(cfg, "ownership")
+    assert field["id"] == "ownership"
+    assert field["name"] == "소유"
+    assert field["sources"]["rss"]["enabled"] is True
+
+
+def test_get_field_policy():
+    cfg = load_config(ROOT / "config" / "fields.yaml")
+    field = get_field(cfg, "policy")
+    assert field["id"] == "policy"
+    assert field["name"] == "정치경제"
+    assert field["sources"]["rss"]["enabled"] is True

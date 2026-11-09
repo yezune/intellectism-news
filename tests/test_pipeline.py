@@ -7,10 +7,12 @@ from intellectism_news import pipeline
 from intellectism_news.models import Item
 
 
-def make_item(id: str, title: str = "Layoffs", source: str = "rss:ILO") -> Item:
+def make_item(
+    id: str, title: str = "Layoffs", source: str = "rss:ILO", field: str = "labor"
+) -> Item:
     return Item(
         id=id,
-        field="labor",
+        field=field,
         source=source,
         title=title,
         url=f"https://example.com/{id}",
@@ -21,6 +23,7 @@ def make_item(id: str, title: str = "Layoffs", source: str = "rss:ILO") -> Item:
 
 def write_config(root):
     (root / "config").mkdir()
+    feeds = [{"name": f"Feed{i}", "require_keywords": True} for i in range(12)]
     (root / "config" / "fields.yaml").write_text(
         yaml.safe_dump(
             {
@@ -32,17 +35,33 @@ def write_config(root):
                         "keywords": {"layoffs": 3},
                         "min_relevance": 2,
                         "sources": {
-                            "rss": {
-                                "weight": 1.5,
-                                "feeds": [
-                                    {"name": f"Feed{i}", "require_keywords": True}
-                                    for i in range(12)
-                                ],
-                            },
+                            "rss": {"weight": 1.5, "feeds": feeds},
                             "arxiv": {"weight": 1.0},
                         },
                         "limits": {"candidates": 10, "max_items": 20, "max_per_source": 3},
-                    }
+                    },
+                    "ownership": {
+                        "name": "소유",
+                        "question": "누가 데이터·모델·컴퓨트를 소유하는가",
+                        "keywords": {"ownership": 3},
+                        "min_relevance": 2,
+                        "sources": {
+                            "rss": {"weight": 1.5, "feeds": feeds},
+                            "arxiv": {"weight": 1.0},
+                        },
+                        "limits": {"candidates": 10, "max_items": 20, "max_per_source": 3},
+                    },
+                    "policy": {
+                        "name": "정치경제",
+                        "question": "누가 규칙을 정하고, 누구에게 비용을 넘기는가",
+                        "keywords": {"regulation": 3},
+                        "min_relevance": 2,
+                        "sources": {
+                            "rss": {"weight": 1.5, "feeds": feeds},
+                            "arxiv": {"weight": 1.0},
+                        },
+                        "limits": {"candidates": 10, "max_items": 20, "max_per_source": 3},
+                    },
                 },
             }
         ),
@@ -91,3 +110,35 @@ def test_run_daily_records_errors(tmp_path, monkeypatch):
     assert data["errors"] == {"rss:ILO": "boom"}
     assert data["items"] == []
     assert "boom" in (tmp_path / "digests" / "labor" / "2026" / "2026-11-10.md").read_text()
+
+
+def test_run_daily_ownership(tmp_path, monkeypatch):
+    write_config(tmp_path)
+    items = [
+        make_item(f"o{i}", title="Ownership", source=f"rss:Feed{i}", field="ownership")
+        for i in range(12)
+    ]
+    monkeypatch.setattr(pipeline, "fetch_all", lambda field, run_date: (items, {}))
+    out = pipeline.run_daily(tmp_path, "ownership", date(2026, 11, 10))
+    assert out is not None
+    data = json.loads((tmp_path / "data" / "ownership" / "2026" / "2026-11-10.json").read_text())
+    assert len(data["items"]) == 10
+    assert all(item["field"] == "ownership" for item in data["items"])
+    assert (tmp_path / "state" / "ownership" / "seen.json").exists()
+    assert (tmp_path / "digests" / "ownership" / "2026" / "2026-11-10.md").exists()
+
+
+def test_run_daily_policy(tmp_path, monkeypatch):
+    write_config(tmp_path)
+    items = [
+        make_item(f"p{i}", title="Regulation", source=f"rss:Feed{i}", field="policy")
+        for i in range(12)
+    ]
+    monkeypatch.setattr(pipeline, "fetch_all", lambda field, run_date: (items, {}))
+    out = pipeline.run_daily(tmp_path, "policy", date(2026, 11, 10))
+    assert out is not None
+    data = json.loads((tmp_path / "data" / "policy" / "2026" / "2026-11-10.json").read_text())
+    assert len(data["items"]) == 10
+    assert all(item["field"] == "policy" for item in data["items"])
+    assert (tmp_path / "state" / "policy" / "seen.json").exists()
+    assert (tmp_path / "digests" / "policy" / "2026" / "2026-11-10.md").exists()
