@@ -1,0 +1,54 @@
+{
+ "date": "2026-11-11",
+ "field": "labor",
+ "generated_at": "2026-11-10T22:05:57+00:00",
+ "fetched": 17,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:a7bf93095c7dddf8",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "US Department of Labor announces plans to update employment resources for service members transitioning to civilian life",
+   "url": "http://www.dol.gov/newsroom/releases/vets/vets20261110",
+   "published": "2026-11-10T12:00:00+00:00",
+   "summary": "WASHINGTON&nbsp;–&nbsp;The departments of Labor, War, and Veterans Affairs today announced plans to update assistance programs for&nbsp;veterans leaving the military and entering civilian life to ensure they have timely access to career opportunities and benefits.&nbsp;The initiative is in response to an executive order signed by President Trump on Sept. 8, that directed the three agencies to update the&nbsp;Transition Assistance Program – which provides information, tools, and training to ensure service members, their spouses and/or caregivers are prepared for the next step in civilian life – to ensure service members leave the military connected to specific employment, training, or Registered Apprenticeship opportunities. It also asks the agencies to connect service members with representatives who can help them apply for healthcare, disability, home loan, job placement, or education benefits.“Under President Trump’s leadership, we're eliminating barriers that keep veterans from accessing career opportunities,” said Secretary of Labor Keith Sonderling. “Our nation owes service members a debt of gratitude, and the Department of Labor does everything it can to ensure that veterans ",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "http://www.dol.gov/newsroom/releases/vets/vets20261110",
+   "candidate": true
+  },
+  {
+   "id": "url:3a5e73b900758a0c",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "US Department of Labor unveils updated proposed rule designed to protect miners’ health from silica dust exposures",
+   "url": "http://www.dol.gov/newsroom/releases/msha/msha20261110",
+   "published": "2026-11-10T12:00:00+00:00",
+   "summary": "WASHINGTON&nbsp;– The U.S. Department of Labor’s&nbsp;Mine Safety and Health Administration today unveiled a proposed rule to better protect the nation’s miners from health hazards associated with exposure to crystalline silica, also known as silica dust or quartz dust.The proposed rule amends the&nbsp;2024 Biden-era final rule by adding practical, commonsense, risk-based improvements to compliance requirements, exposure monitoring, medical surveillance, recordkeeping, and respiratory protection based on&nbsp;OSHA standards. The proposal retains the permissible exposure limit for respirable crystalline silica at or below 50 micrograms per cubic meter of air and action level at 25 micrograms.Several developments after publication of the 2024&nbsp;respirable crystalline silica final rule led to MSHA’s decision to develop a new proposed rule related to silica dust, including the U.S. Court of Appeals for the 8th Circuit’s stay of the compliance deadlines in the final rule. MSHA announced in an April 2026&nbsp;program information bulletin that it would delay enforcement of the requirements in the 2024 final rule because of the stay, while continuing to enforce existing standards.After ",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "http://www.dol.gov/newsroom/releases/msha/msha20261110",
+   "candidate": true
+  },
+  {
+   "id": "url:985dc16470ca522b",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "US Department of Labor continues to implement President Trump’s deregulatory agenda, announces 5 final rules related to mine safety, health",
+   "url": "http://www.dol.gov/newsroom/releases/msha/msha20261110-0",
+   "published": "2026-11-10T12:00:00+00:00",
+   "summary": "WASHINGTON&nbsp;– The U.S. Department of Labor’s&nbsp;Mine Safety and Health Administration today announced it is furthering President Trump’s executive order aimed at eliminating unnecessary, outdated, and burdensome regulations by issuing five final rules related to mine safety and health.Today’s final rules do not reduce protections for miners because they remove requirements that are no longer applicable to the underground mining industry. These changes include removing outdated effective dates, requirements for outdated technology that is no longer used, and duplicative requirements. &nbsp;MSHA issued final rules in the following areas:&nbsp;Permissible lamps – Removes duplicative requirements for electric cap lamps and other electric lamps in underground coal mines.Diesel particulate matter – Eliminates outdated requirements for diesel particulate matter personal exposure limits for underground metal and nonmetal mines.Installation of foam generator systems in underground coal mines – Removes requirements that are no longer applicable to underground coal mines. Electrical face equipment in coal seams above the water table – Eliminates regulatory requirements because all under",
+   "tags": [],
+   "score": 3.75,
+   "primary_source": "http://www.dol.gov/newsroom/releases/msha/msha20261110-0",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:a7bf93095c7dddf8",
+  "url:3a5e73b900758a0c",
+  "url:985dc16470ca522b"
+ ],
+ "retries": []
+}
