@@ -1,7 +1,13 @@
-"""End-to-end run: real collection in a temp root, then schema validation."""
+"""End-to-end run: real collection in a temp root, then schema validation.
+
+By default the run uses a throwaway root. Pass `--root <dir>` to keep the
+collected data in that directory (the channel's E2E uses this to read the
+handoff JSON).
+"""
 
 from __future__ import annotations
 
+import argparse
 import json
 import shutil
 import sys
@@ -18,13 +24,17 @@ RUN_DATE = date(2026, 11, 9)
 
 
 def run_e2e(root: Path, run_date: date = RUN_DATE) -> list[dict]:
-    """Run all three fields in a throwaway root and return the JSON results."""
+    """Run all three fields in the given root and return the JSON results."""
     (root / "config").mkdir(parents=True, exist_ok=True)
-    shutil.copy(REPO / "config" / "fields.yaml", root / "config" / "fields.yaml")
-    shutil.copy(REPO / "README.md", root / "README.md")
+    if root.resolve() != REPO.resolve():
+        shutil.copy(REPO / "config" / "fields.yaml", root / "config" / "fields.yaml")
+        shutil.copy(REPO / "README.md", root / "README.md")
 
     results: list[dict] = []
     for field in FIELDS:
+        state = root / "state" / field / "seen.json"
+        if state.exists():
+            state.unlink()
         digest = run_daily(root, field, run_date, force=True)
         if digest is None:
             raise RuntimeError(f"{field}: digest was not written")
@@ -42,8 +52,15 @@ def run_e2e(root: Path, run_date: date = RUN_DATE) -> list[dict]:
 
 
 def main() -> int:
-    with tempfile.TemporaryDirectory(prefix="inews-e2e-") as tmp:
-        results = run_e2e(Path(tmp))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", default=None)
+    args = parser.parse_args()
+
+    if args.root:
+        results = run_e2e(Path(args.root))
+    else:
+        with tempfile.TemporaryDirectory(prefix="inews-e2e-") as tmp:
+            results = run_e2e(Path(tmp))
     for result in results:
         print(
             f"{result['field']}: {len(result['candidates'])} candidates, "
