@@ -1,0 +1,178 @@
+{
+ "date": "2026-11-12",
+ "field": "ownership",
+ "generated_at": "2026-11-11T22:06:08+00:00",
+ "fetched": 72,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:23662ba4a9a5b763",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "National Television Multiple Ownership Rule",
+   "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23040/national-television-multiple-ownership-rule",
+   "published": "2026-11-12T00:00:00+00:00",
+   "summary": "In this document, the Federal Communications Commission (Commission) repeals the national television multiple ownership rule (national cap), which prohibits a commercial television licensee from having a cognizable interest in television stations that have an aggregate national audience reach above 39%. The Commission finds, given seismic changes in the modern media marketplace, that the rule's repeal will help empower local broadcast television stations to operate in the public interest and to better serve the needs and interests of their local communities. The Commission will review on a case-by-case basis proposed transactions that would have been prohibited under the national cap to determine whether a proposed transaction would serve the Commission's media ownership goals of localism, competition, and viewpoint diversity.",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "https://www.federalregister.gov/documents/2026/11/12/2026-23040/national-television-multiple-ownership-rule",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.13441",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Inherited Weights: Measuring the Tokenization Premium and the Sovereignty Cost of Language Models for the Global South",
+   "url": "https://arxiv.org/abs/2611.13441",
+   "published": "2026-11-10T01:32:16+00:00",
+   "summary": "Most language models deployed outside the United States and China are fine-tuned descendants of a small number of pretrained families. We argue that fine-tuning leaves the decisive properties of a model inherited from its base: vocabulary, knowledge, cultural alignment, memorized data and license. We contribute (i) an updated, reproducible measurement of the tokenization premium across 31 languages and 7 tokenizers released in 2023-2024, on 27 articles of the Universal Declaration of Human Rights, with explicit correction for unknown-token collapse. Premiums reach 10x for Amharic in older tokenizers and remain at 6.8x in the newest commercial one; Indigenous South American languages pay between 1.6x and 2.7x under global tokenizers. A vocabulary built from Portuguese lowers the premium for 11 of 13 Latin-script Global South languages relative to every global tokenizer tested, by about 24% for Guarani and Quechua. (ii) An eight-test black-box sovereignty audit that a buyer can run without access to weights. (iii) A regime argument: under energy and liability constraints, accuracy per joule, calibration and selective risk should replace raw accuracy as design objectives, with metrics that abstention cannot inflate. We close with preliminary internal measurements from a proprietary architecture built around these objectives, reported with their limitations. Data and measurement code are included.",
+   "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CY"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.13441",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.13520",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Developing an Operational Model for an Internet of Data Based Trusted Data Space for Vocational Education",
+   "url": "https://arxiv.org/abs/2611.13520",
+   "published": "2026-11-10T03:48:06+00:00",
+   "summary": "Data circulation in vocational education has long been constrained by unclear ownership, a lack of trust, and insufficient incentives. The Internet of Data provides a new underlying technology for enabling trusted cross-domain data circulation. Building on an Internet of Data based trusted data space for vocational education, this paper develops a multi-stakeholder operational model encompassing a value network, a product portfolio, revenue allocation, and governance rules. Emphasizing data sovereignty protection and incentive compatibility, the model provides a reference for the sustainable operation of regional vocational education data ecosystems.",
+   "tags": [
+    "cs.CY",
+    "cs.AI"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.13520",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.13525",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "EJAI: Judgment-Preserving Civic AI for Data Center Environmental Justice",
+   "url": "https://arxiv.org/abs/2611.13525",
+   "published": "2026-11-10T03:50:04+00:00",
+   "summary": "Communities in the United States and around the world are contesting data centers, the physical infrastructure of AI. These disputes pose environmental justice issues: residents must weigh unevenly distributed burdens using evidence scattered across metrics, corporate claims, policy documents, and public testimony. A formative study with 10 users showed that dashboards and single-agent AI can settle questions before people examine that evidence. Here we present EJAI, a source-grounded system that links an interactive map, retrieved evidence, missing-data statements, and two stakeholder personas that allow people to inspect evidence and form their own policy recommendations. In a small functional benchmark of 21 queries, retrieved evidence supported 98.4% of factual claims and the system acknowledged missing evidence in 32 of 33 cases. Persona alignment carried a grounding cost: the Corporate Executive omitted some evidence that conflicted with its assigned priorities. In a within-subjects study, 15 participants acting as residents prepared for a simulated town hall. Some checked cited AI claims while treating map metrics as official, some made conditional recommendations with safeguards such as water-use disclosure, and some found the personas simplified or biased. Our results suggest that civic AI can support preparation for public reasoning when it makes evidence, gaps, and disagreement open to inspection, and that corpus imbalance and two-sided personas remain open justice concerns.",
+   "tags": [
+    "cs.HC",
+    "cs.CL",
+    "cs.CY"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.13525",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.13997",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Models",
+   "url": "https://arxiv.org/abs/2611.13997",
+   "published": "2026-11-10T12:41:02+00:00",
+   "summary": "Large Vision-Language Models (LVLMs) have demonstrated remarkable capabilities but raise significant privacy concerns due to their abilities to infer sensitive personal information from images with high precision. While current LVLMs are relatively well aligned to protect universal privacy, e.g., credit card data, we argue that privacy is inherently personalized and context-dependent. This work pivots towards a novel task: can LVLMs achieve Inference-Time Personalized Privacy Protection (ITP$^3$), allowing users to dynamically specify privacy boundaries through language specifications? To this end, we present SPY-Bench, the first systematic assessment of ITP$^3$ ability, which comprises (1) 32,700 unique samples with image-question pairs and personalized privacy instructions across 67 categories and 24 real-world scenarios, and (2) novel metrics grounded in user specifications and context awareness. Benchmarking the ITP$^3$ ability of 21 SOTA LVLMs, we reveal that: (i) most models, even the top-performing o4-mini, perform poorly, with only $\\sim$24% compliance accuracy; (ii) they show quite limited contextual privacy understanding capability. Therefore, we implemented initial ITP$^3$ alignment methods, including a novel Noise Contrastive Alignment variant which achieves 96.88% accuracy while maintaining reasonable general performance. These results mark an initial step towards the ethical deployment of more controllable LVLMs. Code and data are available at https://github.com/achernarwang/specify-privacy-yourself",
+   "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL",
+    "cs.CY",
+    "cs.LG"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.13997",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.13549",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Perspicacious: An Educational Intelligence Platform for Instructional Designers",
+   "url": "https://arxiv.org/abs/2611.13549",
+   "published": "2026-11-10T04:09:30+00:00",
+   "summary": "Designing effective instruction requires instructional designers to create assessment questions aligned with clearly defined knowledge components (KCs). These KCs represent specific knowledge or skills that students must acquire. This process is often time-consuming and relies heavily on expert labor. Although AI for education research has produced a growing body of automated question-generation and KC-discovery methods, few have moved beyond research prototypes into user-friendly tools that instructional designers can readily use. To bridge the research-to-practice gap, we developed and evaluated an educational intelligence platform that unifies question generation and KC discovery behind a single interface to support instructional content development. Named \"Perspicacious,\" our platform aims to help instructional designers \"see through\" complex data and algorithms to derive instructional insights. A cost model calibrated on 17 production runs revealed a cost-time trade-off: extracting KCs from a 576-question bank cost US $1.98-4.11 and took 36-158 minutes to complete, depending on the budget. A formative, partially Wizard-of-Oz study with eight instructional designers found strong perceived usability (mean SUS 78.8) and surfaced concrete requirements that we treat as prerequisites for deployment.",
+   "tags": [
+    "cs.CY",
+    "cs.ET",
+    "cs.HC"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.13549",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.14333",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "AI Isn't Getting Dumber, We're Getting Pickier: Rising Standards in Human Evaluation of Large Language Models",
+   "url": "https://arxiv.org/abs/2611.14333",
+   "published": "2026-11-10T16:56:16+00:00",
+   "summary": "Users often complain that AI assistants such as ChatGPT are getting worse. Some versions do change, but human evaluation leaves a second possibility untested: the people judging may change. We separate the two on Chatbot Arena, a public platform where people compare answers from two anonymous large language models (LLMs) and pick the better one or say both are bad. We study 1,260,967 blind votes cast from May 2023 to August 2024 on pairs of models whose versions are fixed: dated vendor snapshots and models with fixed open weights. For the same pair of unchanged models, the share of votes saying \"both are bad\" rises by 1.71 percentage points a month on a mean of 17.1%, and by 1.91 points a month in 2024. In fourteen pairs observed often in both 2023 and 2024, it rose in every one, from 15.5% to 23.3%. The ranking does not trend: in 2024, the stronger model's share of decisive votes is flat. The rise holds within the same voter and on the same pair, and across arrival cohorts from their first recorded vote. It holds with prompt controls, in every major language, for dated vendor snapshots, open-weight models and models with stable answer length, and between interface changes. The drift is shared across models: month effects estimated from other models' pairs remove it from each model's own pairs. Platform-wide, the average model would be expected to score 78% against the 2023 average, yet the share of \"both are bad\" votes ended near where it began. The pattern fits a standard that follows the category's progress, so a product that stands still is judged as declining. Absolute verdicts on AI drifted while relative comparisons held steady, an evaluation drift that matters for LLM leaderboards and for the human feedback used to train models.",
+   "tags": [
+    "cs.HC",
+    "cs.AI",
+    "cs.CL",
+    "cs.CY"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.14333",
+   "candidate": true
+  },
+  {
+   "id": "url:1ff74ee2cb106637",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+   "url": "https://openai.com/index/cogent-security",
+   "published": "2026-11-10T00:00:00+00:00",
+   "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/cogent-security",
+   "candidate": true
+  },
+  {
+   "id": "url:4e3e5904c85ae763",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+   "url": "https://openai.com/index/singapore-airlines-travel-work",
+   "published": "2026-11-10T08:00:00+00:00",
+   "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/singapore-airlines-travel-work",
+   "candidate": true
+  },
+  {
+   "id": "url:b22522d14a17f95f",
+   "field": "ownership",
+   "source": "rss:Hugging Face",
+   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+   "url": "https://huggingface.co/blog/qvac/botpsy",
+   "published": "2026-11-11T05:01:16+00:00",
+   "summary": "",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://huggingface.co/blog/qvac/botpsy",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:23662ba4a9a5b763",
+  "arxiv:2611.13441",
+  "arxiv:2611.13520",
+  "arxiv:2611.13525",
+  "arxiv:2611.13997",
+  "arxiv:2611.13549",
+  "arxiv:2611.14333",
+  "url:1ff74ee2cb106637",
+  "url:4e3e5904c85ae763",
+  "url:b22522d14a17f95f"
+ ],
+ "retries": []
+}

@@ -1,0 +1,158 @@
+{
+ "date": "2026-11-12",
+ "field": "policy",
+ "generated_at": "2026-11-11T22:06:14+00:00",
+ "fetched": 51,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:0b9de93a0e4dca9c",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Speech by Commissioner Kadis at the Plenary Session of the Organisation of African, Caribbean and Pacific States-European Union",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2417",
+   "published": "2026-11-11T13:44:12+00:00",
+   "summary": "European Commission Speech Brussels, 11 Nov 2026 Ladies and Gentlemen, It is an honour to join you for closing this session of the Organisation of African, Caribbean and Pacific States and EU Joint Parliamenta...",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2417",
+   "candidate": true
+  },
+  {
+   "id": "url:318c68caa58cda64",
+   "field": "policy",
+   "source": "rss:EFF",
+   "title": "🤕 Medicare's AI Experiment | EFFector 38.20",
+   "url": "https://www.eff.org/deeplinks/2026/11/medicares-ai-experiment-effector-3820",
+   "published": "2026-11-11T18:32:37+00:00",
+   "summary": "When we need medical care, we expect decisions about our treatment to be made by our doctors, not a tech company's algorithm. But in January, the federal government launched a program that uses AI to evaluate Medicare beneficiaries' requests for certain procedures. EFF sued for records on WISeR, seeking badly needed transparency about Medicare's AI experiment. In our latest EFFector newsletter , we're talking about what happens when the government outsources treatment approval to private AI companies —without sufficient transparency, testing, or legal limits. JOIN OUR NEWSLETTER For over 35 years, EFFector has been your guide to understanding the intersection of technology, civil liberties, and the law. This issue covers unconstitutional digital dragnets , a post office surveillance schem e, and what EFF uncovered about Medicare's AI experiment. Prefer to listen in? EFFector is now available on all major podcast platforms. This time we're talking to EFF's Lena Cohen about WISeR records documenting improper denials, operational chaos, and lengthy delays that have left patients waiting in pain. You can find the episode and subscribe on your podcast platform of choice : %3Ciframe%20he",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/medicares-ai-experiment-effector-3820",
+   "candidate": true
+  },
+  {
+   "id": "url:63c74a1a601dda42",
+   "field": "policy",
+   "source": "rss:DOJ",
+   "title": "U.S. Attorneys Create Task Force to Combat Fraud",
+   "url": "https://www.justice.gov/usao-ndwv/pr/us-attorneys-create-task-force-combat-fraud",
+   "published": "2026-11-10T12:00:00+00:00",
+   "summary": "U.S. Attorneys Matthew L. Harvey and Moore Capito have joined with other federal, state, and local partners to create the Mountain State Fraud and Diversion Task Force, which will tirelessly combat fraud across the state of West Virginia. Fraud costs consumers billions of dollars each year, raising the costs of insurance premiums, healthcare costs, and the costs of other goods, as well as depleting the retirement funds and savings of victims across the country.&nbsp;",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://www.justice.gov/usao-ndwv/pr/us-attorneys-create-task-force-combat-fraud",
+   "candidate": true
+  },
+  {
+   "id": "url:83fcadcff214060d",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Remarks by Executive Vice-President Virkkunen and Commissioner McGrath on the Digital Fairness Act and a Consumer enforcement initiative",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2412",
+   "published": "2026-11-11T10:24:11+00:00",
+   "summary": "European Commission Speech Brussels, 11 Nov 2026 Executive Vice-President Virkkunen Good morning, and welcome to the college readout. Today we present the Consumer Package. This package has two proposals: the ...",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2412",
+   "candidate": true
+  },
+  {
+   "id": "url:8d420ecdbc4be9c5",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Commission strengthens consumer protection laws, making them fit for the digital age",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2407",
+   "published": "2026-11-10T23:00:00+00:00",
+   "summary": "European Commission Press release Brussels, 11 Nov 2026 Today, the European Commission presented its Proposal for a Digital Fairness Act (DFA) - a major update of the EU consumer protection rules to ensure that consumers in the EU enjoy the same high level of protection online as they do offline.",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2407",
+   "candidate": true
+  },
+  {
+   "id": "url:b5ccb68167b93fde",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Speech by President von der Leyen at the United Nations Climate Change Conference (COP31)",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2410",
+   "published": "2026-11-11T09:32:34+00:00",
+   "summary": "European Commission Speech Antalya, 11 Nov 2026 Mr President, Heads of State and Government, Excellencies, This summer was the summer of truth. Devastating floods in Nepal, droughts from Sudan to Central Amer...",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2410",
+   "candidate": true
+  },
+  {
+   "id": "url:f28bc67accc4814a",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Bringing the current MFF to a successful close: agreement on the final Annual Budget *",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2385",
+   "published": "2026-11-10T23:00:00+00:00",
+   "summary": "European Commission Press release Brussels, 11 Nov 2026 The Commission welcomes the agreement reached last evening between the European Parliament and the Council of the European Union on the annual EU budget 2027.",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2385",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.13525",
+   "field": "policy",
+   "source": "arxiv",
+   "title": "EJAI: Judgment-Preserving Civic AI for Data Center Environmental Justice",
+   "url": "https://arxiv.org/abs/2611.13525",
+   "published": "2026-11-10T03:50:04+00:00",
+   "summary": "Communities in the United States and around the world are contesting data centers, the physical infrastructure of AI. These disputes pose environmental justice issues: residents must weigh unevenly distributed burdens using evidence scattered across metrics, corporate claims, policy documents, and public testimony. A formative study with 10 users showed that dashboards and single-agent AI can settle questions before people examine that evidence. Here we present EJAI, a source-grounded system that links an interactive map, retrieved evidence, missing-data statements, and two stakeholder personas that allow people to inspect evidence and form their own policy recommendations. In a small functional benchmark of 21 queries, retrieved evidence supported 98.4% of factual claims and the system acknowledged missing evidence in 32 of 33 cases. Persona alignment carried a grounding cost: the Corporate Executive omitted some evidence that conflicted with its assigned priorities. In a within-subjects study, 15 participants acting as residents prepared for a simulated town hall. Some checked cited AI claims while treating map metrics as official, some made conditional recommendations with safeguards such as water-use disclosure, and some found the personas simplified or biased. Our results suggest that civic AI can support preparation for public reasoning when it makes evidence, gaps, and disagreement open to inspection, and that corpus imbalance and two-sided personas remain open justice concerns.",
+   "tags": [
+    "cs.HC",
+    "cs.CL",
+    "cs.CY"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.13525",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.13968",
+   "field": "policy",
+   "source": "arxiv",
+   "title": "Advancing a Global Framework for AI Safety and Governance for the Well-being of Humanity",
+   "url": "https://arxiv.org/abs/2611.13968",
+   "published": "2026-11-10T12:05:59+00:00",
+   "summary": "The Report \"Advancing a Global Framework for AI Safety and Governance for the Well-being of Humanity\" is an important outcome of the AI Safety and Governance Program of World Internet Conference Specialized Committee on Artificial Intelligence in 2025. This report provides a systematic review of current global explorations and practices in AI safety and governance, identifies key issues that need to be addressed, and draws upon multilateral governance experiences from other domains. Centered on mechanism design, it explores how to build a global AI safety and governance system that ensures safety and security, promotes inclusiveness, clarifies responsibilities and accountabilities, strengthens effective coordination, and ensures authoritative and efficient governance. Guided by the principles of multilateralism and the vision of building a community with a shared future for humankind, the report proposes institutional measures and policy recommendations to establish a United Nations-centered global AI safety and governance framework. It aims to serve as a reference for governments, international organizations, enterprises, and research institutions. The report is to contribute insights and momentum to advancing people-centered and beneficial AI governance worldwide, ensuring that AI technologies truly serve the well-being of all humanity.",
+   "tags": [
+    "cs.CY"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.13968",
+   "candidate": true
+  },
+  {
+   "id": "url:41ae73cb48365c10",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Daily News 11 / 11 / 2026",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2411",
+   "published": "2026-11-11T09:53:22+00:00",
+   "summary": "European Commission Daily news Brussels, 11 Nov 2026 Commission to advance Ukraine's recovery, reconstruction, and modernisation at EU-Ukraine Investment Conference On 12 and 13 November, the European Commission, ...",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2411",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:0b9de93a0e4dca9c",
+  "url:318c68caa58cda64",
+  "url:63c74a1a601dda42",
+  "url:83fcadcff214060d",
+  "url:8d420ecdbc4be9c5",
+  "url:b5ccb68167b93fde",
+  "url:f28bc67accc4814a",
+  "arxiv:2611.13525",
+  "arxiv:2611.13968",
+  "url:41ae73cb48365c10"
+ ],
+ "retries": []
+}

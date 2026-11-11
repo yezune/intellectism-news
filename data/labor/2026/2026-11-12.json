@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-12",
+ "field": "labor",
+ "generated_at": "2026-11-11T22:06:00+00:00",
+ "fetched": 21,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:5b3549aa46624af0",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "After a historic 53-day strike, Teleperformance union in Chile wins better working conditions",
+   "url": "https://uniglobalunion.org/news/chile-after-a-historic-53-day-strike-the-teleperformance-union-wins-better-working-conditions/",
+   "published": "2026-11-11T15:06:43+00:00",
+   "summary": "The Teleperformance Chile Telematic Interpreters’ Union (SITTP) signed an agreement with the multinational Teleperformance (TP) on 25 September 2026, after a 53-day strike during its first collective bargaining process. SITTP was founded by TP interpreters who organized while working remotely from their homes in Chile. The workers primarily act as medical interpreters to TP’s LanguageLine The post After a historic 53-day strike, Teleperformance union in Chile wins better working conditions appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://uniglobalunion.org/news/chile-after-a-historic-53-day-strike-the-teleperformance-union-wins-better-working-conditions/",
+   "candidate": true
+  },
+  {
+   "id": "url:935cdafa6f087e8a",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "Casino workers in Massachusetts win better deal after 2-month strike",
+   "url": "https://uniglobalunion.org/news/casino-workers-in-massachusetts-win-better-deal-after-2-month-strike/",
+   "published": "2026-11-11T08:20:49+00:00",
+   "summary": "Some 1,300 casino workers at Wynn Resort’s Encore Boston Harbor in the United States have secured a new 5-and-a-half-year contract ending a 63-day strike. The new deal was ratified by members of UNI Global Union affiliate UNITE HERE Local 26 and Teamsters Local 25 on 5 November. Striking workers at the Everett, Massachusetts, site The post Casino workers in Massachusetts win better deal after 2-month strike appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://uniglobalunion.org/news/casino-workers-in-massachusetts-win-better-deal-after-2-month-strike/",
+   "candidate": true
+  },
+  {
+   "id": "url:40f3d4a440d95c59",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "Irish unions honoured for organizing tech workers",
+   "url": "https://uniglobalunion.org/news/irish-unions-honoured-for-organizing-tech-workers/",
+   "published": "2026-11-11T10:29:00+00:00",
+   "summary": "The Communications Workers’ Union (CWU) and the Financial Services Union (FSU) are joint winners of UNI Global Union’s Breaking Through Award in recognition of their outstanding and innovative organizing in Ireland&#8217;s technology sector. UNI Global Union General Secretary Christy Hoffman said: “The workers who have made Ireland a global tech hub deserve a share in The post Irish unions honoured for organizing tech workers appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "https://uniglobalunion.org/news/irish-unions-honoured-for-organizing-tech-workers/",
+   "candidate": true
+  },
+  {
+   "id": "url:905e6771db396a0a",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "Freedom from Fear Award 2026: The Minneapolis unions that stood up to Operation Metro Surge",
+   "url": "https://uniglobalunion.org/news/freedom-from-fear-award-minneapolis-unions-operation-metro-surge/",
+   "published": "2026-11-11T12:51:15+00:00",
+   "summary": "“They were coming for everyone who looked like us. So many families like mine were living in hiding, unable to shop, go to school or even throw the garbage out.” That is how Brooklyn Cempasuchil, a union steward in Minneapolis, remembers the winter of 2025–26, when the Trump administration sent more than 3,000 federal immigration The post Freedom from Fear Award 2026: The Minneapolis unions that stood up to Operation Metro Surge appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://uniglobalunion.org/news/freedom-from-fear-award-minneapolis-unions-operation-metro-surge/",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:5b3549aa46624af0",
+  "url:935cdafa6f087e8a",
+  "url:40f3d4a440d95c59",
+  "url:905e6771db396a0a"
+ ],
+ "retries": []
+}
