@@ -1,0 +1,54 @@
+{
+ "date": "2026-11-13",
+ "field": "ownership",
+ "generated_at": "2026-11-12T22:05:59+00:00",
+ "fetched": 62,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:372847c9499451eb",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+   "url": "https://openai.com/index/amplitude",
+   "published": "2026-11-12T20:00:00+00:00",
+   "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/amplitude",
+   "candidate": true
+  },
+  {
+   "id": "url:56dac742ff29ffe2",
+   "field": "ownership",
+   "source": "rss:Hugging Face",
+   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "published": "2026-11-12T00:00:00+00:00",
+   "summary": "",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://huggingface.co/blog/3d-lora-finetuning",
+   "candidate": true
+  },
+  {
+   "id": "url:d2296a64c0dc3b89",
+   "field": "ownership",
+   "source": "rss:Hugging Face",
+   "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+   "url": "https://huggingface.co/blog/token-pooling",
+   "published": "2026-11-11T00:00:00+00:00",
+   "summary": "",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://huggingface.co/blog/token-pooling",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:372847c9499451eb",
+  "url:56dac742ff29ffe2",
+  "url:d2296a64c0dc3b89"
+ ],
+ "retries": []
+}

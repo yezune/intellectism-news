@@ -1,0 +1,82 @@
+{
+ "date": "2026-11-13",
+ "field": "labor",
+ "generated_at": "2026-11-12T22:05:51+00:00",
+ "fetched": 23,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:f732c330affd5d3a",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "Italian unions take industrial action over Microsoft job cuts",
+   "url": "https://uniglobalunion.org/news/italian-unions-microsoft-job-cuts/",
+   "published": "2026-11-12T10:24:34+00:00",
+   "summary": "Italian unions Filcams Cgil, Fisascat Cisl and Uiltucs announced the action in Rome on 5 November 2026. It takes effect immediately and covers overtime, additional working hours and flexible working arrangements. The decision followed a national coordination meeting on 26 October and a national staff assembly on 30 October. Microsoft opened the redundancy procedure on The post Italian unions take industrial action over Microsoft job cuts appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://uniglobalunion.org/news/italian-unions-microsoft-job-cuts/",
+   "candidate": true
+  },
+  {
+   "id": "url:1926c1f9f286378a",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "Unemployment Insurance Weekly Claims Report",
+   "url": "http://www.dol.gov/newsroom/releases/eta/eta20261112",
+   "published": "2026-11-12T12:00:00+00:00",
+   "summary": "In the week ending November 7, the advance figure for seasonally adjusted initial claims was 200,000, an increase of 9,000 from the previous week's revised level. The previous week's level was revised up by 2,000 from 189,000 to 191,000. The 4-week moving average was 195,250, unchanged from the previous week's revised average. The previous week's average was revised up by 500 from 194,750 to 195,250.",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "http://www.dol.gov/newsroom/releases/eta/eta20261112",
+   "candidate": true
+  },
+  {
+   "id": "url:af074516f470e60a",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "Unifor wins Breaking Through Award for successfully organizing Amazon and care workers",
+   "url": "https://uniglobalunion.org/news/unifor-wins-breaking-through/",
+   "published": "2026-11-10T15:00:14+00:00",
+   "summary": "Unifor Canada received this year’s Breaking Through Award for organizing workers at an Amazon warehouse in British Columbia and in the country&#8217;s long-term care sector. Unifor, Canada&#8217;s largest private-sector union with about 320,000 members, was certified in July 2025 as the bargaining agent for roughly 800 workers at Amazon&#8217;s YVR2 fulfilment centre in Delta, near The post Unifor wins Breaking Through Award for successfully organizing Amazon and care workers appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "https://uniglobalunion.org/news/unifor-wins-breaking-through/",
+   "candidate": true
+  },
+  {
+   "id": "url:df5ab89c43fe35e1",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "Korean health unions win UNI awards for organizing outsourced and care workers",
+   "url": "https://uniglobalunion.org/news/korean-health-unions-win/",
+   "published": "2026-11-11T10:34:11+00:00",
+   "summary": "The Korean Health and Medical Workers&#8217; Union (KHMU) and the Federation of Korean Medical Trade Unions (FKMTU) have won UNI Global Union&#8217;s Breaking Through Award for organizing the healthcare workers unions have long struggled to reach: agency-hired hospital staff and care workers in nursing homes. KHMU has brought about 2,000 outsourced cleaners, porters and maintenance The post Korean health unions win UNI awards for organizing outsourced and care workers appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "https://uniglobalunion.org/news/korean-health-unions-win/",
+   "candidate": true
+  },
+  {
+   "id": "url:0ede216d19b5151c",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "COWU Kenya wins UNI Breaking Through Award for organizing Teleperformance workers",
+   "url": "https://uniglobalunion.org/news/cowu-kenya-wins-uni-breaking-through-award/",
+   "published": "2026-11-12T14:42:02+00:00",
+   "summary": "The Communication Workers Union of Kenya (COWU) has won a UNI Global Union Breaking Through Award for organizing workers and securing union recognition at TP (formerly Teleperformance) in Kenya, one of the largest multinational employers in the country’s fast-growing business process outsourcing (BPO) sector. Using UNI’s global agreement with TP, which supports the right to The post COWU Kenya wins UNI Breaking Through Award for organizing Teleperformance workers appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://uniglobalunion.org/news/cowu-kenya-wins-uni-breaking-through-award/",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:f732c330affd5d3a",
+  "url:1926c1f9f286378a",
+  "url:af074516f470e60a",
+  "url:df5ab89c43fe35e1",
+  "url:0ede216d19b5151c"
+ ],
+ "retries": []
+}
