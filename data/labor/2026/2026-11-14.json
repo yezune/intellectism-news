@@ -1,0 +1,89 @@
+{
+ "date": "2026-11-14",
+ "field": "labor",
+ "generated_at": "2026-11-13T22:06:58+00:00",
+ "fetched": 23,
+ "errors": {
+  "arxiv": "ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)"
+ },
+ "items": [
+  {
+   "id": "url:b740c772eceff105",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "US Department of Labor honors 772 employers committed to veterans’ employment with 2026 HIRE Vets Medallion Awards",
+   "url": "http://www.dol.gov/newsroom/releases/vets/vets20261113",
+   "published": "2026-11-13T12:00:00+00:00",
+   "summary": "WASHINGTON – The U.S. Department of Labor recognized 772 employers for their commitment to employing and supporting the nation’s service members by presenting them with the 2026 Honoring Investments in Recruiting and Employing American Military Veterans Medallion Award.U.S. Secretary of Labor Keith Sonderling and Assistant Secretary for Veterans’ Employment and Training Service Jeremiah Workman presented the awards, which recognize employers for their commitment to supporting U.S. military veterans in the civilian workforce, during a Nov. 12 ceremony at the Frances Perkins Building in Washington.&nbsp;“Veterans are our nation’s heroes and bring proven leadership, a strong work ethic, and the ability to perform under pressure – all valuable skills for employers,” said Secretary of Labor Keith Sonderling. “Under President Trump, the U.S. Department of Labor’s Veterans’ Employment and Training Service is working to ensure employers can access this exceptional talent while helping veterans secure high-skill, high-paying jobs.”Signed into law by President Donald Trump in 2017, the HIRE Vets Medallion Program is the only&nbsp;federal-level program recognizing veteran employment and emplo",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "http://www.dol.gov/newsroom/releases/vets/vets20261113",
+   "candidate": true
+  },
+  {
+   "id": "url:0e2c207fd6555e45",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "US Department of Labor issues guidance to employers, plan fiduciaries on inaccurate health network provider directories",
+   "url": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261113",
+   "published": "2026-11-13T12:00:00+00:00",
+   "summary": "WASHINGTON&nbsp;–&nbsp;As part of its effort to protect workers, retirees, and their families, the U.S. Department of Labor today issued&nbsp;an enforcement alert to help employers and plan fiduciaries ensure plan participants and beneficiaries are receiving accurate provider directories for in-network coverage.Health plans and insurance issuers are required under the&nbsp;Employee Retirement Income Security Act&nbsp;to regularly verify, update, and publish accurate provider directory information. The enforcement alert provides best practices and questions to ask so that participants and beneficiaries are protected from unexpected out-of-network costs and receive quicker access to care from in-network providers.“President Trump is committed to improving the quality and lowering the cost of healthcare for all hardworking Americans. With this guidance, the U.S. Department of Labor is letting health plans and insurance issuers know that they must do better,” said Secretary of Labor Keith Sonderling. “They must provide accurate and updated information so that American workers, retirees, and their families can make informed healthcare decisions. I am proud to lead this effort on their b",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261113",
+   "candidate": true
+  },
+  {
+   "id": "url:44737def7ad15550",
+   "field": "labor",
+   "source": "rss:ILO Jobs",
+   "title": "Programme Officer - NOA (Dili, TL)",
+   "url": "https://jobs.ilo.org/job/Dili-Programme-Officer-NOA/1457083333/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "published": "2026-11-13T00:00:00+00:00",
+   "summary": "Grade: NOA Vacancy no.: DC/DILI/NO/2026/NO Publication date: 13 November 2026 Application deadline ( midnight local time ): 22 November 2026 Job ID: 13941 Department: RO-Asia and the Pacific Organization Unit: CO-Jakarta Location: Dili Contract type: Fixed Term Contract duration: One year with possible extension subject to funds availability Under article 4.2, paragraph (e) of the Staff Regulations, the filling of vacancies in technical cooperation projects does not fall under Annex I of the Staff Regulations and is made by direct selection by the Director-General. In order to support the best informed process in the filling of the above-mentioned vacancy by direct selection, the ILO invites interested candidates to submit their application online by the above date. The following are eligible to apply: ILO Internal candidates in accordance with paragraphs 31 and 32 of Annex I of the Staff Regulations. External candidates* *The recruitment process for National Officer positions is subject to specific local recruitment and eligibility criteria. The ILO values diversity among its staff and welcomes applications from qualified female candidates. We also encourage applicants with disabi",
+   "tags": [],
+   "score": 3.75,
+   "primary_source": "https://jobs.ilo.org/job/Dili-Programme-Officer-NOA/1457083333/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "candidate": true
+  },
+  {
+   "id": "url:40dacab7602be238",
+   "field": "labor",
+   "source": "rss:ILO Jobs",
+   "title": "Coordinador (a) Nacional de Proyecto - NOA (DC) (Santo Domingo, DO)",
+   "url": "https://jobs.ilo.org/job/Santo-Domingo-Coordinador-%28a%29-Nacional-de-Proyecto-NOA-%28DC%29/1457327133/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "published": "2026-11-13T00:00:00+00:00",
+   "summary": "Grado: NOA Fecha de publicación: 13 de Noviembre de 2026 Fecha de cierre ( medianoche hora local ) : 27 de Noviembre de 2026 Número de la vacante : 071-2026 Job ID: 13939 Departamento: OR–América Latina y el Caribe Unidad: ETD/OP-San José Lugar de destino: Santo Domingo Tipo de contrato: Duración determinada El proceso de reclutamiento para los puestos de funcionarios nacionales está sujeto a criterios específicos de contratación local y de elegibilidad. Pueden participar: Los candidatos internos de la OIT Candidatos externos. La OIT valora positivamente la diversidad de su personal y alienta las candidaturas de mujeres y hombres cualificados, con o sin discapacidad. Si no puede completar nuestro formulario de solicitud en línea debido a una discapacidad, por favor envíe un correo electrónico a nzuniga@ilo.org . *Condiciones de empleo para los candidatos externos: Conforme a la práctica vigente en la OIT, el candidato externo será normalmente contratado en el primer escalón de dicho grado. Introducción La informalidad constituye un desafío estructural para el país: en 2024 afectaba al 55,1 % de la población ocupada y al 66,0 % en zonas rurales, con niveles particularmente elevados ",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://jobs.ilo.org/job/Santo-Domingo-Coordinador-%28a%29-Nacional-de-Proyecto-NOA-%28DC%29/1457327133/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:b740c772eceff105",
+  "url:0e2c207fd6555e45",
+  "url:44737def7ad15550",
+  "url:40dacab7602be238"
+ ],
+ "retries": [
+  {
+   "url": "https://export.arxiv.org/api/query?search_query=cat%3Aecon.GN+AND+%28abs%3A%22labor%22+OR+abs%3A%22employment%22+OR+abs%3A%22automation%22+OR+abs%3A%22wage%22%29&sortBy=submittedDate&sortOrder=descending&max_results=100",
+   "attempt": 1,
+   "status": null,
+   "wait": 2
+  },
+  {
+   "url": "https://export.arxiv.org/api/query?search_query=cat%3Aecon.GN+AND+%28abs%3A%22labor%22+OR+abs%3A%22employment%22+OR+abs%3A%22automation%22+OR+abs%3A%22wage%22%29&sortBy=submittedDate&sortOrder=descending&max_results=100",
+   "attempt": 2,
+   "status": 429,
+   "wait": 5
+  },
+  {
+   "url": "https://export.arxiv.org/api/query?search_query=cat%3Aecon.GN+AND+%28abs%3A%22labor%22+OR+abs%3A%22employment%22+OR+abs%3A%22automation%22+OR+abs%3A%22wage%22%29&sortBy=submittedDate&sortOrder=descending&max_results=100",
+   "attempt": 3,
+   "status": null,
+   "wait": 10
+  }
+ ]
+}
