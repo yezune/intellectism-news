@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-15",
+ "field": "policy",
+ "generated_at": "2026-11-14T22:05:51+00:00",
+ "fetched": 43,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:e8f8a0854749f879",
+   "field": "policy",
+   "source": "rss:DOJ",
+   "title": "HSI San Juan Arrests 2 Men on Child Exploitation Charges",
+   "url": "https://www.justice.gov/usao-pr/pr/hsi-san-juan-arrests-2-men-child-exploitation-charges-0",
+   "published": "2026-11-13T12:00:00+00:00",
+   "summary": "SAN JUAN, Puerto Rico – In two separate cases, Homeland Security Investigations (HSI) special agents, with the support of the Puerto Rico Police Department arrested two men indicted for child exploitation, announced Héctor Ramírez Carbó, Acting United States Attorney for the District of Puerto Rico.&nbsp;",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.justice.gov/usao-pr/pr/hsi-san-juan-arrests-2-men-child-exploitation-charges-0",
+   "candidate": true
+  },
+  {
+   "id": "url:9a75170b2e2cdd58",
+   "field": "policy",
+   "source": "rss:DOJ",
+   "title": "29-Year-Old Man Arrested for Child Exploitation",
+   "url": "https://www.justice.gov/usao-pr/pr/29-year-old-man-arrested-child-exploitation",
+   "published": "2026-11-13T12:00:00+00:00",
+   "summary": "SAN JUAN, Puerto Rico – On November 12, 2026, FBI special agents arrested Jonathan David Mercado Valladares, 29-year-old man from Ponce, on criminal charges related to child exploitation, announced Héctor Ramírez Carbó, Acting United States Attorney for the District of Puerto Rico.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.justice.gov/usao-pr/pr/29-year-old-man-arrested-child-exploitation",
+   "candidate": true
+  },
+  {
+   "id": "url:d340babe981635f7",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Speech by Commissioner Kos at the opening of 30 Years of Transparency International Switzerland",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/de/speech_26_2439",
+   "published": "2026-11-13T14:50:21+00:00",
+   "summary": "European Commission Rede Brussels, 13 Nov 2026 „Helping the good guys win“ – Wie der EU-Beitrittsprozess Gesellschaften stärkt Im Juni war ich mit meinem Team auf dem Weg nach Moldau und in die Ukraine. Bei...",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/de/speech_26_2439",
+   "candidate": true
+  },
+  {
+   "id": "url:f67a5ae71b6ef2be",
+   "field": "policy",
+   "source": "rss:EFF",
+   "title": "Tech Companies Are Trying to Shift the Entire Concept of Privacy (Again)",
+   "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+   "published": "2026-11-13T21:29:31+00:00",
+   "summary": "Privacy, which companies were once happy to claim was all about personal choice, is now primed to affect everyone around you even more than it already did. Meta and Google’s smart glasses can record anything the owner is looking at or use artificial intelligence to describe it. Apple’s* Audio Intelligence feature turns every Apple Watch into a transcription machine that records or summarizes your day. Amazon’s Bee devices take that a step further and can record and transcribe everything. Dozens of other companies are introducing pendants , rings , and other products designed to record, transcribe, or summarize everything we say and do all day long. Privacy has always been a team sport. The actions you take with communication apps , collaborative software , or your cloud backup solutions , have long impacted everyone else you’re interacting with. But moving those choices deeper into the physical world where strangers, colleagues, family, and friends are all now a part of your privacy choices is drastically changing the game. Tech companies want us to accept a reality where one person’s privacy choices (or lack thereof) means you suddenly need to be an expert in consumer tech who und",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:e8f8a0854749f879",
+  "url:9a75170b2e2cdd58",
+  "url:d340babe981635f7",
+  "url:f67a5ae71b6ef2be"
+ ],
+ "retries": []
+}
