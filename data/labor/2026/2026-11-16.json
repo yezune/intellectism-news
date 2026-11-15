@@ -1,0 +1,40 @@
+{
+ "date": "2026-11-16",
+ "field": "labor",
+ "generated_at": "2026-11-15T22:05:39+00:00",
+ "fetched": 10,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:118ca2e2b5f52f71",
+   "field": "labor",
+   "source": "api:Federal Register",
+   "title": "Agency Information Collection Activities; Comment Request; Quarterly Narrative Progress Report, Employment and Training Supplemental Budget Request Activities",
+   "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23293/agency-information-collection-activities-comment-request-quarterly-narrative-progress-report",
+   "published": "2026-11-16T00:00:00+00:00",
+   "summary": "The Department of Labor's (DOL) Employment and Training Administration (ETA) is soliciting comments concerning a proposed revision for the authority to conduct the information collection request (ICR) titled, \"Quarterly Narrative Progress Report, Employment and Training Supplemental Budget Request Activities.\" This comment request is part of continuing Departmental efforts to reduce paperwork and respondent burden in accordance with the Paperwork Reduction Act of 1995 (PRA).",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "https://www.federalregister.gov/documents/2026/11/16/2026-23293/agency-information-collection-activities-comment-request-quarterly-narrative-progress-report",
+   "candidate": true
+  },
+  {
+   "id": "url:b491173e431e4060",
+   "field": "labor",
+   "source": "api:Federal Register",
+   "title": "Agency Information Collection Activities; Submission for OMB Review; Comment Request; Administration of the Longshore and Harbor Workers' Compensation Act",
+   "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23296/agency-information-collection-activities-submission-for-omb-review-comment-request-administration-of",
+   "published": "2026-11-16T00:00:00+00:00",
+   "summary": "The Department of Labor (DOL) is submitting this Office of Workers' Compensation Programs (OWCP)-sponsored information collection request (ICR) to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). Public comments on the ICR are invited.",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.federalregister.gov/documents/2026/11/16/2026-23296/agency-information-collection-activities-submission-for-omb-review-comment-request-administration-of",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:118ca2e2b5f52f71",
+  "url:b491173e431e4060"
+ ],
+ "retries": []
+}

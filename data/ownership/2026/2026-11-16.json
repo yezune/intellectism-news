@@ -1,0 +1,26 @@
+{
+ "date": "2026-11-16",
+ "field": "ownership",
+ "generated_at": "2026-11-15T22:05:51+00:00",
+ "fetched": 44,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:dfcfb76bf8b3495e",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "Formations of, Acquisitions by, and Mergers of Bank Holding Companies",
+   "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23245/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies",
+   "published": "2026-11-16T00:00:00+00:00",
+   "summary": "",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.federalregister.gov/documents/2026/11/16/2026-23245/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:dfcfb76bf8b3495e"
+ ],
+ "retries": []
+}
