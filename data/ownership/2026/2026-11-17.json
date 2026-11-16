@@ -1,0 +1,110 @@
+{
+ "date": "2026-11-17",
+ "field": "ownership",
+ "generated_at": "2026-11-16T22:06:16+00:00",
+ "fetched": 50,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:50013f344d0eb5d3",
+   "field": "ownership",
+   "source": "rss:DOJ",
+   "title": "Alleged Member of “8-Digits Team” Ransomware Group Extradited from Italy for Role in Major Data Extortion Campaign Against U.S. Hospitals, Healthcare Entities, and Schools",
+   "url": "https://www.justice.gov/opa/pr/alleged-member-8-digits-team-ransomware-group-extradited-italy-role-major-data-extortion",
+   "published": "2026-11-16T12:00:00+00:00",
+   "summary": "Roman Khlynovskiy, 43, a Kazak national, made his initial appearance in Knoxville, Tennessee, federal court today after being extradited from Italy to face charges for his alleged role in a ransomware and extortion conspiracy that targeted U.S. schools, hospitals, and healthcare entities.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.justice.gov/opa/pr/alleged-member-8-digits-team-ransomware-group-extradited-italy-role-major-data-extortion",
+   "candidate": true
+  },
+  {
+   "id": "url:853b24ff0d6ecd3f",
+   "field": "ownership",
+   "source": "rss:Hugging Face",
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "url": "https://huggingface.co/blog/openrouter",
+   "published": "2026-11-16T00:00:00+00:00",
+   "summary": "",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://huggingface.co/blog/openrouter",
+   "candidate": true
+  },
+  {
+   "id": "url:87d7014c15ee68a3",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "A step toward defining the Standard Model on a lattice",
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "published": "2026-11-15T22:00:01+00:00",
+   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "candidate": true
+  },
+  {
+   "id": "url:b0ded74e06b06613",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Advancing computer-use agents for healthcare teams",
+   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "published": "2026-11-16T06:00:00+00:00",
+   "summary": "",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "candidate": true
+  },
+  {
+   "id": "url:cfcc7acb02e9ca79",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "More ways to move care forward with ChatGPT for Healthcare",
+   "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "published": "2026-11-16T06:00:00+00:00",
+   "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "candidate": true
+  },
+  {
+   "id": "url:ebd9eb94963902d2",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Our first phase of embedded assessments",
+   "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "published": "2026-11-16T08:00:00+00:00",
+   "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "candidate": true
+  },
+  {
+   "id": "url:f26f2a4dfd6b9b95",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Broadening access to AI for scientists",
+   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "published": "2026-11-16T17:00:00+00:00",
+   "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:50013f344d0eb5d3",
+  "url:853b24ff0d6ecd3f",
+  "url:87d7014c15ee68a3",
+  "url:b0ded74e06b06613",
+  "url:cfcc7acb02e9ca79",
+  "url:ebd9eb94963902d2",
+  "url:f26f2a4dfd6b9b95"
+ ],
+ "retries": []
+}
