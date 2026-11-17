@@ -1,0 +1,168 @@
+{
+ "date": "2026-11-18",
+ "field": "ownership",
+ "generated_at": "2026-11-17T22:06:29+00:00",
+ "fetched": 68,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:797e931267f5a784",
+   "field": "ownership",
+   "source": "rss:EFF",
+   "title": "The Paramount-Warner Brothers Deal Could Usher in Another Age of Lost Media",
+   "url": "https://www.eff.org/deeplinks/2026/11/paramount-warner-brothers-deal-could-usher-another-age-lost-media",
+   "published": "2026-11-17T20:56:59+00:00",
+   "summary": "There are all sorts of reasons to be against the merger of Paramount and Warner Brothers-Discovery. There's the obvious problem of increasing concentration in the already pretty-concentrated film and TV industry. People have problems with Paramount's owner Skydance interfering with its news coverage and late night comedy . But one of the biggest is the way we are losing choice and access to information and culture. In the context of the digital world, there are two major problems with these mega mergers. One, as we've said in the past, is that it further degrades the already awful state of mainstream streaming services. In short, by increasing the amount of legacy content under their control, major studios don't have to invest in either new content or well-engineered services to get users. Plus, they can pool the data they have on users together in an increasing assault on consumer privacy. A monthly subscription and more information about your habits and interests? Win-win for them. Another problem is the disappearing of content. In the digital era, there should be no more lost media. Making and storing copies of media is easier and cheaper than it ever has been. The idea of the p",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/paramount-warner-brothers-deal-could-usher-another-age-lost-media",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.20375",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Supporting Community Members Navigating Reentry with Revisable Future Envisioning",
+   "url": "https://arxiv.org/abs/2611.20375",
+   "published": "2026-11-16T01:06:31+00:00",
+   "summary": "Future-planning tools often treat agency as individual and leave out the institutional conditions that shape how aspirations become action. We examine this tension in the context of reentry from incarceration and recovery from substance use disorder, through a partnership with a nonprofit organization. Building on participants' physical vision-board practices, we designed a digital future-envisioning tool that helps users represent current circumstances, desired futures, and pathways that connect goals to concrete resources. We draw on data from three workshops involving 18 participants and follow-up interviews with 10 participants to examine how they used future envisioning within a fragmented support system. Participants described reentry and recovery as ongoing processes in which the everyday work of staying stable was central to progress. Envisioning futures supported this work by surfacing constraints and interdependencies, by reframing personal strengths and institutional supports as assets, and by helping participants move from abstract hopes toward articulated goals and contingent plans. We theorize revision as maintenance work and conclude with design implications for community-embedded interactive systems that support revisable, dependency-aware planning.",
+   "tags": [
+    "cs.HC",
+    "cs.CY"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.20375",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.21533",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Incentive Alignment for Electricity Data Assets in China: A Blockchain-Enabled Contribution-Credit Framework",
+   "url": "https://arxiv.org/abs/2611.21533",
+   "published": "2026-11-16T18:23:49+00:00",
+   "summary": "Modern electricity markets increasingly rely on reported operational contributions to allocate incentives, recognise cooperation, and coordinate activities across multiple organisations. However, supporting evidence for many reported contributions becomes available only after subsequent metering, dispatch, settlement, or auditing processes, making it difficult to reward genuine contributions while discouraging strategic over-reporting. Existing approaches largely address data sharing, performance verification, blockchain record management, or incentive allocation in isolation, providing limited support for integrating delayed evidence into a unified incentive mechanism. This paper proposes a blockchain-enabled contribution-credit framework for truthful reporting under delayed evidence. The framework links authenticated evidence to contribution recognition through dynamic credit updating, escrow, report-linked penalties, and automated incentive execution. Developed using the Chinese electricity market as the primary setting, it is demonstrated through two representative coordination scenarios, with adaptations illustrating its applicability to UK and US electricity-market structures. A controlled heterogeneous-agent simulation evaluates the behavioural effects of the proposed mechanism, while security analysis, public-data workflow analysis, and blockchain implementation experiments assess its practical feasibility. The results show that integrating delayed evidence with dynamic credit, escrow, and report-linked penalties promotes truthful reporting while providing a transparent and auditable process for translating verified operational contributions into incentive allocation. The proposed framework offers a practical mechanism for improving accountability, coordination, and incentive compatibility in collaborative electricity markets.",
+   "tags": [
+    "cs.CY",
+    "cs.DC"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.21533",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.20378",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Straight to the Product: What Online Retailers Miss When Shoppers Ask AI First",
+   "url": "https://arxiv.org/abs/2611.20378",
+   "published": "2026-11-16T01:10:36+00:00",
+   "summary": "When people ask an AI assistant what to buy, what happens next at the store? We link the same people's assistant conversations to their later browsing at twenty large online retailers. People go to the product the assistant named: among shoppers who had not visited the store in the past week, visits to the named product within a day rise from 0.02 to 2.07 per 100 answers (+2.0 points [1.7, 2.4]), and on days with a product-page visit at the store, 44% show a product from their own answer, against 1.5% for a matched answer given to someone else. The result replicates in a separate five-month period. Few arrive through the assistant's link: 89% of visits carry no sign of it, and 54% follow a web search, the same share as their usual visits. When a search comes just before the first visit, it names the answer's product 28% of the time (1% in earlier weeks), as if the search box were an address bar. The chat names the product; the store logs a search. Once there, shoppers keep browsing. We propose product follow-through, the share of answers followed by a visit to the product they named, as a way to evaluate shopping assistants and agents by what people do next: it needs no referral data or provider logs and can be computed for each assistant.",
+   "tags": [
+    "cs.IR",
+    "cs.CY",
+    "cs.HC"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.20378",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.20606",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Necessary for What? Auditing Demographic Disclosure to LLM Synthetic Respondents",
+   "url": "https://arxiv.org/abs/2611.20606",
+   "published": "2026-11-16T06:29:50+00:00",
+   "summary": "Large language models (LLMs) increasingly answer surveys on behalf of real panelists, and each panelist's recorded demographic attributes (e.g., age, education, ethnicity) are often placed in the prompt on the premise that richer profiles make more faithful synthetic respondents. While data minimization limits personal data to what a purpose requires, a synthetic survey serves several purposes at once, from predicting individual answers to estimating how opinions are distributed and comparing groups. We ask which of these purposes require the respondent's record, and whether improved estimates support sound conclusions about groups. We vary whose profile a model receives, where it comes from, and how many fields it contains, in two U.S. surveys with eleven open-weight and three hosted models, and compare each model with a statistical model fit to the same information. We make four contributions. First, we show that the record adds little to individual predictions and that, for the open-weight models, most of its gain in population estimates remains when it is replaced by census data or a synthetic persona. Second, we find that group comparisons improve only with the respondent's own record, and that even then the models' group differences rest more on the demographic label in the prompt than on the individual respondent, which the usual check of reproducing known group differences does not reveal. Third, we find that the models make groups look more alike than they are, keeping differences in circumstances while flattening or reversing differences in attitudes, most sharply for religious affiliation and ethnic origin, both special categories of personal data. Fourth, we outline an audit that a survey organization can run on questions it has already fielded to decide which estimates may use the record.",
+   "tags": [
+    "cs.CY",
+    "cs.CL"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.20606",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.20858",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Lived Experiences of Power and Agency: Achieving Voice Sovereignty in Assistive Speech Technology for Nonbinary Users",
+   "url": "https://arxiv.org/abs/2611.20858",
+   "published": "2026-11-16T10:31:11+00:00",
+   "summary": "Speech-generating devices (SGDs) are essential tools for many speech-disabled individuals, yet current systems often reinforce normative assumptions about identity and communication. Prior research on gender expansive SGD users has largely focused on gendered voice options, with less attention to broader identity alignment and the technological conditions that shape users' agency. This study examines how gender expansive SGD users experience power over their voices using thematic analysis of qualitative survey data. Three themes emerged: (1) integration of SGDs into daily life, (2) identity expression, and (3) power and agency. Participants expressed the need for more responsive and reliable technology, inclusive and customizable voices, and greater autonomy in defining how their voices sound and are perceived. Ultimately, their perspectives call for a reimagining of SGD systems as tools for reclaiming the power of one's voice and the ability to define and enact one's will through it.",
+   "tags": [
+    "cs.CY",
+    "cs.HC"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.20858",
+   "candidate": true
+  },
+  {
+   "id": "url:19fc7805ae99f747",
+   "field": "ownership",
+   "source": "rss:EFF",
+   "title": "The Justice Department Wants To Give Patent Trolls More Power",
+   "url": "https://www.eff.org/deeplinks/2026/11/justice-department-wants-give-patent-trolls-more-power",
+   "published": "2026-11-17T21:08:00+00:00",
+   "summary": "Software patents are mostly vague, hard to define, and widely abused. Most tech patent lawsuits aren’t filed by companies that make real products. They’re filed by patent trolls, companies that acquire patents to extract payments through litigation and legal threats. A patent on one feature of a smartphone shouldn’t give the patent owner the power to threaten the existence of the entire product line. But that is exactly the leverage patent trolls want—and the current administration is helping them to get it. In two recent patent cases, Radian Memory Systems v. Samsung and Collision Communications v. Samsung, the Justice Department and the U.S. Patent and Trademark Office have asked courts to make it easier for patent owners to get injunctions. These are judicial orders that can force companies to stop selling products or remove features from them, rather than simply pay monetary damages. The threat of an injunction can pressure a company to pay far more than what a patent is actually worth. In 2006, NTP Inc., a patent holding company with no products of its own, was able to pressure BlackBerry manufacturer Research in Motion Ltd. to pay a $612 million settlement when it was on the ",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/justice-department-wants-give-patent-trolls-more-power",
+   "candidate": true
+  },
+  {
+   "id": "url:1b9f28a234f9778e",
+   "field": "ownership",
+   "source": "rss:EFF",
+   "title": "Privacy's Defenders Podcast: Snowden Exposes NSA’s Lies",
+   "url": "https://www.eff.org/deeplinks/2026/11/privacys-defenders-podcast-snowden-exposes-nsas-lies",
+   "published": "2026-11-17T16:00:25+00:00",
+   "summary": "By 2013, EFF had spent seven years arguing in court that the National Security Agency was sweeping up ordinary Americans’ communications, including through the secret room that whistleblower Mark Klein had exposed. The government would neither confirm nor deny it, and outside the courtroom the public seemed to have moved on. Then, in early June, documentary filmmaker Laura Poitras and journalist Glenn Greenwald mysteriously missed a Freedom of the Press Foundation board meeting at EFF’s offices. It turned out they were in Hong Kong, meeting an NSA contractor who had been secretly writing to Laura for months. His name was Edward Snowden, he had thousands of secret documents proving the government had in fact been spying on millions of Americans. When he subsequently revealed himself, a photo of him sitting behind his laptop – emblazoned with a big red EFF sticker – went worldwide. Welcome to the fourth episode of “Privacy’s Defenders,” a podcast about the people – lawyers, journalists, hackers, and others – who’ve fought to secure your digital liberties since before most people even knew what the internet was. %3Ciframe%20height%3D%2252px%22%20width%3D%22100%25%22%20frameborder%3D%2",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/privacys-defenders-podcast-snowden-exposes-nsas-lies",
+   "candidate": true
+  },
+  {
+   "id": "url:549a77347d5e1e5f",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "published": "2026-11-17T17:45:00+00:00",
+   "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "candidate": true
+  },
+  {
+   "id": "url:c32349b3668739b1",
+   "field": "ownership",
+   "source": "rss:EFF",
+   "title": "Donate Equity to Support Digital Rights: Stocks, DAFs, and Giving",
+   "url": "https://www.eff.org/deeplinks/2026/11/how-donate-equity-support-digital-rights-stocks-dafs-and-charity",
+   "published": "2026-11-16T20:23:12+00:00",
+   "summary": "Do the holidays have you thinking about how you can support your favorite nonprofit? For 35 years, the Electronic Frontier Foundation has been advancing our digital rights, including defending security researchers , encrypting the web , and fighting illegal surveillance . Donating equity to EFF can help support this important work. Perhaps your family has taken advantage of the new tax law around giving by creating a Donor-Advised Fund . Perhaps your employer has gone public and you now own stock. Perhaps you’ve seen some of EFF’s recent successes and thought, Man, imagine what they could do with more. Stocks A gift of equity can help your contribution go farther and offer tax savings. When you donate appreciated stock, you avoid paying capital gains tax on any increase in its value. You also receive a charitable income tax deduction for the fair market value of appreciated stock on the date it is transferred. Also, more and more companies are offering gift-matching programs that can double your impact at no additional cost. If you have owned the stock for less than a year, your gift will not qualify for all of these potential tax advantages. And gifts of appreciated stock are full",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/how-donate-equity-support-digital-rights-stocks-dafs-and-charity",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:797e931267f5a784",
+  "arxiv:2611.20375",
+  "arxiv:2611.21533",
+  "arxiv:2611.20378",
+  "arxiv:2611.20606",
+  "arxiv:2611.20858",
+  "url:19fc7805ae99f747",
+  "url:1b9f28a234f9778e",
+  "url:549a77347d5e1e5f",
+  "url:c32349b3668739b1"
+ ],
+ "retries": []
+}

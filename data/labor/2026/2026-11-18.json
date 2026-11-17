@@ -1,0 +1,86 @@
+{
+ "date": "2026-11-18",
+ "field": "labor",
+ "generated_at": "2026-11-17T22:06:22+00:00",
+ "fetched": 21,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:715e2bbc53012671",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "US Department of Labor issues opinion letters addressing Fair Labor Standards Act exemption, Family and Medical Leave Act hours of service",
+   "url": "http://www.dol.gov/newsroom/releases/whd/whd20261117",
+   "published": "2026-11-17T12:00:00+00:00",
+   "summary": "WASHINGTON – The U.S. Department of Labor’s Wage and Hour Division today issued two opinion letters that address real-world questions related to the Fair Labor Standards Act and the Family and Medical Leave Act.The two opinion letters address the applicability of the exemption for amusement and recreational establishments under the&nbsp;Fair Labor Standards Act and the hours-of-service requirement under the&nbsp;Family and Medical Leave Act.&nbsp;Opinion letters provide official written interpretations from the department’s&nbsp;Wage and Hour Division that explain how the laws that the department enforces apply to specific factual circumstances and may help the public understand their rights and responsibilities. The division is committed to providing opinion letters that help American workers and businesses understand how the FLSA and FMLA apply to their situations. &nbsp;&nbsp;The two opinion letters issued today are:FLSA2026-14:&nbsp;Whether the exemption for seasonal amusement and recreational establishments in section 13(a)(3) of the FLSA applies to a concessionaire that provides food and drinks at events such as a state fair and concerts.FMLA2026-3: Whether time spent writing",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "http://www.dol.gov/newsroom/releases/whd/whd20261117",
+   "candidate": true
+  },
+  {
+   "id": "url:ceb55449978ccfd0",
+   "field": "labor",
+   "source": "api:Federal Register",
+   "title": "Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program",
+   "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant",
+   "published": "2026-11-17T00:00:00+00:00",
+   "summary": "The Department of Labor (Department or DOL) proposes to amend its regulations regarding the certification of job opportunities offered by employers seeking to employ aliens on a permanent basis in the United States. This Notice of Proposed Rulemaking (NPRM or proposed rule) strengthens the standards by which the Department receives and reviews employers' applications for permanent labor certification and improves the integrity of the overall employment-based immigrant visa program to more effectively protect the wages and job opportunities of U.S. workers similarly employed in the United States. Among the issues addressed in this proposed rule are eliminating further administration of Schedule A, which exempts certain job opportunities from the statutorily required labor market test; strengthening the minimum standards of recruitment to ensure all employers seeking labor certification access the broadest pool of high-quality U.S. workers using the latest technologies and methods; enhancing safeguards for U.S. workers impacted by layoffs, including those laid off by employers using third-party staffing companies and establishing standards for employers to report layoffs; expanding r",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.21070",
+   "field": "labor",
+   "source": "arxiv",
+   "title": "Trade Tensions Meet the Gig Economy: Evidence from the 2025 Halving of Chinese Travel to Japan",
+   "url": "https://arxiv.org/abs/2611.21070",
+   "published": "2026-11-16T13:23:09+00:00",
+   "summary": "How do geopolitical shocks to services exports reach local labor markets? Using China's November 2025 Japan travel advisory and postings on Japan's largest spot-work platform, we provide the first such evidence for the gig economy. Posted hourly wages fall immediately and persistently in prefectures more dependent on Chinese visitors, relative to others, whereas postings, hours, and employment show no robust change. Wages fall more for early morning and daytime shifts, when hotels and shops hire, than for evening and night shifts. Where each shift is priced anew, a services-trade shock lowers the price of labor in the hours it hits.",
+   "tags": [
+    "econ.GN"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.21070",
+   "candidate": true
+  },
+  {
+   "id": "url:cfc0bfc750cac7d3",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "US Department of Labor proposes new class exemption for qualified professional asset managers to protect retirement plans from disruptions",
+   "url": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261117",
+   "published": "2026-11-17T12:00:00+00:00",
+   "summary": "WASHINGTON – The U.S. Department of Labor’s Employee Benefits Security Administration today proposed a class exemption that would streamline the process for qualified professional asset managers to continue engaging in transactions permitted under Prohibited Transaction Class Exemption 84-14 – also known as the QPAM exemption – following an ineligibility event.&nbsp;The proposed QPAM Re-eligibility Options After Disqualification Class Exemption, known as QROAD, contains safeguards to protect plans and participants through clear, well-established conditions, including the requirement that asset managers seeking relief under the proposed exemption have an independent fiduciary certify their eligibility and compliance.“For years, QPAMs seeking to rely on the beneficial QPAM class exemption following an ineligibility event have had to go through an individual exemption process that can be costly, burdensome, and time-consuming for everyone involved,” said U.S. Secretary of Labor Keith Sonderling. “The QROAD class exemption addresses that problem by creating an alternative path to relief while maintaining the high standards of integrity needed to protect affected plans and participants.",
+   "tags": [],
+   "score": 3.75,
+   "primary_source": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261117",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.21364",
+   "field": "labor",
+   "source": "arxiv",
+   "title": "A Game of Throngs: How Spotlight Tourism Reshapes Local Economies",
+   "url": "https://arxiv.org/abs/2611.21364",
+   "published": "2026-11-16T16:34:28+00:00",
+   "summary": "In July 2017, San Juan de Gaztelugatxe, a modest chapel in the Basque Country, appeared as \"Dragonstone\" in Game of Thrones, transforming a locally known site with limited tourism activity into a global tourist destination overnight. We exploit this exogenous spotlight shock to estimate its causal effects on the local economy using a novel administrative dataset and a Synthetic Control approach. We find an abrupt increase in tourism activity, far exceeding the effects documented in the literature. Despite this surge, employment gains in tourism-related sectors were largely offset by losses elsewhere, resulting in no net effect on total employment. We also document signs of housing-market overheating, with increases in both property transactions and prices. We find no evidence that the shock displaced the local population. Instead, it led to a roughly twofold increase in arrivals from abroad. Taken together, these findings suggest that a substantial increase in tourism activity does not necessarily translate into broad-based local economic gains. Instead, tourism-led growth may entail significant sectoral reallocation and housing-market pressures, underscoring the importance of looking beyond tourism activity alone when assessing its wider economic effects.",
+   "tags": [
+    "econ.GN"
+   ],
+   "score": 2.5,
+   "primary_source": "https://arxiv.org/abs/2611.21364",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:715e2bbc53012671",
+  "url:ceb55449978ccfd0",
+  "arxiv:2611.21070",
+  "url:cfc0bfc750cac7d3",
+  "arxiv:2611.21364"
+ ],
+ "retries": []
+}
