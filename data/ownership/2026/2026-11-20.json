@@ -1,0 +1,97 @@
+{
+ "date": "2026-11-20",
+ "field": "ownership",
+ "generated_at": "2026-11-19T22:06:33+00:00",
+ "fetched": 72,
+ "errors": {},
+ "items": [
+  {
+   "id": "arxiv:2611.23903",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "AI Surge Accelerates the Transition to Liquid Cooling: Rethinking Energy and Water Use in Data Center Cooling",
+   "url": "https://arxiv.org/abs/2611.23903",
+   "published": "2026-11-18T05:55:53+00:00",
+   "summary": "The power density of AI workloads is rapidly driving shifts to liquid cooling. This study rethinks and assesses the global impact on energy and water demand of this cooling transformation. Results suggest that liquid cooling can reduce cooling energy use by 25-56% relative to air cooling, offering substantial energy savings for GW-scale AI data centers. Best-practice PUE values could be as low as 1.07-1.08 for today's systems and 1.03-1.04 for emerging designs, and WUE values range from 0.38 to 2.63 L/kWh, depending on temperature conditions. We identify global free-cooling rack inlet temperature thresholds of 33 $^\\circ$C for evaporative systems and 49 $^\\circ$C for dry systems, demonstrating the practicality of 100% free cooling in many locations. The model finds that minimum PUEs do not necessarily coincide with minimum total energy use, because warmer coolant raises server power. Results quantify the large sustainability potential of liquid cooling and provide actionable targets for data center design and policies.",
+   "tags": [
+    "cs.CY"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.23903",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.24927",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+   "url": "https://arxiv.org/abs/2611.24927",
+   "published": "2026-11-18T18:53:58+00:00",
+   "summary": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus on the organizations that make up the AI supply chain: the complex network of actors that contribute to the development and deployment of AI. We motivate the examination of the organizational AI supply chain---highlighting concerns about concentration, power, chokepoints, cascading failures, fragmented accountability, and risk---then describe our pipeline for mapping the AI supply chain. Our pipeline yields our main contribution: a multilayered, large-scale dataset of actors and relationships in the AI ecosystem, annotated with dates, descriptions, types, tags, and more. This work takes a step toward systematically mapping and measuring the AI supply chain and its properties, cataloging how models, data, chips, infrastructure, capital, and even talent flow between organizations. This data enable critical examinations of industry relationships and yield insights into the political economy of AI development and concentration. We provide several illustrative analyses, including studying the most central actors, analyzing network concentration, and identifying communities and chokepoints. While our dataset is fairly comprehensive, it is also necessarily incomplete: public documents omit private deals, and coverage is shaped by search design. Together, the approach, data, and findings aim to serve as a resource for studying the AI ecosystem. The dataset is publicly available at https://huggingface.co/datasets/sarahcen/ai-supply-chain and can be explored interactively at https://aisupplychains.org/.",
+   "tags": [
+    "cs.CY",
+    "cs.AI"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.24927",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.23638",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "When Do LLMs Model the Right Target? Problem Formulation in High-Stakes Risk Prediction",
+   "url": "https://arxiv.org/abs/2611.23638",
+   "published": "2026-11-18T00:02:41+00:00",
+   "summary": "Generative AI is increasingly used to assist with data science tasks, yet fundamental questions remain about its ability to correctly formulate analytical problems. We investigate how well large language models (LLMs) can formulate prediction problems when developing models for high-stakes decision making. We focus on one particular challenge to validity: decision dependency, which arises when historical decisions affect observed outcomes. We evaluate this aspect of problem formulation in LLM-generated code and explanations across child-welfare, healthcare, and employment settings, using 11 models from OpenAI and Anthropic and seven prompt conditions. We assess whether the LLM-generated code implements a procedure appropriate for estimating the intended outcome under the study's assumptions and whether the explanation acknowledges decision dependency. We find that LLMs do not reliably address decision dependency without guidance in the prompt. When prompts specify the target, the assumption needed to estimate it, and the estimation procedure, target-aligned implementation reaches 99-100%. Among frontier models, a simple prompt description of how decisions affect outcomes appears sufficient to elicit target-aligned implementation. Some responses also acknowledge decision dependency without addressing it in their code. Our findings suggest that analysts should not rely on LLMs to correctly formulate prediction problems without explicit methodological guidance and careful review. We propose validity-centered guidelines for LLM-assisted predictive modeling, covering prompt formulation, validation of the target and estimation procedure, and identification of key assumptions. Establishing validity is a necessary early step in evaluating whether to deploy a predictive model in a high-stakes setting, but deployment requires weighing broader ethical, institutional, and practical considerations.",
+   "tags": [
+    "cs.CY",
+    "cs.LG",
+    "stat.ME"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.23638",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.23795",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "A Dual-SOM Learner Model of Instructional Efficiency within Cognitive Load Theory",
+   "url": "https://arxiv.org/abs/2611.23795",
+   "published": "2026-11-18T04:00:21+00:00",
+   "summary": "This paper presents a novel methodological framework, integrating a dual self-organising map (SOM) neural network architecture with Cognitive Load Theory (CLT), for assessing instructional efficiency within learning environments. By representing curriculum content as a directed acyclic graph of topic dependencies, the proposed model captures collective learning behaviour across two core dimensions: academic performance and subjective/introspective mental effort. During SOM training, representative data sets of successful learner trajectories are compressed into two topologically ordered, identically structured neural networks: PSOM (performance space) and ESOM (mental effort space). By pairing these behavioural maps, the model serves as a decision-support tool that enables instructors to simultaneously pinpoint structural instructional design defects, such as hidden topic prerequisites, and evaluate collective cognitive load profiles. The implementation and performance of the PSOM component (and, by extension, its symmetrical twin, ESOM) is linked to an earlier modelling study employing a SOM with identical structure and encoding semantics situated in the same domain (i.e., a learning environment). This paper combines the study of behavioural phenomena with theoretical work on human cognitive architecture via SOM neurocomputational cognitive behavioural modelling.",
+   "tags": [
+    "q-bio.NC",
+    "cs.CY",
+    "cs.NE"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.23795",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.23757",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Decent Work Standards and Non-Conventional Work: Measurement Gaps and Uneven Capability Formation in Kenya's Online Platform Labour Markets",
+   "url": "https://arxiv.org/abs/2611.23757",
+   "published": "2026-11-18T03:12:07+00:00",
+   "summary": "Online freelancing through digital platforms is a precarious but sought-after livelihood pathway in contexts with weaker conventional labour markets. This article examines how worker-level decent-work assessments intersect with livelihood strategies and outcomes among experienced online freelancers in Kenya. A convergent mixed-methods study combines survey indicators from 52 workers with interviews with 20 participants. Findings show relatively favourable assessments of work-life balance, inclusion, safety and skill development, alongside weak income consistency, protection and voice. Interviews reveal that measured conditions differ in durability, whether they are institutionally provided or produced through workers' unpaid effort, and their convertibility into livelihood security and agency. The article argues that decent work provides a necessary normative baseline, but cross-sectional worker-level operationalisations alone cannot reveal the durability, production or livelihood consequences of measured conditions. A capability-informed livelihood perspective complements decent-work assessment by explaining who can convert platform participation into security, agency and future opportunity.",
+   "tags": [
+    "cs.CY"
+   ],
+   "score": 1.0,
+   "primary_source": "https://arxiv.org/abs/2611.23757",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "arxiv:2611.23903",
+  "arxiv:2611.24927",
+  "arxiv:2611.23638",
+  "arxiv:2611.23795",
+  "arxiv:2611.23757"
+ ],
+ "retries": []
+}

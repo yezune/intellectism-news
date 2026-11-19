@@ -1,0 +1,110 @@
+{
+ "date": "2026-11-20",
+ "field": "labor",
+ "generated_at": "2026-11-19T22:06:17+00:00",
+ "fetched": 24,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:71e1d39438dfdaa7",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "Unions push for pro-worker AI laws: “We can win them by learning from one another”",
+   "url": "https://uniglobalunion.org/news/unions-push-for-pro-worker-ai-laws-we-can-win-them-by-learning-from-one-another/",
+   "published": "2026-11-19T14:44:43+00:00",
+   "summary": "Collective bargaining is workers’ strongest tool to make sure the benefits of artificial intelligence are shared and its excesses curbed. However, only 13 per cent of workers in Massachusetts have a union contract, Chrissy Lynch, President of the Massachusetts AFL-CIO, told union leaders at UNI Global Union’s second AI forum in Nyon on 10 November. The post Unions push for pro-worker AI laws: “We can win them by learning from one another” appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://uniglobalunion.org/news/unions-push-for-pro-worker-ai-laws-we-can-win-them-by-learning-from-one-another/",
+   "candidate": true
+  },
+  {
+   "id": "url:7938ba985b25bea1",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "US Department of Labor announces final rule clarifying employee, independent contractor status under federal wage and hour laws",
+   "url": "http://www.dol.gov/newsroom/releases/whd/whd20261119",
+   "published": "2026-11-19T12:00:00+00:00",
+   "summary": "WASHINGTON – The U.S. Department of Labor’s&nbsp;Wage and Hour Division today announced a&nbsp;final rule to revise its analysis for distinguishing between employees and independent contractors under the Fair Labor Standards Act and two related federal laws. The new final rule provides clarity to businesses and workers alike, as well as the division’s enforcement personnel.U.S. Secretary of Labor Keith Sonderling, Wage and Hour Division Administrator Andrew Rogers, and other department officials hosted an event to formally announce the final rule at the Frances Perkins Building this morning. Employers, business associations, worker advocates, independent contractors, and other stakeholders were in attendance as Secretary Sonderling highlighted the clarity and simplicity of the new regulations.The final rule rescinds an earlier 2024 rule addressing the classification of employees and independent contractors and replaces it with an analysis that is substantially similar to the framework adopted by the department in 2021. Consistent with the outcomes of federal appellate cases, the final rule provides further guidance on the process for differentiating between employees with protectio",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "http://www.dol.gov/newsroom/releases/whd/whd20261119",
+   "candidate": true
+  },
+  {
+   "id": "url:7cfde7d4b6f38e1f",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "UNI stands with Italy’s workers on general strike",
+   "url": "https://uniglobalunion.org/news/uni-stands-with-italys-workers-on-general-strike/",
+   "published": "2026-11-18T20:58:44+00:00",
+   "summary": "Italy’s workers from the public and private put the whole country to a standstill, with demonstrations, marches and rallies taking place on 100 squares across Italy. The date of the general strike, called by CGIL, coincides with that of the European student mobilisation against militarisation, with students set to flood the streets of Rome as The post UNI stands with Italy’s workers on general strike appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://uniglobalunion.org/news/uni-stands-with-italys-workers-on-general-strike/",
+   "candidate": true
+  },
+  {
+   "id": "url:44450fc1184b79a9",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "Unemployment Insurance Weekly Claims Report",
+   "url": "http://www.dol.gov/newsroom/releases/eta/eta20261119",
+   "published": "2026-11-19T12:00:00+00:00",
+   "summary": "In the week ending November 14, the advance figure for seasonally adjusted initial claims was 203,000, an increase of 1,000 from the previous week's revised level. The previous week's level was revised up by 2,000 from 200,000 to 202,000. The 4-week moving average was 197,750, an increase of 2,000 from the previous week's revised average. The previous week's average was revised up by 500 from 195,250 to 195,750.",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "http://www.dol.gov/newsroom/releases/eta/eta20261119",
+   "candidate": true
+  },
+  {
+   "id": "url:770c9b4943e48f22",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "Whose rules, Amazon’s or Europe’s? UNI calls for stronger rules to hold Amazon accountable",
+   "url": "https://uniglobalunion.org/news/amazon-symposium-2026/",
+   "published": "2026-11-19T15:28:27+00:00",
+   "summary": "Trade union leaders, policymakers and civil society representatives gathered in Brussels today to discuss how Europe can use public procurement, digital sovereignty and competition rules to hold Amazon accountable and protect workers&#8217; rights. Co-hosted by UNI Europa and the Friedrich-Ebert-Stiftung, the symposium &#8220;Whose rules, Amazon&#8217;s or Europe&#8217;s?&#8221; examined Amazon&#8217;s growing influence over Europe&#8217;s economy and the The post Whose rules, Amazon&#8217;s or Europe&#8217;s? UNI calls for stronger rules to hold Amazon accountable appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://uniglobalunion.org/news/amazon-symposium-2026/",
+   "candidate": true
+  },
+  {
+   "id": "url:9a99957e145540a8",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "Unions in 19 countries to governments: stop handing Amazon public money while it breaks workers’ rights",
+   "url": "https://uniglobalunion.org/news/amazon-procurement-letter/",
+   "published": "2026-11-19T06:13:38+00:00",
+   "summary": "Trade union leaders from 19 countries representing millions of workers have called on governments to stop awarding public contracts to Amazon and Amazon Web Services (AWS), after a year in which US federal agencies committed more than US$3.5 billion to AWS. The post Unions in 19 countries to governments: stop handing Amazon public money while it breaks workers’ rights appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://uniglobalunion.org/news/amazon-procurement-letter/",
+   "candidate": true
+  },
+  {
+   "id": "url:5b91bd35615aec61",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "Unions are bargaining for “AI for the common good, not the select few”",
+   "url": "https://uniglobalunion.org/news/unions-are-bargaining-for-ai-for-the-common-good-not-the-select-few/",
+   "published": "2026-11-19T11:37:04+00:00",
+   "summary": "When UNI Global Union held our first AI forum in 2024, unions were only starting to bargain over AI. At the second, in Nyon on 10 November, we’re seeing more agreements that highlight where we’re winning and where we have to keep pushing. UNI President Gerard Dwyer opened the day with a call for “AI The post Unions are bargaining for “AI for the common good, not the select few” appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 3.75,
+   "primary_source": "https://uniglobalunion.org/news/unions-are-bargaining-for-ai-for-the-common-good-not-the-select-few/",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:71e1d39438dfdaa7",
+  "url:7938ba985b25bea1",
+  "url:7cfde7d4b6f38e1f",
+  "url:44450fc1184b79a9",
+  "url:770c9b4943e48f22",
+  "url:9a99957e145540a8",
+  "url:5b91bd35615aec61"
+ ],
+ "retries": []
+}
