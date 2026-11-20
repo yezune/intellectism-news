@@ -1,0 +1,163 @@
+{
+ "date": "2026-11-21",
+ "field": "ownership",
+ "generated_at": "2026-11-20T22:06:03+00:00",
+ "fetched": 72,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:0afcc5d353c55005",
+   "field": "ownership",
+   "source": "rss:EFF",
+   "title": "Outage Chaos: Who Turned Off All The Computer?",
+   "url": "https://www.eff.org/deeplinks/2026/11/outage-chaos-who-turned-all-computer",
+   "published": "2026-11-19T23:30:50+00:00",
+   "summary": "It's been a tough couple of weeks for anyone trying to use email , fly , spend money , use an Apple device *, or do signals intelligence . Technical service outages are nothing new, but why do so many big ones seem to be happening all at once? Are hackers, AI, and international conflicts to blame? And what can we do about it? Since most service interruptions don't make the news, it's hard to get a baseline on how often we see them happen normally. But after a major incident like the Microsoft cloud outage on November 12 , any smaller disruption is more likely to become a story as part of a pattern instead of an isolated incident. We would have heard plenty about the Air Traffic Control problems anyway, but the November 18 disruption to the PlayStation Network might have gotten less attention. There might appear to be a spike or an upward trend in outages, but we can't easily verify that, and the increased coverage will tend to make it seem more significant and interconnected than it necessarily is regardless. One boring reason we might see an uptick in problems right now is the date on the calendar. With Thanksgiving travel, Black Friday, Cyber Monday, Giving Tuesday, and Surveilla",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/outage-chaos-who-turned-all-computer",
+   "candidate": true
+  },
+  {
+   "id": "url:31dfa678a4d112a5",
+   "field": "ownership",
+   "source": "rss:SEC",
+   "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
+   "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
+   "published": "2026-11-20T18:03:24+00:00",
+   "summary": "The Securities and Exchange Commission today issued a proposal to address the inefficiencies in the current governance and funding model of the Consolidated Audit Trail (CAT). The Commission is proposing to rescind Rule 613 of Regulation NMS, which…",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
+   "candidate": true
+  },
+  {
+   "id": "url:8cf63b9f3cc16148",
+   "field": "ownership",
+   "source": "rss:SEC",
+   "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
+   "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
+   "published": "2026-11-20T14:28:28+00:00",
+   "summary": "The Securities and Exchange Commission today announced that it has obtained a temporary restraining order, asset freeze, expedited discovery, and other relief against Indianapolis-based Backward Hat Capital, its co-founders Phillip Williams and Devin…",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.25898",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding",
+   "url": "https://arxiv.org/abs/2611.25898",
+   "published": "2026-11-19T10:49:23+00:00",
+   "summary": "Clinical large language models are usually judged by whether the final answer is right. Yet a model can reach a fluent, plausible output through invalid reasoning that static benchmarks do not detect, and confident hallucination, causally invalid inference, and spurious demographic shortcuts can pass conventional evaluation. This critical review covers four paradigms in turn: how clinical hallucination arises and why static metrics miss it; the agentic hallucination cascade, in which multi-agent and tool-augmented systems propagate and amplify early reasoning errors; process reward modeling as step-level supervision; and neuro-symbolic grounding, in which formal logic engines, ontology reasoners, and knowledge graphs place verifiable constraints on neural output. Within their encoded domains, systems with symbolic veto layers offer guarantees that hold relative to their encoded knowledge, and they report large gains on the safety measures they use. These results come from single studies, mostly in simulated or small-sample settings, and are not directly comparable with neural baselines. Process reward models remain bounded by the statistics of their training data. We propose a conceptual framework that maps each agentic failure mode to a symbolic intervention point, and we argue that clinical AI safety depends substantially on system architecture. Because current regulation emphasizes performance and does not require verification of reasoning steps, we argue that responsible certification should also audit reasoning trajectories alongside accuracy on static benchmarks.",
+   "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CY",
+    "cs.LG"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.25898",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.25955",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Web search in Latin America: language models use less local and diverse news than search engines",
+   "url": "https://arxiv.org/abs/2611.25955",
+   "published": "2026-11-19T11:43:22+00:00",
+   "summary": "AI platforms are becoming a major gateway to news and current events. This shift risks amplifying existing geographical biases that favour narratives from wealthier countries over those from the Global South. This is particularly relevant in Latin America, which accounts for the largest share of AI usage in the Global South. We examine how information about Latin America changes when users shift from conventional search engines to LLM-based search. We construct a dataset of 1,901 current events across nine Latin American countries, craft realistic queries, and submit them to three search engines and four language models. We vary query language and user location to represent local, diaspora, tourist, and foreign user scenarios. Across 49,207 requests and 8,834 unique domains, language models return a less diverse set of news sources than search engines. Across user types, the share of domestic news returned by language models is inconsistent. For local users, while search engines already return only 41.3\\% local news, language models return a further 3.6 to 11.6 percentage points less. Taken together, our findings suggest that LLM-based search can reproduce and, in some settings, amplify geographical hierarchies in the reach and visibility of news sources. We release an open dataset to support multilingual and geographically diverse evaluation of LLM-based search, and highlight implications for more equitable information systems design.",
+   "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CY"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.25955",
+   "candidate": true
+  },
+  {
+   "id": "url:211fbe8009a45ecd",
+   "field": "ownership",
+   "source": "rss:Hugging Face",
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "published": "2026-11-20T00:00:00+00:00",
+   "summary": "",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "candidate": true
+  },
+  {
+   "id": "url:3ea993db7e3c60d1",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Combatting adversarial distillation",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "published": "2026-11-20T10:00:00+00:00",
+   "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/combatting-adversarial-distillation",
+   "candidate": true
+  },
+  {
+   "id": "url:460655ecdca1b958",
+   "field": "ownership",
+   "source": "rss:DOJ",
+   "title": "DOJ Scores Key Victory in Precedent-Setting Military Attorney Licensing Case",
+   "url": "https://www.justice.gov/opa/pr/doj-scores-key-victory-precedent-setting-military-attorney-licensing-case",
+   "published": "2026-11-20T12:00:00+00:00",
+   "summary": "The Justice Department has defeated New Mexico’s attempt to dismiss a landmark case involving the licensing of servicemember and military spouse attorneys. On Nov. 19, Judge Kea Riggs of the U.S. District for the District of New Mexico denied motions to dismiss filed by the New Mexico Supreme Court and the New Mexico Board of Bar Examiners in the Department’s first-ever lawsuit to enforce the professional license portability provisions of the Servicemembers Civil Relief Act (SCRA).",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.justice.gov/opa/pr/doj-scores-key-victory-precedent-setting-military-attorney-licensing-case",
+   "candidate": true
+  },
+  {
+   "id": "url:e685f0516617c068",
+   "field": "ownership",
+   "source": "rss:EFF",
+   "title": "EFF to Congress: Mass Surveillance Is Too Important to Shove into Must-Pass Bill",
+   "url": "https://www.eff.org/deeplinks/2026/11/eff-congress-mass-surveillance-too-important-shove-must-pass-bill",
+   "published": "2026-11-20T21:52:51+00:00",
+   "summary": "In June 2026, the surveillance authority Section 702 of FISA expired absent a consensus among lawmakers over the terms of its reauthorization . Now, with the program set to truly turn off within the next few months, surveillance hawks and national security maximalists are rushing to renew this secretive power by shoving it into a must-pass bill, like a continuing resolution to fund the government or the National Defense Authorization Act (NDAA) or an end of year, rushed, funding bill to prevent a shutdown. This would be both undemocratic and suppress any real chance at reform. In an effort to prevent that, EFF has singed into a letter with over 25 civil liberties organizations, including the ACLU, Color of Change, and the Brennan Center, to urge Congress not to allow such a significant and dangerous program to be tacked onto a must-pass bill. The letter says: “The NDAA is among the most important bills Congress considers each year. It should not be used as a vehicle to circumvent or to cut short this long-running bipartisan debate over Americans’ civil liberties and constitutional rights, nor to force lawmakers to choose between supporting our national defense and ending warrantles",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/eff-congress-mass-surveillance-too-important-shove-must-pass-bill",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.25585",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "AI-Driven Transformation of Digital Platform Work: A Task-Based Model for Measuring Labour Disruption and Vulnerability, with Early Evidence from Online Freelancing in Kenya",
+   "url": "https://arxiv.org/abs/2611.25585",
+   "published": "2026-11-19T06:28:38+00:00",
+   "summary": "Assessments of AI's impact on labour often rely on conventional occupational categories or broad market indicators. This dominant trend, however, obscures how tasks within the same occupation vary in practice across work arrangements. This limitation is particularly important in online freelancing, where workers are typically remote and devote substantial time performing unpaid tasks. This article introduces a task-based framework that distinguishes AI-driven disruption, defined as the extent of change in how work is performed, from livelihood vulnerability associated with that change. The framework is subsequently applied to assess the potential for automation, substitution, and enhancement across four categories of platform work: writing, virtual assistance, transcription, and web and software development. The model estimates high disruption across all four categories, while livelihood vulnerability scores are lower and vary by occupation. Potential efficiency gains on unpaid tasks partly offset potential wage impact associated with paid work in the model. The article compares these estimates with evidence from a survey of 52 online freelancers and 20 follow-up interviews in Nairobi, Kenya. Workers report changes in how they perform tasks and intensifying competition, while their accounts show how adapting their skills and using AI strategically shape their concerns about job loss. The findings show how task-based modelling can provide a baseline for assessing AI-driven changes in platform work and how workers' experiences differ from projections and help explain how these changes may threaten their livelihoods.",
+   "tags": [
+    "cs.CY"
+   ],
+   "score": 2.0,
+   "primary_source": "https://arxiv.org/abs/2611.25585",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:0afcc5d353c55005",
+  "url:31dfa678a4d112a5",
+  "url:8cf63b9f3cc16148",
+  "arxiv:2611.25898",
+  "arxiv:2611.25955",
+  "url:211fbe8009a45ecd",
+  "url:3ea993db7e3c60d1",
+  "url:460655ecdca1b958",
+  "url:e685f0516617c068",
+  "arxiv:2611.25585"
+ ],
+ "retries": []
+}

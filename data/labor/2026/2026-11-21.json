@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-21",
+ "field": "labor",
+ "generated_at": "2026-11-20T22:05:55+00:00",
+ "fetched": 24,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:ab31f6930073f379",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "Pakistan: Lady Health Workers’ unions call for formal jobs and social protection at policy dialogue",
+   "url": "https://uniglobalunion.org/news/pakistan-lhw-unions-policy-dialogue-2026/",
+   "published": "2026-11-20T04:01:55+00:00",
+   "summary": "Unions representing Pakistan’s Lady Health Workers (LHWs) called for formal employment, timely wages and social protection at a national policy dialogue with key stakeholders in Islamabad, seeking reforms that would cover nearly 90,000 frontline health workers. The dialogue, held on 12 November 2026, was organized by the UNI Pakistan Liaison Council with the Pakistan Community The post Pakistan: Lady Health Workers’ unions call for formal jobs and social protection at policy dialogue appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://uniglobalunion.org/news/pakistan-lhw-unions-policy-dialogue-2026/",
+   "candidate": true
+  },
+  {
+   "id": "url:a9341ad65fee6966",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "FNV campaign brings Lidl to the table on workload",
+   "url": "https://uniglobalunion.org/news/fnv-campaign-brings-lidl-to-the-table-on-workload/",
+   "published": "2026-11-20T15:18:01+00:00",
+   "summary": "After years of campaigning, UNI Global Union’s Dutch affiliate, FNV, has secured commitments from Lidl in the Netherlands to tackle excessive workloads through structured dialogue. Under a new agreement, Lidl will: hold regular structured consultations with the union’s commerce section, FNV Handel, on workers’ concerns, progress on the agreements and improvements to health and safety; The post FNV campaign brings Lidl to the table on workload appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "https://uniglobalunion.org/news/fnv-campaign-brings-lidl-to-the-table-on-workload/",
+   "candidate": true
+  },
+  {
+   "id": "url:254b2e527d72b283",
+   "field": "labor",
+   "source": "rss:ILO Jobs",
+   "title": "Chef(fe) de projet P4 (Abidjan, CI)",
+   "url": "https://jobs.ilo.org/job/Abidjan-Chef%28fe%29-de-projet-P4/1459158133/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "published": "2026-11-20T00:00:00+00:00",
+   "summary": "Grade: P4 No. du poste: DC/ABIDJAN/P/2026/04 Date de publication: 20 Novembre 2026 Date de clôture (min uit, heure d'Abidjan): 30 Nomvembre 2026 Job ID: 13961 Départment: BR-Afrique Unité: BR-Afrique Lieu d'affectation: Abidjan Type de contrat: Durée déterminée Durée du contract: Un an avec possibilité d'extension Le recrutement est strictement conditionné à la signature de l’accord avec le bailleur concernant le projet et à la confirmation de la disponibilité des fonds. Aucune offre ne sera faite à un(e) candidat(e) tant que les fonds n’auront pas été transférés à l’OIT. Selon l’Article 4.2 (e) du Statut du personnel, le pourvoi des postes vacants dans les projets de coopération technique n’est pas régi dans le cadre de l’Annexe I du Statut du personnel et se fait par choix direct du Directeur général. Dans le but de s'assurer que la sélection directe pour pourvoir le poste vacant est fondée sur le meilleur processus décisionnel possible, le BIT invite les candidats intéressés à soumettre leur candidature en ligne avant la date indiquée ci-dessus. Les nominations avec des contrats de coopération technique ne confèrent pas le droit à une carrière au BIT ni à un renouvellement autom",
+   "tags": [],
+   "score": 3.75,
+   "primary_source": "https://jobs.ilo.org/job/Abidjan-Chef%28fe%29-de-projet-P4/1459158133/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "candidate": true
+  },
+  {
+   "id": "url:bd8721a92a56eddb",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "UNI GS Christy Hoffman to speak at Paris Summit Against International Oligarchy",
+   "url": "https://uniglobalunion.org/news/uni-gs-christy-hoffman-to-speak-at-paris-summit-against-international-oligarchy/",
+   "published": "2026-11-20T15:37:12+00:00",
+   "summary": "UNI General Secretary Christy Hoffman will speak at the first Paris Summit Against International Oligarchy on Saturday 21 November 2026 at the Théâtre de la Concorde. The summit was initiated by the International Tax Observatory, led by economist Gabriel Zucman. It brings together economists, researchers, politicians, journalists, trade unionists and activists to debate how to The post UNI GS Christy Hoffman to speak at Paris Summit Against International Oligarchy appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 3.75,
+   "primary_source": "https://uniglobalunion.org/news/uni-gs-christy-hoffman-to-speak-at-paris-summit-against-international-oligarchy/",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:ab31f6930073f379",
+  "url:a9341ad65fee6966",
+  "url:254b2e527d72b283",
+  "url:bd8721a92a56eddb"
+ ],
+ "retries": []
+}
