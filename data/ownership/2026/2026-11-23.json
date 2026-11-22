@@ -1,0 +1,26 @@
+{
+ "date": "2026-11-23",
+ "field": "ownership",
+ "generated_at": "2026-11-22T22:05:37+00:00",
+ "fetched": 46,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:de5cd1a6d51dc917",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "published": "2026-11-22T00:00:00+00:00",
+   "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/perplexity-and-intelligence",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:de5cd1a6d51dc917"
+ ],
+ "retries": []
+}
