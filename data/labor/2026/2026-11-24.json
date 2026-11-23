@@ -1,0 +1,40 @@
+{
+ "date": "2026-11-24",
+ "field": "labor",
+ "generated_at": "2026-11-23T22:05:36+00:00",
+ "fetched": 13,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:e9267f89fbefef91",
+   "field": "labor",
+   "source": "rss:UNI Global Union",
+   "title": "UNI calls for strong workers’ rights in planned GLS–DPD joint venture in Germany",
+   "url": "https://uniglobalunion.org/news/workers-rights-gls-dpd-joint-venture-germany/",
+   "published": "2026-11-23T10:32:21+00:00",
+   "summary": "UNI Global Union is calling on GLS Group and Geopost to put workers’ rights, collective bargaining and social dialogue at the centre of their planned joint venture in Germany. Creating a new major player in parcel delivery must lead to better jobs, not social dumping. On 18 November 2026, GLS Group and Geopost, the parent The post UNI calls for strong workers’ rights in planned GLS–DPD joint venture in Germany appeared first on UNI Global Union .",
+   "tags": [],
+   "score": 6.0,
+   "primary_source": "https://uniglobalunion.org/news/workers-rights-gls-dpd-joint-venture-germany/",
+   "candidate": true
+  },
+  {
+   "id": "url:4bc51aebe846edf6",
+   "field": "labor",
+   "source": "rss:US DOL",
+   "title": "US Department of Labor proposes to update fiduciary rule to affirm Employee Retirement Income Security Act’s exclusive purpose rule",
+   "url": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261123",
+   "published": "2026-11-23T12:00:00+00:00",
+   "summary": "WASHINGTON – The U.S. Department of Labor’s Employee Benefits Security Administration today issued proposed amendments to the investment duties regulation to clarify the fiduciary duty of loyalty under the Employee Retirement Income Security Act.The proposed rule seeks to end the 32-year uncertainty surrounding whether ERISA allows fiduciaries to consider non-financial factors in retirement plan investments, including environmental, social, and governance, and diversity, equity, and inclusion. The proposal gives fiduciaries an affirmative expression of their duty of loyalty, which would clarify that ERISA requires plan fiduciaries to act solely in the interest of the plan’s participants and beneficiaries, and for the exclusive purpose of providing for the interests of participants and beneficiaries in their retirement income or financial benefits under the plan.“President Trump’s Department of Labor is not putting its thumb on the scale for or against any particular investment or asset class,” said U.S. Secretary of Labor Keith Sonderling. “Our proposed rule makes clear that retirement plan fiduciaries must make investment decisions solely in the financial interests of workers and ",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261123",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:e9267f89fbefef91",
+  "url:4bc51aebe846edf6"
+ ],
+ "retries": []
+}
