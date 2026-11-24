@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-25",
+ "field": "ownership",
+ "generated_at": "2026-11-24T22:05:52+00:00",
+ "fetched": 56,
+ "errors": {},
+ "items": [
+  {
+   "id": "arxiv:2611.29874",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Escriba-OCR: A 1B Vision-Language Model for Error-Preserving Transcription of Handwritten Portuguese Essays",
+   "url": "https://arxiv.org/abs/2611.29874",
+   "published": "2026-11-23T01:08:48+00:00",
+   "summary": "Feedback tools and research on learner writing need transcriptions of handwritten essays that keep exactly what the student wrote: misspellings, line breaks, struck-through words and insertions. Vision-language models (VLMs) read handwriting well, but they also tend to rewrite it into correct language. We measure this on BRESSAY, 1,000 handwritten Brazilian Portuguese essays, with a benchmark that adds error preservation, invented errors, edit-markup precision and recall and line structure to the character error rate (CER) and uses paired bootstrap confidence intervals. We restrict the study to open-weight models that schools can run on their own hardware. Of 22 open baselines, the best, Qwen3-VL 235B-A22B, reaches 5.6% CER on the 199 test pages; none reproduces the edit markup reliably, and every VLM replaces 39-78% of the words absent from a Portuguese dictionary with dictionary words. We fine-tune LightOnOCR-3-1B on the 647 training pages in 85 minutes on one GPU. The resulting Escriba-OCR-1B reaches 2.06% CER, 3.5 points below the best baseline (95% CI [-4.2, -2.9]); under the ICDAR 2024 competition metric it reaches 2.1% CER, below the best published page-level results (2.2-2.4%). It recovers 67% of insertions and 77% of illegible deletions, and reproduces the line structure of 97% of the pages, but still normalises 60% of likely misspellings. Three seeds agree within 0.04 CER points, and quantised to 4 bits the model runs on an ordinary CPU at about one minute per page. On 40 letters of another corpus it matches its base model (without that model's appended comments) but misreads unseen words more often; weight interpolation recovers half the gap. A teacher's review finds that 45% of the judgeable apparent corrections are errors in the BRESSAY ground truth, so dictionary-based scores likely understate preservation. We release the model, the benchmark code and the review data.",
+   "tags": [
+    "cs.CL",
+    "cs.CV",
+    "cs.CY"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.29874",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.30858",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "The AMPEL Platform: A Concept for Open-Source Collaboration in Developing In-House Medical Device Software under EU-Regulation",
+   "url": "https://arxiv.org/abs/2611.30858",
+   "published": "2026-11-23T15:34:28+00:00",
+   "summary": "Clinical decision support systems (CDSS) are expected to enhance medical treatment through automated data analysis, yet a substantial evidence gap persists as to whether they actually improve patient outcomes. It arises due to the black-box nature of commercial products and the constrains of the European medical device regulation (MDR) for such studies: patient outcomes may only be collected through the use of medical device software (MDSW). In-house MDSW under Article 5(5) MDR is a promising solution, allowing healthcare facilities to manufacture and study such software for their own use under reduced requirements. However, the overall limited experience with in-house MDSW development in Europe currently restricts the widespread use of this regulatory approach. While open-source software generally fosters evidence generation, publishing an in-house MDSW as open source would risk a classification as \"placement on the market\", which the MDR prohibits. The concept presented here builds on experience from developing an in-house CDSS at the University of Leipzig Medical Center, expert discussions, a literature review and a formal legal opinion. A companion online wiki summarizes and regularly updates the results. The current concept outlines a shared open-source codebase, which doesn't constitute a medical device under the MDR. Also, \"Data Input\" modules must be programmed separately at each site, while still allowing for multicenter collaboration on the codebase. Atypically for open-source projects, this leaves a considerable effort to deploy the software within each site, e.g. each healthcare facility must independently meet the MDR requirements for an in-house MDSW. The AMPEL concept describes a regulatory pathway for the open-source publication and development of in-house MDSW. It underpins the open-source AMPEL platform, which helps healthcare facilities build their own in-house CDSS.",
+   "tags": [
+    "cs.CY"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.30858",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.30956",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Leveraging Fast Healthcare Interoperability Resources (FHIR) for the Exchange of Wearable Inertial Sensor Data: Design and Development Study",
+   "url": "https://arxiv.org/abs/2611.30956",
+   "published": "2026-11-23T16:30:56+00:00",
+   "summary": "Continuous monitoring with wearables can support the assessment of frailty, functional decline, and movement disorders, but raw inertial measurement unit (IMU) recordings are typically stored in proprietary files that electronic health records cannot exchange or interpret. HL7 Fast Healthcare Interoperability Resources (FHIR) standardizes health data exchange, yet existing FHIR profiles for personal health devices target spot measurements and short waveforms, not long multichannel motion recordings with their recording context and activity labels. We present WHIR (Wearable Health Interoperable Recordings), a FHIR R5-based information model and implementation guide for wearable IMU recordings. Metadata requirements were derived from a review of 23 published human activity recognition datasets and formalized in a FHIR-independent information model, which was then mapped to FHIR R5 and authored in FHIR Shorthand. Raw signals are kept in files referenced through DocumentReference resources, so that FHIR holds the metadata and activity labels. Terminology reuses SNOMED CT, LOINC, and ISO/IEEE 11073 concepts wherever available. The implementation guide defines 9 profiles, 4 extensions, 10 code systems, and 15 value sets; all artifacts and 67 example instances passed the conformance checks of the HL7 FHIR IG Publisher without errors. Two use cases, machine learning training data and automated home-based geriatric assessment, were implemented as conformant example instances, and we compare the model with the HL7 Personal Health Device Implementation Guide. WHIR provides a FHIR R5-conformant representation of wearable IMU recordings together with device metadata, sensor placement, and time-aligned activity labels, covering concepts that the Personal Health Device Implementation Guide does not address. The implementation guide and its sources are openly available for reuse and extension.",
+   "tags": [
+    "cs.CY",
+    "cs.DB",
+    "cs.LG"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.30956",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.31176",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Female YouTube Content Creators in Bangladesh: A Data-Driven Study of Audience and Sentiment",
+   "url": "https://arxiv.org/abs/2611.31176",
+   "published": "2026-11-23T18:32:10+00:00",
+   "summary": "Audience response to female-led YouTube channels in Bangladesh has not been measured at scale, and the comments these channels attract are hard to score because they arrive in three different writing systems. This study examines twelve such channels, two per category across six categories, from January 2021 to August 2026, covering 4,717 videos and a census of 558,827 top-level comments. No single writing system dominates the comment set: English accounts for 33.5%, Bangla script for 32.0%, and Banglish (Bengali typed in Latin script and freely mixed with English) for 24.2%. Each comment was therefore routed to a model trained on the language it was actually written in rather than translated into English. Two categories, selected for the largest rise and the largest drop in positive sentiment over time, were hand-labeled and used to fine-tune the code-mixed model, raising out-of-fold accuracy from 54.3% to 78.0% in Health & Fitness and from 81.1% to 85.0% in Beauty & Fashion, and moving the first category's reported positive share by nearly eight points. The wider results show diverging publishing trends, highly concentrated audience attention, category-specific sentiment trajectories, and a clean split between event-like and search-driven categories in how quickly audiences respond. The findings underscore that language-aware sentiment analysis is essential for Bangladeshi social media data, that even a language-appropriate general model can be systematically miscalibrated for a specific community, and that measured negative shares are best read as lower bounds.",
+   "tags": [
+    "cs.CY"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.31176",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.30848",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Deviant Machines: Innovation, Containment, and the Prevention of Autonomous Misalignment",
+   "url": "https://arxiv.org/abs/2611.30848",
+   "published": "2026-11-23T15:29:35+00:00",
+   "summary": "From May to September 2026, AI agents in training or evaluation at OpenAI, Anthropic and the UK AI Security Institute reached real third-party systems, published malicious packages, used fake identities to manipulate open-source maintainers, probed government data services, and wrote instructions into their own future contexts. Criminology has mostly treated AI as a tool for human offenders. This article treats these systems as deviant rather than criminal: they departed from training, rules and constraints without the intent that criminal concepts assume. It offers an exploratory, theory-informed analysis of documented records, using plausibility probes across three incident complexes and four behavioral clusters, profiled on four evidence dimensions that separate who acted from why. Drawing on Merton, it argues that goal pressure plus blocked legitimate means is a structural condition for innovation, and that whether it ends in containment or harm depends on the means chosen and the controls in place, not the goal. Three framework families fit the record best, each linking diagnosis to remedy: routine activity theory and situational prevention (handlers, guardians, place managers), organizational deviance and safety science (escalation, safeguard parity), and goal-means strain with differential opportunity (sanctioned exits, guarding illegitimate means), the last only structurally. Restrictive deterrence adds an analogy: penalizing visible reasoning produced less monitorable reasoning. The article proposes conditions that keep departures accountable and contestable, and allocates prevention responsibility across developers, evaluation partners, operators, platforms and the system, distinct from blame or legal liability. Because the record is shaped by disclosure and observed departures, the analysis shows plausibility and practical relevance, not a causal test.",
+   "tags": [
+    "cs.CY"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.30848",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.30990",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "The AMPEL Platform: An Open-Source Project for Developing Hospital-Wide Clinical Decision Support Systems under EU-Regulation",
+   "url": "https://arxiv.org/abs/2611.30990",
+   "published": "2026-11-23T16:44:42+00:00",
+   "summary": "As incentives to digitize more and more aspects of medical healthcare are gaining traction, additional medical data is becoming available. A major goal is to use this data to gain further insights, support medical staff, and ultimately improve patient care. This demands sophisticated solutions that can handle current and future vast amounts of data, all without disrupting well-established workflows of care takers. Additionally, the solution must fulfill the documentation and risk-management obligations of the Medical Device Regulation (MDR), which governs whether a device may be used in patient care in Europe. In this context, we introduce the AMPEL platform, an open-source solution for creating clinical decision support systems (CDSS) that fulfil the requirements of the MDR. Centered around a message broker (Kafka), it adopts an event-driven, distributed architecture, allowing for scaling and efficient processing of medical data as it gets generated. Relying on platform-specific events to implicitly describe the platform's interfaces makes it both extensible and agnostic to the hospital information system in use. With these events being defined in the Protocol Buffers format, medically evaluated algorithms can be independently implemented in a variety of programming languages and easily linked to the platform, extending its analytic capabilities as desired. The platform features a basic UI and alert functionality that can be used to gain medical staff's attention and present analysis results in a traceable and explainable fashion. We further show in a use case how the platform was used to build LAMPE, a CDSS developed and operated at University of Leipzig Medical Center. It demonstrates how the platform solution can be used in a complex and already established environment, while acknowledging current limitations and outlining planned developments to overcome these.",
+   "tags": [
+    "cs.CY",
+    "cs.AI"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.30990",
+   "candidate": true
+  },
+  {
+   "id": "url:3c6728c1bfd19879",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "published": "2026-11-24T13:00:00+00:00",
+   "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "candidate": true
+  },
+  {
+   "id": "url:be3639528db0d996",
+   "field": "ownership",
+   "source": "rss:EFF",
+   "title": "Signal Moves to Block AI Agents",
+   "url": "https://www.eff.org/deeplinks/2026/11/signal-now-blocks-ai-agents",
+   "published": "2026-11-24T19:43:49+00:00",
+   "summary": "Signal announced an update to its mobile apps on iOS and Android that seeks to curb issues with AI agents accessing private chats. This is a useful new barrier against a problem we’ve been highlighting this year in our Encrypt It Already campaign. And good news, it’s enabled by default so you don’t need to do anything except update the app. Over the last year, both Google and Apple* have released AI features in their operating systems that can read the contents of apps. One of the ways it can do this is through screen analysis. Google calls this feature “ Intelligent Screen Context ,” while Apple refers to it as either “ Onscreen Awareness ” or “ Visual Intelligence .” Apple now provides a way to block Siri AI’s access to apps, but by default every app is available to Siri AI, so it’s up to the user to go in and put these guardrails up. Signal requests that protection on your behalf. Google doesn’t currently offer any sort of similar option. So Signal on Android does the best it can, by turning off screenshots when it detects an AI assistant attempting to access the screen. Signal’s solution helps ensure that, unless you go in and change the setting yourself, it defaults to the mos",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/signal-now-blocks-ai-agents",
+   "candidate": true
+  },
+  {
+   "id": "url:f3aa9260f1094b37",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Searching for distant planets with Astra",
+   "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "published": "2026-11-24T11:00:00+00:00",
+   "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "arxiv:2611.29874",
+  "arxiv:2611.30858",
+  "arxiv:2611.30956",
+  "arxiv:2611.31176",
+  "arxiv:2611.30848",
+  "arxiv:2611.30990",
+  "url:3c6728c1bfd19879",
+  "url:be3639528db0d996",
+  "url:f3aa9260f1094b37"
+ ],
+ "retries": []
+}
