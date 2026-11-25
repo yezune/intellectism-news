@@ -1,0 +1,141 @@
+{
+ "date": "2026-11-26",
+ "field": "ownership",
+ "generated_at": "2026-11-25T22:06:00+00:00",
+ "fetched": 61,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:4be11a29624269df",
+   "field": "ownership",
+   "source": "rss:EFF",
+   "title": "New York and California Age Gating Rules Go Into Effect in the New Year",
+   "url": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
+   "published": "2026-11-24T22:35:05+00:00",
+   "summary": "Come January 2027, everyday social media browsing in two of the country's largest states will look noticeably different. In California, AB 1709 (2026), AB 1043 (2025), and SB 976 (2024) are slated to take effect on January 1, 2027. Meanwhile, state attorney general regulations for New York’s Stop Addictive Feeds Exploitation (SAFE) for Kids Act take effect on January 25, 2027. EFF has opposed these laws across legislatures , regulatory proceedings , and the courts . The core problem is simple: age-gating mandates trade away everyday user privacy and free expression under the guise of safety, while pushing platforms to gather even more personal data on users. What California’s Rules Say Three interlocking California laws take effect on January 1, 2027, reshaping how platforms handle age checks and design features for young users. First, SB 976 (2024) requires verifiable parental consent before platforms can offer algorithmic feeds or nighttime notifications to anyone under 18. Second, AB 1709 (2026) goes even further by outright banning \"addictive features,\" including personalized recommendation algorithms, autoplay, and endless scroll, for users under 16, even with parental permiss",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
+   "candidate": true
+  },
+  {
+   "id": "url:99b93f3e10984935",
+   "field": "ownership",
+   "source": "rss:OpenAI",
+   "title": "Clay helps sales teams win with Codex and ChatGPT",
+   "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+   "published": "2026-11-24T00:00:00+00:00",
+   "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://openai.com/business/customer-stories/clay-plugins-openai",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.31968",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Audits Need Access, Data, and Compute. But How Much?",
+   "url": "https://arxiv.org/abs/2611.31968",
+   "published": "2026-11-24T05:18:00+00:00",
+   "summary": "AI audits have garnered significant attention in recent months, as the ability to test and monitor AI models plays a crucial role in safe development and deployment. However, AI audit success hinges on an auditor's authority; in particular, what information and resources they have at their disposal. Ongoing debates have surrounded the question: How much model access is needed to conduct an AI audit? Auditors seek more model access, while companies resist it for reasons related to confidential business information (trade secrets) and privacy. This tug-of-war remains unresolved. Further, this debate misses a related question: How much data and compute do auditors need? In this work, we systematically investigate both questions. We provide a framework that varies each of these three dimensions-model access, data, and compute-and measures their joint effect on audit success. We apply this framework to three tasks. We find that (1) some model access is important, but there can be diminishing returns; (2) data and compute matter more for traditional fairness audits, but model access matters more for manipulation and lie detection; and (3) these three resources can be fungible (i.e., an exchange rate exists between them), meaning that model access is not the only salient factor. These results suggest that audit governance should jointly consider different dimensions of auditor authority (including model access, data, and compute) in relation to audit objectives. These issues are particularly salient as we consider the spectrum of auditing setups, from a small ecosystem of embedded evaluators with significant access to a large body of third-party auditors with greater independence but limited access. Our framework serves as a template that can be applied to different audit tasks and inform the degree of auditor authority.",
+   "tags": [
+    "cs.CY",
+    "cs.CR"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.31968",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.32464",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Gamification in the age of AI: surveying player perceptions of motivation, manipulation, and data protection",
+   "url": "https://arxiv.org/abs/2611.32464",
+   "published": "2026-11-24T11:59:23+00:00",
+   "summary": "Modern games and applications increasingly employ artificial intelligence (AI), user modeling, and gamification to influence user behavior, sustain engagement, and monetize attention. Although these mechanisms can enhance motivation and enjoyment, they also raise concerns about manipulation, personal data usage, and transparency. To examine how players perceive these dynamics, we conducted a survey with 28 adult participants. Respondents expressed strong concerns about the collection and exploitation of personal information in games and gamified applications, while also reporting low awareness and a limited sense of control over how their data is used. They evaluated progression features such as leveling systems and leaderboards as motivating. In contrast, they rated retention-focused mechanics such as daily login rewards and random reward reveals as highly manipulative. Participants reported that these systems can create fear of missing out or resemble gambling. Participants also expressed support for regulatory measures that limit exploitative design and protect vulnerable users. These findings reveal a clear gap between increasingly powerful engagement strategies and user trust, illustrating the need for more responsible and transparent gamification practices.",
+   "tags": [
+    "cs.NI",
+    "cs.AI",
+    "cs.CY"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.32464",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.32348",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Explaining intersectional segregation in multi-attribute social networks",
+   "url": "https://arxiv.org/abs/2611.32348",
+   "published": "2026-11-24T10:25:19+00:00",
+   "summary": "Segregation in students' friendships shapes their access to information and opportunities, and schools can reduce it by setting the composition of their classes. Yet segregation is usually measured one attribute at a time, although attributes such as migration background and sex are often correlated, so a preference over one can create segregation on the other. A single-attribute reading then attributes this induced segregation to the wrong preference and cannot identify which part of it a school can remove. In a network model with preferences over two correlated attributes, we derive in closed form the Coleman index, a standard segregation measure, separating the segregation due to each preference from the segregation it induces on the other attribute. In friendship networks of school classes in four European countries, ignoring sex inflates the estimated preference over migration background, increasingly so as the two attributes are more correlated. The closed form also shows what class composition can achieve. When students have no preference over one attribute, the segregation induced on it can be removed, whereas segregation set by a homophilic preference over the other cannot be changed. When both preferences are active, splitting a school with equal-sized groups and independent attributes reduces segregation only if the preferences pull in opposite directions. Judging a split by the school-wide average can hide classes that become more segregated. In the data, the split derived from the closed form removes induced segregation, and splitting does not lower segregation where both preferences are homophilic, as predicted.",
+   "tags": [
+    "physics.soc-ph",
+    "cs.CY",
+    "cs.SI"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.32348",
+   "candidate": true
+  },
+  {
+   "id": "url:a8ffde7ff6004669",
+   "field": "ownership",
+   "source": "rss:EFF",
+   "title": "🎩 Tech Monopolies Make Outages Worse | EFFector 38.21",
+   "url": "https://www.eff.org/deeplinks/2026/11/tech-monopolies-make-outages-worse-effector-3820",
+   "published": "2026-11-25T18:26:19+00:00",
+   "summary": "Service outages, like the ones we've seen take down everything from airlines to email, seem to be coming faster than ever. Their specific causes might be different, but these wide-scale service disruptions share one thing in common: the over-reliance on one company or system to make our world work. In our latest EFFector newsletter , we're talking about how digital monoculture has made tech companies too big to fail . JOIN OUR NEWSLETTER For over 35 years, EFFector has been your guide to understanding the intersection of technology, civil liberties, and the law. This issue covers ALPR at the ballot box , surveillance wearables , and how digital monoculture makes service outages worse . Prefer to listen in? EFFector is now available on all major podcast platforms. This time we're talking to EFF's Rory Mir about tech monopolies, service outages, and what we can do to build a more resilient internet. You can find the episode and subscribe on your podcast platform of choice : %3Ciframe%20height%3D%22200px%22%20width%3D%22100%25%22%20frameborder%3D%22no%22%20scrolling%3D%22no%22%20seamless%3D%22%22%20src%3D%22https%3A%2F%2Fplayer.simplecast.com%2Fbcf4fd99-2a81-4275-a31f-8f7dfeaf216f%3Fd",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.eff.org/deeplinks/2026/11/tech-monopolies-make-outages-worse-effector-3820",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.32330",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "An expert consensus on identification likelihood in NeuroImaging data",
+   "url": "https://arxiv.org/abs/2611.32330",
+   "published": "2026-11-24T10:18:34+00:00",
+   "summary": "Guidelines on the anonymity of neuroimaging data help manage research data, inform institutional legal and governance frameworks, and support data-sharing workflows. The question of identifiability is particularly salient in human brain imaging because such data are not only potentially personal (i.e., related to an identifiable person) but also sensitive and thus require extra precautionary and protective processes. The identifiability of brain imaging data is also salient for emerging legal and ethical frameworks regarding rights that emphasise the special status of brain data as closely linked to personal identity, mental privacy, and autonomy. Using a combined nominal group technique and Delphi process, we obtained expert consensus ratings of re-identification and singling-out likelihood across 34 neuroimaging data types, spanning multiple imaging modalities and processing levels, from curated research data to maps, matrices, and summary tables. Expert ratings suggest that 38-67% of the assessed neuroimaging data types could be shared with minimal restrictions based on their intrinsic re-identification likelihood, subject to contextual safeguards. The resulting classification enables researchers to engage with relevant legal teams to guide the appropriate and safe release of data, and to determine the appropriate level of protection (licensing, access controls, governance) in line with domestic and international legal requirements, with the ultimate goal of facilitating international data exchange. A website (https://brainimagingprivacy.github.io/) has been created to facilitate the dissemination of these findings and related evidence among relevant parties.",
+   "tags": [
+    "cs.CY"
+   ],
+   "score": 2.0,
+   "primary_source": "https://arxiv.org/abs/2611.32330",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.32869",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "AI, Bias, and Inclusion: A Two-Phase Mixed-Methods Study of Gender Bias, Awareness, and Trust in Artificial Intelligence",
+   "url": "https://arxiv.org/abs/2611.32869",
+   "published": "2026-11-24T16:04:12+00:00",
+   "summary": "Artificial Intelligence (AI) systems are widespread across fields such as healthcare, finance, employment, and criminal justice, with a substantial impact on the lives of individuals and society. However, it has been established that AI systems perpetuate existing social inequalities, particularly through biases that are not easily discernible. Such biases are embedded in the technical and social structures of artificial intelligence systems, making them difficult to detect. These biases challenge the concept of Equity, Diversity, and Inclusion (EDI), which recognizes diversity as the acknowledgment of individual differences, equity as fairness and equal access, and inclusion as the value placed on all participants. This study argues that fairness in artificial intelligence systems cannot be achieved by focusing solely on their technical aspects, necessitating a holistic approach. This study employs a two-phase mixed-methods design. Phase 1 applies computational content analysis to 360 occupational narratives generated by ChatGPT across four countries (Canada, Germany, India, and Bangladesh) using gender-neutral prompts to examine whether professions are predominantly associated with one gender and whether these patterns remain consistent across regions. Phase 2 examines the extent to which students recognize potential bias in AI, their trust in AI for consequential decision-making, and how these perceptions relate to themes in EDI and AI ethics scholarship. By combining output-level bias analysis with user perception data, this study identifies the empirical foundations necessary for future EDI-AI co-design frameworks, outlining the sociotechnical dimensions that such frameworks must address to be effective.",
+   "tags": [
+    "cs.CY",
+    "cs.ET",
+    "cs.HC"
+   ],
+   "score": 2.0,
+   "primary_source": "https://arxiv.org/abs/2611.32869",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:4be11a29624269df",
+  "url:99b93f3e10984935",
+  "arxiv:2611.31968",
+  "arxiv:2611.32464",
+  "arxiv:2611.32348",
+  "url:a8ffde7ff6004669",
+  "arxiv:2611.32330",
+  "arxiv:2611.32869"
+ ],
+ "retries": []
+}
