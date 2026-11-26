@@ -1,0 +1,170 @@
+{
+ "date": "2026-11-27",
+ "field": "ownership",
+ "generated_at": "2026-11-26T22:05:59+00:00",
+ "fetched": 62,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:1f7de19554f55380",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "Cost of Living Adjustment to Satellite Carrier Compulsory License Royalty Rates",
+   "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24125/cost-of-living-adjustment-to-satellite-carrier-compulsory-license-royalty-rates",
+   "published": "2026-11-27T00:00:00+00:00",
+   "summary": "The Copyright Royalty Judges (\"Judges\") announce a cost of living adjustment (\"COLA\") of 3.9% in the royalty rates satellite carriers pay for a compulsory license under the Copyright Act. The COLA is based on the change in the Consumer Price Index from October 2025 to September 2026.",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.federalregister.gov/documents/2026/11/27/2026-24125/cost-of-living-adjustment-to-satellite-carrier-compulsory-license-royalty-rates",
+   "candidate": true
+  },
+  {
+   "id": "url:2569f55d6b2251fc",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "Cost of Living Adjustment to Royalty Rates and Terms for Making and Distributing Phonorecords",
+   "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24124/cost-of-living-adjustment-to-royalty-rates-and-terms-for-making-and-distributing-phonorecords",
+   "published": "2026-11-27T00:00:00+00:00",
+   "summary": "The Copyright Royalty Judges (\"Judges\") announce a cost of living adjustment (\"COLA\") in the royalty rates for the statutory license for making and distributing phonorecords of nondramatic musical works regarding physical phonorecords and Permanent Downloads.",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.federalregister.gov/documents/2026/11/27/2026-24124/cost-of-living-adjustment-to-royalty-rates-and-terms-for-making-and-distributing-phonorecords",
+   "candidate": true
+  },
+  {
+   "id": "url:6d2d377b693d577d",
+   "field": "ownership",
+   "source": "api:Federal Register",
+   "title": "Cost of Living Adjustment to Public Broadcasters Compulsory License Royalty Rate",
+   "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24051/cost-of-living-adjustment-to-public-broadcasters-compulsory-license-royalty-rate",
+   "published": "2026-11-27T00:00:00+00:00",
+   "summary": "The Copyright Royalty Judges (\"Judges\") announce a cost of living adjustment (\"COLA\") to the royalty rate that noncommercial radio stations at certain colleges, universities, and other educational institutions that are not affiliated with National Public Radio must pay for the use in 2027 of published nondramatic musical compositions in the SESAC Performing Rights, LLC (\"SESAC\"), and Global Music Rights, LLC (\"GMR\"), repertories pursuant to the statutory license under the Copyright Act for noncommercial broadcasting.",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://www.federalregister.gov/documents/2026/11/27/2026-24051/cost-of-living-adjustment-to-public-broadcasters-compulsory-license-royalty-rate",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.34272",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Data Centers: The Error of Generalizing Environmental and Socioeconomic Impacts. The Need for a Contextualized Assessment of Computing Infrastructure in Brazil and Worldwide",
+   "url": "https://arxiv.org/abs/2611.34272",
+   "published": "2026-11-25T12:34:19+00:00",
+   "summary": "The rapid expansion of artificial intelligence and cloud computing has intensified debates about the environmental and socioeconomic impacts of data centers, including electricity and water consumption, noise, land use, and employment. A recurring methodological problem in these debates is the use of global data, or of evidence produced in a particular country, to draw conclusions about facilities located in very different settings. This paper argues that the impacts of a data center depend on the geographic, climatic, energy, technological, economic, and regulatory conditions of the territory where it operates, and must therefore be assessed at the appropriate territorial and technological scale. Using Brazil as a case, we discuss the country's predominantly renewable electricity mix and the curtailment of renewable generation, the reported prevalence of closed-loop cooling, national and municipal noise regulations, the water-efficiency requirement of the new Redata tax regime, and the ongoing litigation over the Pec{é}m data center in the state of Cear{á}. We also examine a recent study of data centers in Northern Virginia, showing the limits of its external validity and of its noise measurements. We propose a multiscale assessment framework and conclude that international evidence should inform which questions are asked, not predetermine the answers -- a principle that applies equally to claims of harm and to claims of safety.",
+   "tags": [
+    "cs.CY"
+   ],
+   "score": 4.0,
+   "primary_source": "https://arxiv.org/abs/2611.34272",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.34709",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Decision and Support Mechanisms under Platform Information Overload: A Generative-Agent Experiment on College Application",
+   "url": "https://arxiv.org/abs/2611.34709",
+   "published": "2026-11-25T17:04:02+00:00",
+   "summary": "People now make major personal decisions surrounded by far more online information than they can read, yet research says little about why information overload affects some people more than others. We study this question in Chinese college applications, a high-stakes decision made amid heavy online content where each list can be scored objectively once admission cutoffs are released. We simulated 90 applicants using language-model agents with family backgrounds from a national household survey. Each applicant wrote a list of eight programs alone and revised it four times: after parent and teacher advice, after reading a feed of twenty real online items, after a mentor gave advice based on the applicant's rank, and after a second mentor offered only emotional support. After each step, we scored the list and asked how anxious the applicant felt. When applicants decided alone, admission rates were similar across socioeconomic status (SES) groups. The gap appeared once family background entered through parents and teachers: low-SES parents asked for low tuition and schools near home, leaving fewer reachable programs, so admission was 100% for high-SES vs. 77% for low-SES applicants. The platform feed gave everyone the same amount of information but did not narrow this gap; applicants maintained their decisions while reporting higher anxiety. Personalized advice cut the gap to 3 points by raising low-SES admission from 80% to 97%, but led students to higher tuition and less preferred majors. Emotional support did not further lower anxiety, but helped applicants go back and use helpful items they had ignored. These simulation results suggest that when information is abundant, more of it neither improves decisions nor reduces inequality. Personalized information does both, while moving inequality from the outcome to its cost.",
+   "tags": [
+    "cs.CY"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.34709",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.34859",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Model Weights, Airlocks and Sandboxes: A Call for Technical Validation of Re-identification Tests under the EDPB Anonymisation Guidelines",
+   "url": "https://arxiv.org/abs/2611.34859",
+   "published": "2026-11-25T18:28:20+00:00",
+   "summary": "The Guidelines 02/2026 on anonymisation of the European Data Protection Board (EDPB), published for consultation in July 2026, assess anonymity relative to the entities that may access data. They bring AI models into scope and call for testing, but do not say how a re-identification test should be designed or validated, or how far its result counts as evidence. Building on our reply to the consultation, we describe a framework based on a secure processing environment whose outputs are reviewed before release (an airlock), and distinguish forms of release and three types of evidence: formal, empirical and indirect. We raise seven open questions, each with a scenario, and examine their technical side in three settings: the release of model weights (the trained parameters of a machine learning model), review at an airlock, and regulatory sandboxes, in which an authority supervises development and testing. In each setting the assessment depends on how far a test result can be relied on, since a failed re-identification attempt may mean only that the test was too weak. Drawing on measurement practice in other regulated fields, we call for re-identification tests to be validated as measurement methods, with stated detection limit, bias and uncertainty.",
+   "tags": [
+    "cs.CR",
+    "cs.CY",
+    "cs.LG"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.34859",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.34868",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
+   "url": "https://arxiv.org/abs/2611.34868",
+   "published": "2026-11-25T18:33:07+00:00",
+   "summary": "Large Language Models (LLMs) are increasingly integrated into telecommunications for customer service, network analytics, and operational support. While offering efficiency and innovation, their deployment raises critical privacy, security, and ethical challenges due to the uniquely sensitive and longitudinal nature of telecom data. This paper presents a survey of LLM risks and safeguards in telecom context. Our survey introduces a telecom-specific taxonomy linking privacy, security, and ethics with use cases and outlines open research challenges such as longitudinal data privacy, cross-border compliance, and scalable guardrails.",
+   "tags": [
+    "cs.CR",
+    "cs.AI",
+    "cs.CY"
+   ],
+   "score": 3.0,
+   "primary_source": "https://arxiv.org/abs/2611.34868",
+   "candidate": true
+  },
+  {
+   "id": "url:d3aa48daa62df585",
+   "field": "ownership",
+   "source": "rss:Hugging Face",
+   "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+   "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+   "published": "2026-11-26T05:05:36+00:00",
+   "summary": "",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.34094",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Silent on Code? A Computing Lens on Generative AI Guidance at Canadian Polytechnics and Research Universities",
+   "url": "https://arxiv.org/abs/2611.34094",
+   "published": "2026-11-25T10:02:48+00:00",
+   "summary": "Generative artificial intelligence (GenAI) tools now write, explain, and debug code, which changes how computing students learn and how their work is assessed. Instructors, however, act within institutional guidance written largely with essays in mind. We report a document analysis of the public, institution-level GenAI guidance of the 13 members of Polytechnics Canada and the 15 members of the U15 Group of Canadian Research Universities, retrieved in October 2026. Using a 27-item codebook spanning governance, integrity and assessment, data and legal issues, values, AI literacy, and a computing lens, we find that both sectors leave course-level decisions to instructors, although polytechnics more often prohibit use unless the instructor permits it (8 of 13 vs. 4 of 14), and converge on disclosure, links to academic integrity policy, and, in most institutions, the expectation that programs adapt rules to their discipline. Polytechnics frame GenAI as workforce preparation substantively far more often (7 of 13 vs. 0 of 14), whereas universities more often address assessment redesign. Twelve of 27 institutions with retrievable guidance mention code, but almost always as one output type among many; none names an AI coding assistant or provides substantive code-specific guidance on attribution, assessment, or licensing. Institution-level guidance is thus not silent on code but leaves programming-specific questions largely to programs and instructors. We propose five elements of discipline-level guidance for computing and release our codebook and coded dataset.",
+   "tags": [
+    "cs.CY"
+   ],
+   "score": 2.0,
+   "primary_source": "https://arxiv.org/abs/2611.34094",
+   "candidate": true
+  },
+  {
+   "id": "arxiv:2611.34491",
+   "field": "ownership",
+   "source": "arxiv",
+   "title": "Where Does the Asymmetry Enter? Staging a Fairness Audit Across a Fused Multimodal Moderation Pipeline",
+   "url": "https://arxiv.org/abs/2611.34491",
+   "published": "2026-11-25T14:50:01+00:00",
+   "summary": "Almost every short-video upload now passes through a classifier that fuses video, speech, and on-screen text into one decision about whether it may be seen. It moderates every language community on the platform at once, and fairness across them is judged, if at all, from one accuracy score. That score is compatible with error falling almost entirely on one language group. An audit that goes looking reads the model's decisions, the last stage of a long pipeline and the one whose test has the fewest items. We ask where in a fused pipeline a subgroup asymmetry can be detected at all: in what the classifier may read, in what its branches encode, or in what it decides. We answer this with a post-hoc audit of a published TikTok classifier, holding all three stages to one significance standard using only its logged decisions, labels, and pre-fusion features, with source language as the subgroup axis. The asymmetry is significant at the stage deciding what the model may read, and again in what the text branch encodes. At the earlier stage, a language-blind cap admits less of a Vietnamese clip than an English one, for reasons of segmentation, not verbosity. The asymmetry is undetectable at the decision, where the smallest subgroup leaves twelve items to test. An audit reading only decisions looks where its evidence is thinnest; the same test staged upstream recovers a disparity the decision-level view returns as noise.",
+   "tags": [
+    "cs.CL",
+    "cs.CY",
+    "cs.MM"
+   ],
+   "score": 2.0,
+   "primary_source": "https://arxiv.org/abs/2611.34491",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:1f7de19554f55380",
+  "url:2569f55d6b2251fc",
+  "url:6d2d377b693d577d",
+  "arxiv:2611.34272",
+  "arxiv:2611.34709",
+  "arxiv:2611.34859",
+  "arxiv:2611.34868",
+  "url:d3aa48daa62df585",
+  "arxiv:2611.34094",
+  "arxiv:2611.34491"
+ ],
+ "retries": []
+}
