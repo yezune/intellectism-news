@@ -1,0 +1,110 @@
+{
+ "date": "2026-11-28",
+ "field": "policy",
+ "generated_at": "2026-11-27T22:06:15+00:00",
+ "fetched": 43,
+ "errors": {},
+ "items": [
+  {
+   "id": "url:54b8a89f9cb19b26",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Commission unconditionally approves Deutsche Börse's acquisition of Allfunds",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2592",
+   "published": "2026-11-26T23:00:00+00:00",
+   "summary": "European Commission Press release Brussels, 27 Nov 2026 The European Commission has unconditionally approved, under the EU Merger Regulation, the proposed acquisition by Deutsche Börse of Allfunds.",
+   "tags": [],
+   "score": 5.25,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2592",
+   "candidate": true
+  },
+  {
+   "id": "url:f93c3676834ff09d",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Statement by President von der Leyen with President Costa following the Special European Council meeting of November 2026",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2603",
+   "published": "2026-11-26T23:00:00+00:00",
+   "summary": "European Commission Statement Brussels, 27 Nov 2026 Statement Special EUCO",
+   "tags": [],
+   "score": 4.5,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2603",
+   "candidate": true
+  },
+  {
+   "id": "url:0ea1a54a36694850",
+   "field": "policy",
+   "source": "rss:DOJ",
+   "title": "The Government Successfully Forfeited Over $670,000 in Cryptocurrency Linked to an Online Investment Scam",
+   "url": "https://www.justice.gov/usao-ndny/pr/government-successfully-forfeited-over-670000-cryptocurrency-linked-online-investment",
+   "published": "2026-11-25T12:00:00+00:00",
+   "summary": "Chief U.S. District Judge Brenda K. Sannes issued an order November 16, 2026, forfeiting $674,469.58 worth of cryptocurrency seized by the Federal Bureau of Investigation (FBI) to the government in connection with an investigation of an online cryptocurrency scam affecting multiple victims.",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.justice.gov/usao-ndny/pr/government-successfully-forfeited-over-670000-cryptocurrency-linked-online-investment",
+   "candidate": true
+  },
+  {
+   "id": "url:2059d55805f09700",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Daily News 27 / 11 / 2026",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2609",
+   "published": "2026-11-27T10:27:23+00:00",
+   "summary": "European Commission Daily news Brussels, 27 Nov 2026 Commission unconditionally approves Deutsche Börse's acquisition of Allfunds The European Commission has unconditionally approved, under the EU Merger Regulatio...",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2609",
+   "candidate": true
+  },
+  {
+   "id": "url:28b39455d9a0ff9d",
+   "field": "policy",
+   "source": "rss:DOJ",
+   "title": "Justice Department Awards Federal Grant to Hire Deputies in Bay County",
+   "url": "https://www.justice.gov/usao-ndfl/pr/justice-department-awards-federal-grant-hire-deputies-bay-county",
+   "published": "2026-11-25T12:00:00+00:00",
+   "summary": "Tallahassee, Florida — Through the Office of Community Oriented Policing Services (COPS Office), the Department of Justice today announced it has awarded nearly $150 million under the 2026 COPS Hiring Program (CHP), including $3.125 million to Bay County.&nbsp;",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://www.justice.gov/usao-ndfl/pr/justice-department-awards-federal-grant-hire-deputies-bay-county",
+   "candidate": true
+  },
+  {
+   "id": "url:d05dd471257adbd1",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Daily News 26/ 11/ 2026",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2595",
+   "published": "2026-11-26T10:51:28+00:00",
+   "summary": "European Commission Daily news Brussels, 26 Nov 2026 EU launches Supply Chain Early Warning Network with Trans-Pacific bloc The EU and the members of the Comprehensive and Progressive Agreement for Trans-Pacific P...",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2595",
+   "candidate": true
+  },
+  {
+   "id": "url:e1918976e0facea5",
+   "field": "policy",
+   "source": "rss:European Commission",
+   "title": "Keynote speech by Commissioner Albuquerque at the Training Day' of the 10th Anniversary of the ECB Simulation Conference for University Students",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2613",
+   "published": "2026-11-27T12:48:42+00:00",
+   "summary": "European Commission Speech Online, 27 Nov 2026 Good morning, everyone. I am delighted to join you for the opening of the 10th ECB Simulation Conference. Let me begin by congratulating the organisers on a dec...",
+   "tags": [],
+   "score": 3.0,
+   "primary_source": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2613",
+   "candidate": true
+  }
+ ],
+ "candidates": [
+  "url:54b8a89f9cb19b26",
+  "url:f93c3676834ff09d",
+  "url:0ea1a54a36694850",
+  "url:2059d55805f09700",
+  "url:28b39455d9a0ff9d",
+  "url:d05dd471257adbd1",
+  "url:e1918976e0facea5"
+ ],
+ "retries": []
+}
